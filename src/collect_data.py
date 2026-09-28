@@ -24,6 +24,7 @@ import requests
 API = "https://api.stackexchange.com/2.3"
 # Built-in filter that includes the post body text.
 FILTER = "withbody"
+MAX_PAGE_WITHOUT_KEY = 25
 OUT_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
 
 class StackExchangeClient:
@@ -37,7 +38,9 @@ class StackExchangeClient:
         params.update(site=self.site, filter=FILTER, pagesize=100, page=1)
         if self.key:
             params["key"] = self.key
-        while True:
+        # Without a key the API refuses pages above 25.
+        max_page = None if self.key else MAX_PAGE_WITHOUT_KEY
+        while max_page is None or params["page"] <= max_page:
             resp = requests.get(f"{API}/{endpoint}", params=params, timeout=30)
             data = resp.json()
             if "error_id" in data:
@@ -63,26 +66,39 @@ def owner_fields(item):
 
 
 def fetch_questions(client, max_questions):
-    rows = []
-    for q in client.get("questions", order="desc", sort="activity"):
-        rows.append({
-            "post_id": q["question_id"],
-            "title": html.unescape(q.get("title", "")),
-            "body": q.get("body", ""),
-            "tags": "|".join(q.get("tags", [])),
-            "score": q.get("score"),
-            "view_count": q.get("view_count"),
-            "answer_count": q.get("answer_count"),
-            "is_answered": q.get("is_answered"),
-            "accepted_answer_id": q.get("accepted_answer_id"),
-            "created_at": q.get("creation_date"),
-            **owner_fields(q),
-        })
-        if len(rows) >= max_questions:
-            break
-        if len(rows) % 500 == 0:
-            print(f"  questions: {len(rows)} (quota left: {client.quota_remaining})")
-    return pd.DataFrame(rows)
+    """
+    Newest questions first. The API only serves 25 pages per query without a
+    key, so after each 25-page window we continue from the oldest date seen.
+    """
+    rows = {}
+    todate = None
+    while len(rows) < max_questions:
+        params = {"order": "desc", "sort": "creation"}
+        if todate:
+            params["todate"] = todate
+        before = len(rows)
+        for q in client.get("questions", **params):
+            rows[q["question_id"]] = {
+                "post_id": q["question_id"],
+                "title": html.unescape(q.get("title", "")),
+                "body": q.get("body", ""),
+                "tags": "|".join(q.get("tags", [])),
+                "score": q.get("score"),
+                "view_count": q.get("view_count"),
+                "answer_count": q.get("answer_count"),
+                "is_answered": q.get("is_answered"),
+                "accepted_answer_id": q.get("accepted_answer_id"),
+                "created_at": q.get("creation_date"),
+                **owner_fields(q),
+            }
+            if len(rows) >= max_questions:
+                break
+            if len(rows) % 500 == 0:
+                print(f"  questions: {len(rows)} (quota left: {client.quota_remaining})")
+        if len(rows) == before:
+            break  # no older questions left
+        todate = min(r["created_at"] for r in rows.values())
+    return pd.DataFrame(list(rows.values()))
 
 
 def fetch_by_ids(client, endpoint_template, ids, parse):
