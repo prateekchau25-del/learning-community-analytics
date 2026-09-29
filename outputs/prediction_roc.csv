@@ -1,0 +1,1070 @@
+model,fpr,tpr
+Baseline (majority class),0.0,0.0
+Baseline (majority class),1.0,1.0
+Logistic Regression,0.0,0.0
+Logistic Regression,0.0031,0.0
+Logistic Regression,0.0031,0.0085
+Logistic Regression,0.0062,0.0085
+Logistic Regression,0.0062,0.0235
+Logistic Regression,0.0093,0.0235
+Logistic Regression,0.0093,0.0385
+Logistic Regression,0.0123,0.0385
+Logistic Regression,0.0123,0.0427
+Logistic Regression,0.0154,0.0427
+Logistic Regression,0.0154,0.0449
+Logistic Regression,0.0216,0.0449
+Logistic Regression,0.0216,0.0641
+Logistic Regression,0.0247,0.0641
+Logistic Regression,0.0247,0.0684
+Logistic Regression,0.0278,0.0684
+Logistic Regression,0.0278,0.0726
+Logistic Regression,0.0309,0.0726
+Logistic Regression,0.0309,0.0748
+Logistic Regression,0.034,0.0748
+Logistic Regression,0.034,0.0833
+Logistic Regression,0.037,0.0833
+Logistic Regression,0.037,0.1004
+Logistic Regression,0.0401,0.1004
+Logistic Regression,0.0401,0.1047
+Logistic Regression,0.0432,0.1047
+Logistic Regression,0.0432,0.109
+Logistic Regression,0.0463,0.109
+Logistic Regression,0.0463,0.1175
+Logistic Regression,0.0494,0.1175
+Logistic Regression,0.0494,0.1218
+Logistic Regression,0.0556,0.1218
+Logistic Regression,0.0556,0.1325
+Logistic Regression,0.0586,0.1325
+Logistic Regression,0.0586,0.1453
+Logistic Regression,0.0617,0.1453
+Logistic Regression,0.0617,0.156
+Logistic Regression,0.0648,0.156
+Logistic Regression,0.0648,0.1603
+Logistic Regression,0.0679,0.1603
+Logistic Regression,0.0679,0.1688
+Logistic Regression,0.0741,0.1688
+Logistic Regression,0.0741,0.1944
+Logistic Regression,0.0802,0.1944
+Logistic Regression,0.0802,0.2158
+Logistic Regression,0.0833,0.2158
+Logistic Regression,0.0833,0.2222
+Logistic Regression,0.0864,0.2222
+Logistic Regression,0.0864,0.2286
+Logistic Regression,0.0957,0.2286
+Logistic Regression,0.0957,0.2436
+Logistic Regression,0.0988,0.2436
+Logistic Regression,0.0988,0.2479
+Logistic Regression,0.1019,0.2479
+Logistic Regression,0.1019,0.25
+Logistic Regression,0.1049,0.25
+Logistic Regression,0.1049,0.2799
+Logistic Regression,0.108,0.2799
+Logistic Regression,0.108,0.2906
+Logistic Regression,0.1111,0.2906
+Logistic Regression,0.1111,0.2927
+Logistic Regression,0.1142,0.2927
+Logistic Regression,0.1142,0.297
+Logistic Regression,0.1173,0.297
+Logistic Regression,0.1173,0.2991
+Logistic Regression,0.1235,0.2991
+Logistic Regression,0.1235,0.3098
+Logistic Regression,0.1265,0.3098
+Logistic Regression,0.1265,0.3141
+Logistic Regression,0.1296,0.3141
+Logistic Regression,0.1296,0.3184
+Logistic Regression,0.1327,0.3184
+Logistic Regression,0.1327,0.3248
+Logistic Regression,0.1389,0.3248
+Logistic Regression,0.1389,0.3291
+Logistic Regression,0.142,0.3291
+Logistic Regression,0.142,0.3333
+Logistic Regression,0.1451,0.3333
+Logistic Regression,0.1451,0.3397
+Logistic Regression,0.1481,0.3397
+Logistic Regression,0.1481,0.3419
+Logistic Regression,0.1512,0.3419
+Logistic Regression,0.1512,0.3483
+Logistic Regression,0.1543,0.3483
+Logistic Regression,0.1543,0.359
+Logistic Regression,0.1574,0.359
+Logistic Regression,0.1574,0.3611
+Logistic Regression,0.1605,0.3611
+Logistic Regression,0.1605,0.3632
+Logistic Regression,0.1636,0.3632
+Logistic Regression,0.1636,0.3761
+Logistic Regression,0.1667,0.3761
+Logistic Regression,0.1667,0.3846
+Logistic Regression,0.1698,0.3846
+Logistic Regression,0.1698,0.391
+Logistic Regression,0.1728,0.391
+Logistic Regression,0.1728,0.3932
+Logistic Regression,0.1759,0.3932
+Logistic Regression,0.1759,0.3996
+Logistic Regression,0.1883,0.3996
+Logistic Regression,0.1883,0.4145
+Logistic Regression,0.1914,0.4145
+Logistic Regression,0.1914,0.4231
+Logistic Regression,0.1944,0.4231
+Logistic Regression,0.1944,0.4252
+Logistic Regression,0.2006,0.4252
+Logistic Regression,0.2006,0.4295
+Logistic Regression,0.2037,0.4295
+Logistic Regression,0.2037,0.4359
+Logistic Regression,0.2099,0.4359
+Logistic Regression,0.2099,0.4402
+Logistic Regression,0.213,0.4402
+Logistic Regression,0.213,0.4487
+Logistic Regression,0.2191,0.4487
+Logistic Regression,0.2191,0.4509
+Logistic Regression,0.2284,0.4509
+Logistic Regression,0.2284,0.4551
+Logistic Regression,0.2315,0.4551
+Logistic Regression,0.2315,0.4637
+Logistic Regression,0.2346,0.4637
+Logistic Regression,0.2346,0.4679
+Logistic Regression,0.2407,0.4679
+Logistic Regression,0.2407,0.4765
+Logistic Regression,0.2438,0.4765
+Logistic Regression,0.2438,0.4808
+Logistic Regression,0.2593,0.4808
+Logistic Regression,0.2593,0.4872
+Logistic Regression,0.2654,0.4872
+Logistic Regression,0.2654,0.4915
+Logistic Regression,0.2685,0.4915
+Logistic Regression,0.2685,0.5064
+Logistic Regression,0.2716,0.5064
+Logistic Regression,0.2716,0.5085
+Logistic Regression,0.2747,0.5085
+Logistic Regression,0.2747,0.5128
+Logistic Regression,0.2778,0.5128
+Logistic Regression,0.2778,0.5171
+Logistic Regression,0.2809,0.5171
+Logistic Regression,0.2809,0.5214
+Logistic Regression,0.2901,0.5214
+Logistic Regression,0.2901,0.5278
+Logistic Regression,0.2963,0.5278
+Logistic Regression,0.2963,0.5406
+Logistic Regression,0.3025,0.5406
+Logistic Regression,0.3025,0.5449
+Logistic Regression,0.3056,0.5449
+Logistic Regression,0.3056,0.547
+Logistic Regression,0.3086,0.547
+Logistic Regression,0.3086,0.562
+Logistic Regression,0.3117,0.562
+Logistic Regression,0.3117,0.5641
+Logistic Regression,0.3148,0.5641
+Logistic Regression,0.3148,0.5662
+Logistic Regression,0.3179,0.5662
+Logistic Regression,0.3179,0.5684
+Logistic Regression,0.321,0.5684
+Logistic Regression,0.321,0.5726
+Logistic Regression,0.3241,0.5726
+Logistic Regression,0.3241,0.5748
+Logistic Regression,0.3272,0.5748
+Logistic Regression,0.3272,0.5791
+Logistic Regression,0.3302,0.5791
+Logistic Regression,0.3302,0.5812
+Logistic Regression,0.3333,0.5812
+Logistic Regression,0.3333,0.5833
+Logistic Regression,0.3364,0.5833
+Logistic Regression,0.3364,0.594
+Logistic Regression,0.3395,0.594
+Logistic Regression,0.3395,0.5983
+Logistic Regression,0.3519,0.5983
+Logistic Regression,0.3519,0.6068
+Logistic Regression,0.358,0.6068
+Logistic Regression,0.358,0.6111
+Logistic Regression,0.3611,0.6111
+Logistic Regression,0.3611,0.6132
+Logistic Regression,0.3642,0.6132
+Logistic Regression,0.3642,0.6154
+Logistic Regression,0.3765,0.6154
+Logistic Regression,0.3765,0.6175
+Logistic Regression,0.3827,0.6175
+Logistic Regression,0.3827,0.6239
+Logistic Regression,0.3858,0.6239
+Logistic Regression,0.3858,0.6474
+Logistic Regression,0.3889,0.6474
+Logistic Regression,0.3889,0.6581
+Logistic Regression,0.392,0.6581
+Logistic Regression,0.392,0.6603
+Logistic Regression,0.3951,0.6603
+Logistic Regression,0.3951,0.6688
+Logistic Regression,0.4043,0.6688
+Logistic Regression,0.4043,0.6816
+Logistic Regression,0.4074,0.6816
+Logistic Regression,0.4074,0.688
+Logistic Regression,0.4105,0.688
+Logistic Regression,0.4105,0.7051
+Logistic Regression,0.4136,0.7051
+Logistic Regression,0.4136,0.7179
+Logistic Regression,0.4167,0.7179
+Logistic Regression,0.4167,0.7222
+Logistic Regression,0.4198,0.7222
+Logistic Regression,0.4198,0.7286
+Logistic Regression,0.4259,0.7286
+Logistic Regression,0.4259,0.7329
+Logistic Regression,0.4321,0.7329
+Logistic Regression,0.4321,0.735
+Logistic Regression,0.4414,0.735
+Logistic Regression,0.4414,0.7372
+Logistic Regression,0.4506,0.7372
+Logistic Regression,0.4506,0.7393
+Logistic Regression,0.4568,0.7393
+Logistic Regression,0.4568,0.7415
+Logistic Regression,0.4599,0.7415
+Logistic Regression,0.4599,0.7436
+Logistic Regression,0.463,0.7436
+Logistic Regression,0.463,0.7457
+Logistic Regression,0.466,0.7457
+Logistic Regression,0.466,0.7479
+Logistic Regression,0.4753,0.7479
+Logistic Regression,0.4753,0.7521
+Logistic Regression,0.4784,0.7521
+Logistic Regression,0.4784,0.7607
+Logistic Regression,0.4907,0.7607
+Logistic Regression,0.4907,0.7628
+Logistic Regression,0.4938,0.7628
+Logistic Regression,0.4938,0.7671
+Logistic Regression,0.5062,0.7671
+Logistic Regression,0.5062,0.7692
+Logistic Regression,0.5093,0.7692
+Logistic Regression,0.5093,0.7714
+Logistic Regression,0.5123,0.7714
+Logistic Regression,0.5123,0.7735
+Logistic Regression,0.5216,0.7735
+Logistic Regression,0.5216,0.7756
+Logistic Regression,0.5401,0.7756
+Logistic Regression,0.5401,0.7778
+Logistic Regression,0.5679,0.7778
+Logistic Regression,0.5679,0.7799
+Logistic Regression,0.5741,0.7799
+Logistic Regression,0.5741,0.7906
+Logistic Regression,0.5772,0.7906
+Logistic Regression,0.5772,0.7991
+Logistic Regression,0.5802,0.7991
+Logistic Regression,0.5802,0.8056
+Logistic Regression,0.5833,0.8056
+Logistic Regression,0.5833,0.8098
+Logistic Regression,0.5864,0.8098
+Logistic Regression,0.5864,0.812
+Logistic Regression,0.5926,0.812
+Logistic Regression,0.5926,0.8205
+Logistic Regression,0.6019,0.8205
+Logistic Regression,0.6019,0.8291
+Logistic Regression,0.6111,0.8291
+Logistic Regression,0.6111,0.8312
+Logistic Regression,0.6358,0.8312
+Logistic Regression,0.6358,0.8333
+Logistic Regression,0.642,0.8333
+Logistic Regression,0.642,0.8355
+Logistic Regression,0.6543,0.8355
+Logistic Regression,0.6543,0.8376
+Logistic Regression,0.6574,0.8376
+Logistic Regression,0.6574,0.8419
+Logistic Regression,0.6636,0.8419
+Logistic Regression,0.6636,0.844
+Logistic Regression,0.6667,0.844
+Logistic Regression,0.6667,0.8483
+Logistic Regression,0.6728,0.8483
+Logistic Regression,0.6728,0.8654
+Logistic Regression,0.6759,0.8654
+Logistic Regression,0.6759,0.8675
+Logistic Regression,0.679,0.8675
+Logistic Regression,0.679,0.8697
+Logistic Regression,0.6944,0.8697
+Logistic Regression,0.6944,0.8739
+Logistic Regression,0.6975,0.8739
+Logistic Regression,0.6975,0.8761
+Logistic Regression,0.7006,0.8761
+Logistic Regression,0.7006,0.8846
+Logistic Regression,0.716,0.8846
+Logistic Regression,0.716,0.8868
+Logistic Regression,0.7191,0.8868
+Logistic Regression,0.7191,0.8889
+Logistic Regression,0.7346,0.8889
+Logistic Regression,0.7346,0.891
+Logistic Regression,0.7407,0.891
+Logistic Regression,0.7407,0.8932
+Logistic Regression,0.7469,0.8932
+Logistic Regression,0.7469,0.8953
+Logistic Regression,0.75,0.8953
+Logistic Regression,0.75,0.8974
+Logistic Regression,0.7562,0.8974
+Logistic Regression,0.7562,0.8996
+Logistic Regression,0.7716,0.8996
+Logistic Regression,0.7716,0.9081
+Logistic Regression,0.7747,0.9081
+Logistic Regression,0.7747,0.9145
+Logistic Regression,0.7778,0.9145
+Logistic Regression,0.7778,0.9167
+Logistic Regression,0.784,0.9167
+Logistic Regression,0.784,0.9188
+Logistic Regression,0.787,0.9188
+Logistic Regression,0.787,0.9274
+Logistic Regression,0.7932,0.9274
+Logistic Regression,0.7932,0.9295
+Logistic Regression,0.821,0.9295
+Logistic Regression,0.821,0.9316
+Logistic Regression,0.8241,0.9316
+Logistic Regression,0.8241,0.9338
+Logistic Regression,0.8457,0.9338
+Logistic Regression,0.8457,0.9359
+Logistic Regression,0.8488,0.9359
+Logistic Regression,0.8488,0.938
+Logistic Regression,0.858,0.938
+Logistic Regression,0.858,0.9423
+Logistic Regression,0.8704,0.9423
+Logistic Regression,0.8704,0.9444
+Logistic Regression,0.8765,0.9444
+Logistic Regression,0.8765,0.9487
+Logistic Regression,0.8951,0.9487
+Logistic Regression,0.8951,0.9509
+Logistic Regression,0.8981,0.9509
+Logistic Regression,0.8981,0.9551
+Logistic Regression,0.9105,0.9551
+Logistic Regression,0.9105,0.9573
+Logistic Regression,0.9136,0.9573
+Logistic Regression,0.9136,0.9594
+Logistic Regression,0.9259,0.9594
+Logistic Regression,0.9259,0.9615
+Logistic Regression,0.9414,0.9615
+Logistic Regression,0.9414,0.9658
+Logistic Regression,0.9444,0.9658
+Logistic Regression,0.9444,0.9679
+Logistic Regression,0.9475,0.9679
+Logistic Regression,0.9475,0.9701
+Logistic Regression,0.9537,0.9701
+Logistic Regression,0.9537,0.9786
+Logistic Regression,0.9568,0.9786
+Logistic Regression,0.9568,0.9808
+Logistic Regression,0.963,0.9808
+Logistic Regression,0.963,0.9829
+Logistic Regression,0.9691,0.9829
+Logistic Regression,0.9691,0.985
+Logistic Regression,0.9753,0.985
+Logistic Regression,0.9753,0.9915
+Logistic Regression,0.9877,0.9915
+Logistic Regression,0.9877,0.9979
+Logistic Regression,0.9938,0.9979
+Logistic Regression,0.9938,1.0
+Logistic Regression,1.0,1.0
+Random Forest,0.0,0.0
+Random Forest,0.0,0.0021
+Random Forest,0.0,0.0128
+Random Forest,0.0062,0.0128
+Random Forest,0.0062,0.015
+Random Forest,0.0093,0.015
+Random Forest,0.0093,0.0278
+Random Forest,0.0154,0.0278
+Random Forest,0.0154,0.0321
+Random Forest,0.0185,0.0321
+Random Forest,0.0185,0.0769
+Random Forest,0.0216,0.0769
+Random Forest,0.0216,0.0833
+Random Forest,0.0247,0.0833
+Random Forest,0.0247,0.0897
+Random Forest,0.0309,0.0897
+Random Forest,0.0309,0.1004
+Random Forest,0.034,0.1004
+Random Forest,0.034,0.1047
+Random Forest,0.037,0.1047
+Random Forest,0.037,0.1068
+Random Forest,0.0432,0.1068
+Random Forest,0.0432,0.1218
+Random Forest,0.0556,0.1218
+Random Forest,0.0556,0.1239
+Random Forest,0.0586,0.1239
+Random Forest,0.0586,0.1303
+Random Forest,0.0617,0.1303
+Random Forest,0.0617,0.1389
+Random Forest,0.0648,0.1389
+Random Forest,0.0648,0.1517
+Random Forest,0.0679,0.1517
+Random Forest,0.0679,0.1667
+Random Forest,0.0741,0.1667
+Random Forest,0.0741,0.1709
+Random Forest,0.0772,0.1709
+Random Forest,0.0772,0.1816
+Random Forest,0.0802,0.1816
+Random Forest,0.0802,0.1902
+Random Forest,0.0864,0.1902
+Random Forest,0.0864,0.1944
+Random Forest,0.0926,0.1944
+Random Forest,0.0926,0.1966
+Random Forest,0.0957,0.1966
+Random Forest,0.0957,0.2051
+Random Forest,0.0988,0.2051
+Random Forest,0.0988,0.2115
+Random Forest,0.1019,0.2115
+Random Forest,0.1019,0.2201
+Random Forest,0.1049,0.2201
+Random Forest,0.1049,0.2222
+Random Forest,0.108,0.2222
+Random Forest,0.108,0.235
+Random Forest,0.1111,0.235
+Random Forest,0.1111,0.2521
+Random Forest,0.1204,0.2521
+Random Forest,0.1204,0.2607
+Random Forest,0.1265,0.2607
+Random Forest,0.1265,0.265
+Random Forest,0.1327,0.265
+Random Forest,0.1327,0.2714
+Random Forest,0.1358,0.2714
+Random Forest,0.1358,0.2778
+Random Forest,0.1389,0.2778
+Random Forest,0.1389,0.2799
+Random Forest,0.1451,0.2799
+Random Forest,0.1451,0.2885
+Random Forest,0.1481,0.2885
+Random Forest,0.1481,0.2949
+Random Forest,0.1512,0.2949
+Random Forest,0.1512,0.297
+Random Forest,0.1636,0.297
+Random Forest,0.1636,0.3013
+Random Forest,0.1667,0.3013
+Random Forest,0.1667,0.3077
+Random Forest,0.1728,0.3077
+Random Forest,0.1728,0.3098
+Random Forest,0.1759,0.3098
+Random Forest,0.1759,0.3205
+Random Forest,0.179,0.3205
+Random Forest,0.179,0.3376
+Random Forest,0.1821,0.3376
+Random Forest,0.1821,0.3526
+Random Forest,0.1852,0.3526
+Random Forest,0.1852,0.3846
+Random Forest,0.1883,0.3846
+Random Forest,0.1883,0.3868
+Random Forest,0.1914,0.3868
+Random Forest,0.1914,0.3932
+Random Forest,0.2006,0.3932
+Random Forest,0.2006,0.4017
+Random Forest,0.2037,0.4017
+Random Forest,0.2037,0.4038
+Random Forest,0.2068,0.4038
+Random Forest,0.2068,0.406
+Random Forest,0.213,0.406
+Random Forest,0.213,0.4103
+Random Forest,0.216,0.4103
+Random Forest,0.216,0.4145
+Random Forest,0.2191,0.4145
+Random Forest,0.2191,0.4209
+Random Forest,0.2222,0.4209
+Random Forest,0.2222,0.4466
+Random Forest,0.2253,0.4466
+Random Forest,0.2253,0.4551
+Random Forest,0.2284,0.4551
+Random Forest,0.2284,0.4679
+Random Forest,0.2315,0.4679
+Random Forest,0.2315,0.4765
+Random Forest,0.2346,0.4765
+Random Forest,0.2346,0.4786
+Random Forest,0.2377,0.4786
+Random Forest,0.2377,0.4829
+Random Forest,0.2407,0.4829
+Random Forest,0.2407,0.4915
+Random Forest,0.2438,0.4915
+Random Forest,0.2438,0.4936
+Random Forest,0.2469,0.4936
+Random Forest,0.2469,0.5021
+Random Forest,0.25,0.5021
+Random Forest,0.25,0.5064
+Random Forest,0.2531,0.5064
+Random Forest,0.2531,0.5107
+Random Forest,0.2562,0.5107
+Random Forest,0.2562,0.5171
+Random Forest,0.2654,0.5171
+Random Forest,0.2654,0.5256
+Random Forest,0.2685,0.5256
+Random Forest,0.2685,0.5278
+Random Forest,0.2716,0.5278
+Random Forest,0.2716,0.5299
+Random Forest,0.2747,0.5299
+Random Forest,0.2747,0.5321
+Random Forest,0.2809,0.5321
+Random Forest,0.2809,0.5363
+Random Forest,0.2901,0.5363
+Random Forest,0.2901,0.5427
+Random Forest,0.2994,0.5427
+Random Forest,0.2994,0.5513
+Random Forest,0.3025,0.5513
+Random Forest,0.3025,0.5556
+Random Forest,0.3117,0.5556
+Random Forest,0.3117,0.5748
+Random Forest,0.3148,0.5748
+Random Forest,0.3148,0.5812
+Random Forest,0.3179,0.5812
+Random Forest,0.3179,0.5855
+Random Forest,0.3272,0.5855
+Random Forest,0.3272,0.5919
+Random Forest,0.3302,0.5919
+Random Forest,0.3302,0.6004
+Random Forest,0.3333,0.6004
+Random Forest,0.3333,0.6026
+Random Forest,0.3364,0.6026
+Random Forest,0.3364,0.6068
+Random Forest,0.3457,0.6068
+Random Forest,0.3457,0.609
+Random Forest,0.3488,0.609
+Random Forest,0.3488,0.6154
+Random Forest,0.3519,0.6154
+Random Forest,0.3519,0.6218
+Random Forest,0.3549,0.6218
+Random Forest,0.3549,0.6282
+Random Forest,0.358,0.6282
+Random Forest,0.358,0.6303
+Random Forest,0.3642,0.6303
+Random Forest,0.3642,0.6346
+Random Forest,0.3673,0.6346
+Random Forest,0.3673,0.6368
+Random Forest,0.3704,0.6368
+Random Forest,0.3704,0.6389
+Random Forest,0.3735,0.6389
+Random Forest,0.3735,0.641
+Random Forest,0.3765,0.641
+Random Forest,0.3765,0.6432
+Random Forest,0.3796,0.6432
+Random Forest,0.3796,0.6496
+Random Forest,0.3858,0.6496
+Random Forest,0.3858,0.6581
+Random Forest,0.3951,0.6581
+Random Forest,0.3951,0.6603
+Random Forest,0.3981,0.6603
+Random Forest,0.3981,0.6731
+Random Forest,0.4043,0.6731
+Random Forest,0.4043,0.6838
+Random Forest,0.4074,0.6838
+Random Forest,0.4074,0.6859
+Random Forest,0.4136,0.6859
+Random Forest,0.4136,0.688
+Random Forest,0.4198,0.688
+Random Forest,0.4198,0.6923
+Random Forest,0.4259,0.6923
+Random Forest,0.4259,0.6987
+Random Forest,0.429,0.6987
+Random Forest,0.429,0.7051
+Random Forest,0.4352,0.7051
+Random Forest,0.4352,0.7222
+Random Forest,0.4414,0.7222
+Random Forest,0.4414,0.7244
+Random Forest,0.4444,0.7244
+Random Forest,0.4444,0.7372
+Random Forest,0.4506,0.7372
+Random Forest,0.4506,0.7415
+Random Forest,0.4599,0.7415
+Random Forest,0.4599,0.7521
+Random Forest,0.4691,0.7521
+Random Forest,0.4691,0.7543
+Random Forest,0.4753,0.7543
+Random Forest,0.4753,0.7564
+Random Forest,0.4784,0.7564
+Random Forest,0.4784,0.7585
+Random Forest,0.4877,0.7585
+Random Forest,0.4877,0.7628
+Random Forest,0.5,0.7628
+Random Forest,0.5,0.7671
+Random Forest,0.5031,0.7671
+Random Forest,0.5031,0.7692
+Random Forest,0.5062,0.7692
+Random Forest,0.5062,0.7714
+Random Forest,0.5123,0.7714
+Random Forest,0.5123,0.7778
+Random Forest,0.5154,0.7778
+Random Forest,0.5154,0.7799
+Random Forest,0.5185,0.7799
+Random Forest,0.5185,0.7821
+Random Forest,0.5216,0.7821
+Random Forest,0.5216,0.7906
+Random Forest,0.5247,0.7906
+Random Forest,0.5247,0.7927
+Random Forest,0.5278,0.7927
+Random Forest,0.5278,0.7949
+Random Forest,0.537,0.7949
+Random Forest,0.537,0.8013
+Random Forest,0.5525,0.8013
+Random Forest,0.5525,0.8034
+Random Forest,0.5617,0.8034
+Random Forest,0.5617,0.8056
+Random Forest,0.5741,0.8056
+Random Forest,0.5741,0.8077
+Random Forest,0.5772,0.8077
+Random Forest,0.5772,0.8098
+Random Forest,0.5802,0.8098
+Random Forest,0.5802,0.812
+Random Forest,0.5895,0.812
+Random Forest,0.5895,0.8141
+Random Forest,0.5926,0.8141
+Random Forest,0.5926,0.8248
+Random Forest,0.5957,0.8248
+Random Forest,0.5957,0.8291
+Random Forest,0.5988,0.8291
+Random Forest,0.5988,0.8312
+Random Forest,0.6019,0.8312
+Random Forest,0.6019,0.8333
+Random Forest,0.6049,0.8333
+Random Forest,0.6049,0.8355
+Random Forest,0.608,0.8355
+Random Forest,0.608,0.8376
+Random Forest,0.6111,0.8376
+Random Forest,0.6111,0.8419
+Random Forest,0.6204,0.8419
+Random Forest,0.6204,0.8462
+Random Forest,0.6235,0.8462
+Random Forest,0.6235,0.8483
+Random Forest,0.6265,0.8483
+Random Forest,0.6265,0.859
+Random Forest,0.6296,0.859
+Random Forest,0.6296,0.8611
+Random Forest,0.6481,0.8611
+Random Forest,0.6481,0.8654
+Random Forest,0.6543,0.8654
+Random Forest,0.6543,0.8675
+Random Forest,0.6574,0.8675
+Random Forest,0.6574,0.8739
+Random Forest,0.6728,0.8739
+Random Forest,0.6728,0.8761
+Random Forest,0.679,0.8761
+Random Forest,0.679,0.8868
+Random Forest,0.6914,0.8868
+Random Forest,0.6914,0.8889
+Random Forest,0.6944,0.8889
+Random Forest,0.6944,0.891
+Random Forest,0.6975,0.891
+Random Forest,0.6975,0.8932
+Random Forest,0.7068,0.8932
+Random Forest,0.7068,0.8996
+Random Forest,0.7099,0.8996
+Random Forest,0.7099,0.9038
+Random Forest,0.716,0.9038
+Random Forest,0.716,0.9081
+Random Forest,0.7253,0.9081
+Random Forest,0.7253,0.9103
+Random Forest,0.7315,0.9103
+Random Forest,0.7315,0.9124
+Random Forest,0.7346,0.9124
+Random Forest,0.7346,0.9145
+Random Forest,0.75,0.9145
+Random Forest,0.75,0.9188
+Random Forest,0.7623,0.9188
+Random Forest,0.7623,0.9209
+Random Forest,0.7685,0.9209
+Random Forest,0.7685,0.9231
+Random Forest,0.7747,0.9231
+Random Forest,0.7747,0.9252
+Random Forest,0.7809,0.9252
+Random Forest,0.7809,0.9274
+Random Forest,0.787,0.9274
+Random Forest,0.787,0.9295
+Random Forest,0.7932,0.9295
+Random Forest,0.7932,0.9316
+Random Forest,0.8025,0.9316
+Random Forest,0.8025,0.9359
+Random Forest,0.8086,0.9359
+Random Forest,0.8086,0.9402
+Random Forest,0.8302,0.9402
+Random Forest,0.8302,0.9423
+Random Forest,0.8395,0.9423
+Random Forest,0.8395,0.9444
+Random Forest,0.8488,0.9444
+Random Forest,0.8488,0.9466
+Random Forest,0.8549,0.9466
+Random Forest,0.8549,0.9487
+Random Forest,0.8642,0.9487
+Random Forest,0.8642,0.953
+Random Forest,0.8858,0.953
+Random Forest,0.8858,0.9573
+Random Forest,0.8951,0.9573
+Random Forest,0.8951,0.9637
+Random Forest,0.8981,0.9637
+Random Forest,0.8981,0.9679
+Random Forest,0.9105,0.9679
+Random Forest,0.9105,0.9744
+Random Forest,0.9352,0.9744
+Random Forest,0.9352,0.9765
+Random Forest,0.9444,0.9765
+Random Forest,0.9444,0.9786
+Random Forest,0.9784,0.9786
+Random Forest,0.9784,0.9808
+Random Forest,0.9846,0.9808
+Random Forest,0.9846,0.9829
+Random Forest,0.9907,0.9829
+Random Forest,0.9907,0.9872
+Random Forest,0.9938,0.9872
+Random Forest,0.9938,0.9936
+Random Forest,1.0,0.9936
+Random Forest,1.0,1.0
+XGBoost,0.0,0.0
+XGBoost,0.0,0.0021
+XGBoost,0.0,0.0064
+XGBoost,0.0031,0.0064
+XGBoost,0.0031,0.0256
+XGBoost,0.0093,0.0256
+XGBoost,0.0093,0.0299
+XGBoost,0.0123,0.0299
+XGBoost,0.0123,0.0385
+XGBoost,0.0154,0.0385
+XGBoost,0.0154,0.0427
+XGBoost,0.0185,0.0427
+XGBoost,0.0185,0.0556
+XGBoost,0.0216,0.0556
+XGBoost,0.0216,0.0705
+XGBoost,0.0278,0.0705
+XGBoost,0.0278,0.0726
+XGBoost,0.0309,0.0726
+XGBoost,0.0309,0.0748
+XGBoost,0.034,0.0748
+XGBoost,0.034,0.1047
+XGBoost,0.037,0.1047
+XGBoost,0.037,0.109
+XGBoost,0.0401,0.109
+XGBoost,0.0401,0.1175
+XGBoost,0.0463,0.1175
+XGBoost,0.0463,0.1197
+XGBoost,0.0494,0.1197
+XGBoost,0.0494,0.1239
+XGBoost,0.0556,0.1239
+XGBoost,0.0556,0.1368
+XGBoost,0.0586,0.1368
+XGBoost,0.0586,0.1474
+XGBoost,0.0617,0.1474
+XGBoost,0.0617,0.1496
+XGBoost,0.0679,0.1496
+XGBoost,0.0679,0.1517
+XGBoost,0.071,0.1517
+XGBoost,0.071,0.1688
+XGBoost,0.0741,0.1688
+XGBoost,0.0741,0.1709
+XGBoost,0.0802,0.1709
+XGBoost,0.0802,0.1731
+XGBoost,0.0833,0.1731
+XGBoost,0.0833,0.1859
+XGBoost,0.0895,0.1859
+XGBoost,0.0895,0.2073
+XGBoost,0.0926,0.2073
+XGBoost,0.0926,0.2094
+XGBoost,0.0957,0.2094
+XGBoost,0.0957,0.2115
+XGBoost,0.0988,0.2115
+XGBoost,0.0988,0.2244
+XGBoost,0.1019,0.2244
+XGBoost,0.1019,0.2329
+XGBoost,0.1049,0.2329
+XGBoost,0.1049,0.2372
+XGBoost,0.108,0.2372
+XGBoost,0.108,0.265
+XGBoost,0.1111,0.265
+XGBoost,0.1111,0.2735
+XGBoost,0.1173,0.2735
+XGBoost,0.1173,0.2799
+XGBoost,0.1204,0.2799
+XGBoost,0.1204,0.2821
+XGBoost,0.1296,0.2821
+XGBoost,0.1296,0.2885
+XGBoost,0.1358,0.2885
+XGBoost,0.1358,0.2906
+XGBoost,0.1451,0.2906
+XGBoost,0.1451,0.2927
+XGBoost,0.1481,0.2927
+XGBoost,0.1481,0.3056
+XGBoost,0.1543,0.3056
+XGBoost,0.1543,0.3077
+XGBoost,0.1605,0.3077
+XGBoost,0.1605,0.3162
+XGBoost,0.1636,0.3162
+XGBoost,0.1636,0.3226
+XGBoost,0.1728,0.3226
+XGBoost,0.1728,0.3248
+XGBoost,0.1759,0.3248
+XGBoost,0.1759,0.3269
+XGBoost,0.179,0.3269
+XGBoost,0.179,0.3312
+XGBoost,0.1821,0.3312
+XGBoost,0.1821,0.3333
+XGBoost,0.1852,0.3333
+XGBoost,0.1852,0.3376
+XGBoost,0.1883,0.3376
+XGBoost,0.1883,0.3419
+XGBoost,0.1914,0.3419
+XGBoost,0.1914,0.3483
+XGBoost,0.2006,0.3483
+XGBoost,0.2006,0.3504
+XGBoost,0.2037,0.3504
+XGBoost,0.2037,0.3526
+XGBoost,0.2099,0.3526
+XGBoost,0.2099,0.3547
+XGBoost,0.213,0.3547
+XGBoost,0.213,0.3568
+XGBoost,0.216,0.3568
+XGBoost,0.216,0.3611
+XGBoost,0.2191,0.3611
+XGBoost,0.2191,0.3739
+XGBoost,0.2253,0.3739
+XGBoost,0.2253,0.3825
+XGBoost,0.2284,0.3825
+XGBoost,0.2284,0.3868
+XGBoost,0.2315,0.3868
+XGBoost,0.2315,0.3889
+XGBoost,0.2346,0.3889
+XGBoost,0.2346,0.391
+XGBoost,0.2377,0.391
+XGBoost,0.2377,0.3932
+XGBoost,0.2407,0.3932
+XGBoost,0.2407,0.3974
+XGBoost,0.2469,0.3974
+XGBoost,0.2469,0.3996
+XGBoost,0.25,0.3996
+XGBoost,0.25,0.4038
+XGBoost,0.2531,0.4038
+XGBoost,0.2531,0.4167
+XGBoost,0.2593,0.4167
+XGBoost,0.2593,0.4274
+XGBoost,0.2623,0.4274
+XGBoost,0.2623,0.4295
+XGBoost,0.2654,0.4295
+XGBoost,0.2654,0.4444
+XGBoost,0.2685,0.4444
+XGBoost,0.2685,0.4509
+XGBoost,0.2747,0.4509
+XGBoost,0.2747,0.4551
+XGBoost,0.2778,0.4551
+XGBoost,0.2778,0.4701
+XGBoost,0.2809,0.4701
+XGBoost,0.2809,0.4744
+XGBoost,0.284,0.4744
+XGBoost,0.284,0.485
+XGBoost,0.287,0.485
+XGBoost,0.287,0.4957
+XGBoost,0.2901,0.4957
+XGBoost,0.2901,0.5021
+XGBoost,0.2932,0.5021
+XGBoost,0.2932,0.5043
+XGBoost,0.2963,0.5043
+XGBoost,0.2963,0.515
+XGBoost,0.2994,0.515
+XGBoost,0.2994,0.5299
+XGBoost,0.3025,0.5299
+XGBoost,0.3025,0.5449
+XGBoost,0.3056,0.5449
+XGBoost,0.3056,0.547
+XGBoost,0.3086,0.547
+XGBoost,0.3086,0.5491
+XGBoost,0.3148,0.5491
+XGBoost,0.3148,0.5534
+XGBoost,0.321,0.5534
+XGBoost,0.321,0.5556
+XGBoost,0.3241,0.5556
+XGBoost,0.3241,0.5641
+XGBoost,0.3302,0.5641
+XGBoost,0.3302,0.5662
+XGBoost,0.3333,0.5662
+XGBoost,0.3333,0.5726
+XGBoost,0.3364,0.5726
+XGBoost,0.3364,0.5791
+XGBoost,0.3426,0.5791
+XGBoost,0.3426,0.5833
+XGBoost,0.3457,0.5833
+XGBoost,0.3457,0.5876
+XGBoost,0.3488,0.5876
+XGBoost,0.3488,0.5919
+XGBoost,0.3611,0.5919
+XGBoost,0.3611,0.5962
+XGBoost,0.3642,0.5962
+XGBoost,0.3642,0.6004
+XGBoost,0.3673,0.6004
+XGBoost,0.3673,0.6026
+XGBoost,0.3704,0.6026
+XGBoost,0.3704,0.6154
+XGBoost,0.3765,0.6154
+XGBoost,0.3765,0.6175
+XGBoost,0.3796,0.6175
+XGBoost,0.3796,0.6282
+XGBoost,0.3827,0.6282
+XGBoost,0.3827,0.6346
+XGBoost,0.3858,0.6346
+XGBoost,0.3858,0.6496
+XGBoost,0.3889,0.6496
+XGBoost,0.3889,0.6517
+XGBoost,0.392,0.6517
+XGBoost,0.392,0.6538
+XGBoost,0.3951,0.6538
+XGBoost,0.3951,0.6581
+XGBoost,0.3981,0.6581
+XGBoost,0.3981,0.6624
+XGBoost,0.4074,0.6624
+XGBoost,0.4074,0.6688
+XGBoost,0.4105,0.6688
+XGBoost,0.4105,0.6709
+XGBoost,0.4136,0.6709
+XGBoost,0.4136,0.6731
+XGBoost,0.4228,0.6731
+XGBoost,0.4228,0.6752
+XGBoost,0.4259,0.6752
+XGBoost,0.4259,0.6774
+XGBoost,0.4383,0.6774
+XGBoost,0.4383,0.6795
+XGBoost,0.4414,0.6795
+XGBoost,0.4414,0.6838
+XGBoost,0.4475,0.6838
+XGBoost,0.4475,0.6966
+XGBoost,0.4506,0.6966
+XGBoost,0.4506,0.703
+XGBoost,0.4537,0.703
+XGBoost,0.4537,0.7073
+XGBoost,0.463,0.7073
+XGBoost,0.463,0.7094
+XGBoost,0.466,0.7094
+XGBoost,0.466,0.7158
+XGBoost,0.4722,0.7158
+XGBoost,0.4722,0.7179
+XGBoost,0.4753,0.7179
+XGBoost,0.4753,0.7286
+XGBoost,0.4784,0.7286
+XGBoost,0.4784,0.7415
+XGBoost,0.4846,0.7415
+XGBoost,0.4846,0.7457
+XGBoost,0.4877,0.7457
+XGBoost,0.4877,0.7479
+XGBoost,0.4907,0.7479
+XGBoost,0.4907,0.75
+XGBoost,0.5,0.75
+XGBoost,0.5,0.7543
+XGBoost,0.5123,0.7543
+XGBoost,0.5123,0.7585
+XGBoost,0.5154,0.7585
+XGBoost,0.5154,0.7671
+XGBoost,0.5185,0.7671
+XGBoost,0.5185,0.7692
+XGBoost,0.5216,0.7692
+XGBoost,0.5216,0.7735
+XGBoost,0.5247,0.7735
+XGBoost,0.5247,0.7756
+XGBoost,0.5278,0.7756
+XGBoost,0.5278,0.7778
+XGBoost,0.5309,0.7778
+XGBoost,0.5309,0.7821
+XGBoost,0.5556,0.7821
+XGBoost,0.5556,0.7842
+XGBoost,0.5586,0.7842
+XGBoost,0.5586,0.7863
+XGBoost,0.5617,0.7863
+XGBoost,0.5617,0.7885
+XGBoost,0.5679,0.7885
+XGBoost,0.5679,0.7906
+XGBoost,0.5741,0.7906
+XGBoost,0.5741,0.7927
+XGBoost,0.5772,0.7927
+XGBoost,0.5772,0.7949
+XGBoost,0.5833,0.7949
+XGBoost,0.5833,0.8013
+XGBoost,0.5957,0.8013
+XGBoost,0.5957,0.8056
+XGBoost,0.6019,0.8056
+XGBoost,0.6019,0.8077
+XGBoost,0.6049,0.8077
+XGBoost,0.6049,0.8098
+XGBoost,0.6111,0.8098
+XGBoost,0.6111,0.8162
+XGBoost,0.6142,0.8162
+XGBoost,0.6142,0.8184
+XGBoost,0.6173,0.8184
+XGBoost,0.6173,0.8226
+XGBoost,0.6265,0.8226
+XGBoost,0.6265,0.8248
+XGBoost,0.6296,0.8248
+XGBoost,0.6296,0.8376
+XGBoost,0.642,0.8376
+XGBoost,0.642,0.8419
+XGBoost,0.6451,0.8419
+XGBoost,0.6451,0.8483
+XGBoost,0.6481,0.8483
+XGBoost,0.6481,0.8504
+XGBoost,0.6574,0.8504
+XGBoost,0.6574,0.8568
+XGBoost,0.6698,0.8568
+XGBoost,0.6698,0.8632
+XGBoost,0.6728,0.8632
+XGBoost,0.6728,0.8654
+XGBoost,0.6883,0.8654
+XGBoost,0.6883,0.8675
+XGBoost,0.6975,0.8675
+XGBoost,0.6975,0.8697
+XGBoost,0.7006,0.8697
+XGBoost,0.7006,0.8718
+XGBoost,0.7068,0.8718
+XGBoost,0.7068,0.8761
+XGBoost,0.7099,0.8761
+XGBoost,0.7099,0.8782
+XGBoost,0.713,0.8782
+XGBoost,0.713,0.8825
+XGBoost,0.7191,0.8825
+XGBoost,0.7191,0.8868
+XGBoost,0.7284,0.8868
+XGBoost,0.7284,0.8889
+XGBoost,0.7407,0.8889
+XGBoost,0.7407,0.891
+XGBoost,0.7469,0.891
+XGBoost,0.7469,0.8932
+XGBoost,0.75,0.8932
+XGBoost,0.75,0.8953
+XGBoost,0.7654,0.8953
+XGBoost,0.7654,0.9017
+XGBoost,0.7685,0.9017
+XGBoost,0.7685,0.9038
+XGBoost,0.787,0.9038
+XGBoost,0.787,0.906
+XGBoost,0.7901,0.906
+XGBoost,0.7901,0.9081
+XGBoost,0.7932,0.9081
+XGBoost,0.7932,0.9124
+XGBoost,0.7963,0.9124
+XGBoost,0.7963,0.9167
+XGBoost,0.8056,0.9167
+XGBoost,0.8056,0.9188
+XGBoost,0.821,0.9188
+XGBoost,0.821,0.9209
+XGBoost,0.8333,0.9209
+XGBoost,0.8333,0.9252
+XGBoost,0.8488,0.9252
+XGBoost,0.8488,0.9359
+XGBoost,0.8519,0.9359
+XGBoost,0.8519,0.938
+XGBoost,0.8611,0.938
+XGBoost,0.8611,0.9402
+XGBoost,0.8642,0.9402
+XGBoost,0.8642,0.9423
+XGBoost,0.8673,0.9423
+XGBoost,0.8673,0.9444
+XGBoost,0.8704,0.9444
+XGBoost,0.8704,0.9487
+XGBoost,0.8735,0.9487
+XGBoost,0.8735,0.9573
+XGBoost,0.8827,0.9573
+XGBoost,0.8827,0.9615
+XGBoost,0.892,0.9615
+XGBoost,0.892,0.9637
+XGBoost,0.8951,0.9637
+XGBoost,0.8951,0.9658
+XGBoost,0.9105,0.9658
+XGBoost,0.9105,0.9679
+XGBoost,0.9198,0.9679
+XGBoost,0.9198,0.9722
+XGBoost,0.9444,0.9722
+XGBoost,0.9444,0.9744
+XGBoost,0.963,0.9744
+XGBoost,0.963,0.9765
+XGBoost,0.9691,0.9765
+XGBoost,0.9691,0.9786
+XGBoost,0.9722,0.9786
+XGBoost,0.9722,0.9808
+XGBoost,0.9753,0.9808
+XGBoost,0.9753,0.9829
+XGBoost,0.9784,0.9829
+XGBoost,0.9784,0.9936
+XGBoost,0.9846,0.9936
+XGBoost,0.9846,0.9957
+XGBoost,0.9907,0.9957
+XGBoost,0.9907,0.9979
+XGBoost,0.9969,0.9979
+XGBoost,0.9969,1.0
+XGBoost,1.0,1.0

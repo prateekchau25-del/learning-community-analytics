@@ -1,0 +1,121 @@
+model,strategy,k,spread,spread_pct_of_users
+IC,Top out-degree,1,342.883,11.86
+IC,Top out-degree,2,349.89,12.103
+IC,Top out-degree,3,363.743,12.582
+IC,Top out-degree,4,385.387,13.331
+IC,Top out-degree,5,393.263,13.603
+IC,Top out-degree,6,394.78,13.655
+IC,Top out-degree,7,404.743,14.0
+IC,Top out-degree,8,405.647,14.031
+IC,Top out-degree,9,412.423,14.266
+IC,Top out-degree,10,415.75,14.381
+IC,Top ExpertiseRank,1,343.937,11.897
+IC,Top ExpertiseRank,2,364.917,12.623
+IC,Top ExpertiseRank,3,364.227,12.599
+IC,Top ExpertiseRank,4,376.09,13.009
+IC,Top ExpertiseRank,5,375.503,12.989
+IC,Top ExpertiseRank,6,396.397,13.711
+IC,Top ExpertiseRank,7,401.807,13.899
+IC,Top ExpertiseRank,8,405.647,14.031
+IC,Top ExpertiseRank,9,409.45,14.163
+IC,Top ExpertiseRank,10,415.007,14.355
+IC,Top betweenness,1,344.017,11.9
+IC,Top betweenness,2,352.987,12.21
+IC,Top betweenness,3,360.257,12.461
+IC,Top betweenness,4,373.117,12.906
+IC,Top betweenness,5,390.93,13.522
+IC,Top betweenness,6,398.42,13.781
+IC,Top betweenness,7,403.403,13.954
+IC,Top betweenness,8,407.29,14.088
+IC,Top betweenness,9,410.11,14.186
+IC,Top betweenness,10,418.303,14.469
+IC,Top PageRank,1,343.783,11.892
+IC,Top PageRank,2,364.277,12.6
+IC,Top PageRank,3,372.1,12.871
+IC,Top PageRank,4,377.347,13.052
+IC,Top PageRank,5,387.927,13.418
+IC,Top PageRank,6,390.64,13.512
+IC,Top PageRank,7,392.003,13.559
+IC,Top PageRank,8,391.24,13.533
+IC,Top PageRank,9,393.82,13.622
+IC,Top PageRank,10,391.06,13.527
+IC,CELF greedy,1,350.063,12.109
+IC,CELF greedy,2,374.013,12.937
+IC,CELF greedy,3,388.05,13.423
+IC,CELF greedy,4,391.8,13.552
+IC,CELF greedy,5,400.643,13.858
+IC,CELF greedy,6,406.737,14.069
+IC,CELF greedy,7,409.807,14.175
+IC,CELF greedy,8,415.893,14.386
+IC,CELF greedy,9,413.463,14.302
+IC,CELF greedy,10,421.557,14.582
+IC,Random,1,1.04,0.036
+IC,Random,2,3.158,0.109
+IC,Random,3,10.118,0.35
+IC,Random,4,11.918,0.412
+IC,Random,5,14.783,0.511
+IC,Random,6,16.712,0.578
+IC,Random,7,14.052,0.486
+IC,Random,8,17.352,0.6
+IC,Random,9,21.452,0.742
+IC,Random,10,22.263,0.77
+LT,Top out-degree,1,1386.513,47.96
+LT,Top out-degree,2,1622.997,56.14
+LT,Top out-degree,3,1694.423,58.61
+LT,Top out-degree,4,1797.7,62.183
+LT,Top out-degree,5,1869.467,64.665
+LT,Top out-degree,6,1883.683,65.157
+LT,Top out-degree,7,1915.44,66.255
+LT,Top out-degree,8,1935.243,66.94
+LT,Top out-degree,9,1938.16,67.041
+LT,Top out-degree,10,1960.537,67.815
+LT,Top ExpertiseRank,1,1408.74,48.728
+LT,Top ExpertiseRank,2,1509.447,52.212
+LT,Top ExpertiseRank,3,1682.413,58.195
+LT,Top ExpertiseRank,4,1769.523,61.208
+LT,Top ExpertiseRank,5,1796.947,62.157
+LT,Top ExpertiseRank,6,1891.937,65.442
+LT,Top ExpertiseRank,7,1923.88,66.547
+LT,Top ExpertiseRank,8,1947.513,67.365
+LT,Top ExpertiseRank,9,1946.593,67.333
+LT,Top ExpertiseRank,10,1968.997,68.108
+LT,Top betweenness,1,1401.17,48.467
+LT,Top betweenness,2,1627.317,56.289
+LT,Top betweenness,3,1695.703,58.655
+LT,Top betweenness,4,1765.65,61.074
+LT,Top betweenness,5,1862.887,64.437
+LT,Top betweenness,6,1897.67,65.641
+LT,Top betweenness,7,1919.24,66.387
+LT,Top betweenness,8,1937.963,67.034
+LT,Top betweenness,9,1963.147,67.905
+LT,Top betweenness,10,1971.49,68.194
+LT,Top PageRank,1,1393.373,48.197
+LT,Top PageRank,2,1517.567,52.493
+LT,Top PageRank,3,1599.95,55.342
+LT,Top PageRank,4,1796.083,62.127
+LT,Top PageRank,5,1870.627,64.705
+LT,Top PageRank,6,1860.427,64.352
+LT,Top PageRank,7,1868.547,64.633
+LT,Top PageRank,8,1871.85,64.747
+LT,Top PageRank,9,1851.303,64.037
+LT,Top PageRank,10,1866.03,64.546
+LT,CELF greedy,1,1400.91,48.458
+LT,CELF greedy,2,1617.84,55.961
+LT,CELF greedy,3,1723.677,59.622
+LT,CELF greedy,4,1803.843,62.395
+LT,CELF greedy,5,1864.0,64.476
+LT,CELF greedy,6,1858.013,64.269
+LT,CELF greedy,7,1890.927,65.407
+LT,CELF greedy,8,1905.21,65.901
+LT,CELF greedy,9,1933.07,66.865
+LT,CELF greedy,10,1953.48,67.571
+LT,Random,1,1.148,0.04
+LT,Random,2,4.957,0.171
+LT,Random,3,3.97,0.137
+LT,Random,4,10.055,0.348
+LT,Random,5,9.77,0.338
+LT,Random,6,14.658,0.507
+LT,Random,7,10.672,0.369
+LT,Random,8,12.323,0.426
+LT,Random,9,19.88,0.688
+LT,Random,10,26.8,0.927

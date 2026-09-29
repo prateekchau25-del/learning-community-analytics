@@ -1,0 +1,21 @@
+lda_topic,top_words,npmi,n_questions
+0,"html, index, buy, finance, page, share, stock, symbol, sell, index html",0.5118305683135986,232
+1,"credit, digit, week, invalid, card, input, course, lecture, pset1, valid",0.09848579060312154,236
+2,"resize, bmp, index, cent, less, cash, coin, figure, resize less, pset3",-0.16572441469050117,114
+3,"project, ide, cash, directory, final, final project, message, flask, terminal, window",0.16468659043312073,231
+4,"filter, image, blur, pset4, pixel, check50, edge, less, mario, height",0.17470162709554035,369
+5,"sql, query, name, movie, package, year, site, lib, request, user_id",0.16849783033960394,80
+6,"caesar, key, argument, input, command, argv, message, pset2, character, string",0.23685845732688904,142
+7,"int, include, main, void, int main, include include, string, printf, argc, stdio",0.5354962944984436,104
+8,"word, misspelled, handle, turn, frown, upside, turn upside, frown turn, properly, misspelled wor",0.4925847053527832,33
+9,"loop, statement, end, size, condition, last, start, data, around, inside",0.11107943952083588,214
+10,"word, speller, dictionary, load, hash, pset5, text, misspelled, node, list",0.4098493754863739,274
+11,"valgrind, memory, free, speller, leak, check50, byte, memory leak, block, malloc",0.3929377794265747,193
+12,"dna, input, csv, str, sequence, pset6, adieu, match, txt, large",0.10973736958371269,162
+13,"dictionary, word, node, int, hash, table, false, include, true, else",0.27919113636016846,56
+14,"readability, grade, text, letter, word, sentence, pset2, variable, input, compile",0.21069969236850739,217
+15,"user, table, register, list, finance, database, python, username, row, data",0.21699945628643036,158
+16,"check50, test, terminal, exit, case, pas, pass, link, submission, solution",0.05887090911985272,326
+17,"vote, candidate, check50, winner, print_winner, pair, pset3, plurality, runoff, name",0.3344586608310541,234
+18,"recover, fault, segmentation, segmentation fault, image, pset4, jpg, pset4 recover, buffer, compiles",0.3092895448207855,378
+19,"array, char, character, type, string, key, variable, pointer, substitution, ciphertext",0.2021283060312271,207
