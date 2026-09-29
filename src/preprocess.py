@@ -1,7 +1,7 @@
 """
 Step 1: clean the question text and build per-question features.
 
-Output: data/processed/questions_clean.parquet
+Output: data/processed/<site>/questions_clean.parquet
     text_clean   natural text (title + body without code blocks), for BERTopic and embeddings
     tokens       lower-cased lemmas without stopwords, for LDA and TF-IDF
     + structure, sentiment/confusion and outcome columns used by later steps
@@ -22,14 +22,14 @@ warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
 URL_RE = re.compile(r"https?://\S+|www\.\S+")
 TOKEN_RE = re.compile(r"[a-z][a-z0-9_]+")
-ERROR_RE = re.compile(r"error|segmentation fault|traceback|exception|undefined reference|"
-                      r"core dumped|valgrind|leak|warning:", re.I)
-# check50 prints ":(" for each failed test.
-CHECK50_FAIL_RE = re.compile(r":\(")
+ERROR_RE = re.compile(r"error|traceback|exception|valueerror|typeerror|keyerror|indexerror|"
+                      r"attributeerror|runtimeerror|out of memory|nan loss|segmentation fault|warning:", re.I)
+# Mathematical notation (LaTeX) in the question, common in ML theory questions.
+MATH_RE = re.compile(r"\$[^$]+\$|\\\(|\\\[|\\frac|\\sum|\\mathbb")
 
 # Words that appear in almost every question and carry no topic information.
 DOMAIN_STOPWORDS = {
-    "cs50", "cs50x", "cs50p", "cs50w", "cs50ai", "pset", "problem", "set", "hi", "hello", "hey",
+    "problem", "set", "hi", "hello", "hey",
     "thanks", "thank", "please", "help", "question", "trying", "try", "tried", "get", "got", "know",
     "like", "want", "need", "would", "could", "work", "working", "works", "way", "anyone", "one",
     "also", "use", "using", "used", "make", "see", "seem", "seems", "im", "ive", "dont", "doesnt",
@@ -47,6 +47,19 @@ DOMAIN_STOPWORDS = {
     "hope", "somebody", "someone", "maybe", "probably", "already", "yet", "able", "currently",
     "tell", "told", "stuck", "confused", "call", "called", "don", "doesn", "didn", "isn",
 }
+
+# LaTeX commands that leak into the text from mathematical questions.
+LATEX_WORDS = {
+    "frac", "mathbf", "mathcal", "mathbb", "mathrm", "cdot", "cdots", "ldots", "partial", "sqrt", "leq", "geq",
+    "infty", "operatorname", "pmatrix", "bmatrix", "begin", "end", "align", "prod", "sum", "boldsymbol", "hat",
+    "tilde", "mid", "quad", "text", "limits", "displaystyle",
+}
+# Words the WordNet lemmatizer gets wrong: library names it would damage ("keras" -> "kera",
+# "pandas" -> "panda") and technical plurals it does not know.
+LEMMA_FIX = {"keras": "keras", "pandas": "pandas", "numpy": "numpy", "sklearn": "sklearn", "xgboost": "xgboost",
+             "lightgbm": "lightgbm", "catboost": "catboost", "dataframes": "dataframe", "gnns": "gnn",
+             "llms": "llm", "gpus": "gpu", "embeddings": "embedding", "transformers": "transformer",
+             "cnns": "cnn", "rnns": "rnn", "lstms": "lstm", "tensors": "tensor", "hyperparameters": "hyperparameter"}
 
 # Phrases that signal a confused or stuck learner.
 CONFUSION_TERMS = [
@@ -86,7 +99,7 @@ def split_html(body: str) -> tuple[str, int]:
 
 def clean_questions(questions: pd.DataFrame, answers: pd.DataFrame) -> pd.DataFrame:
     stop_words, lemmatizer, vader = _nltk_resources()
-    stop_words |= DOMAIN_STOPWORDS
+    stop_words |= DOMAIN_STOPWORDS | LATEX_WORDS
 
     df = questions.copy()
     df["title"] = df["title"].fillna("").map(html.unescape)
@@ -101,7 +114,7 @@ def clean_questions(questions: pd.DataFrame, answers: pd.DataFrame) -> pd.DataFr
         out = []
         for tok in TOKEN_RE.findall(text.lower()):
             if tok not in lemma_cache:
-                lemma_cache[tok] = lemmatizer.lemmatize(tok)
+                lemma_cache[tok] = LEMMA_FIX.get(tok) or lemmatizer.lemmatize(tok)
             lem = lemma_cache[tok]
             if lem not in stop_words and tok not in stop_words and len(lem) > 2:
                 out.append(lem)
@@ -115,7 +128,7 @@ def clean_questions(questions: pd.DataFrame, answers: pd.DataFrame) -> pd.DataFr
     df["title_words"] = df["title"].str.split().str.len()
     df["has_code"] = df["n_code_lines"] > 0
     df["has_error_msg"] = raw_text.str.contains(ERROR_RE)
-    df["has_check50_fail"] = raw_text.str.contains(CHECK50_FAIL_RE)
+    df["has_math"] = raw_text.str.contains(MATH_RE)
     df["n_question_marks"] = df["text_clean"].str.count(r"\?")
     df["n_tags"] = df["tags"].fillna("").str.split("|").map(lambda t: len([x for x in t if x]))
     df["sentiment"] = df["text_clean"].map(lambda t: vader.polarity_scores(t)["compound"])
@@ -132,7 +145,7 @@ def clean_questions(questions: pd.DataFrame, answers: pd.DataFrame) -> pd.DataFr
     df["is_answered"] = df["is_answered"].astype(bool)
 
     keep = ["post_id", "user_id", "created_at", "title", "tags", "text_clean", "tokens",
-            "n_words", "title_words", "n_code_lines", "has_code", "has_error_msg", "has_check50_fail",
+            "n_words", "title_words", "n_code_lines", "has_code", "has_error_msg", "has_math",
             "n_question_marks", "n_tags", "sentiment", "confusion_score", "score", "view_count",
             "answer_count", "is_answered", "has_accepted", "accepted_answer_id",
             "first_answer_at", "first_answerer", "hours_to_first_answer"]

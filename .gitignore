@@ -17,3 +17,6 @@ venv/
 Thumbs.db
 .DS_Store
 ~$*
+
+# Raw API pages (only needed to resume a download; the CSVs hold the data)
+data/raw/*/questions.jsonl

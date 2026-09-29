@@ -1,10 +1,12 @@
--- Schema for the learning-community database.
--- Running this file recreates the tables from scratch (existing data is removed).
+-- Tables for one learning community. load_to_postgres.py runs this file once per
+-- community inside its own PostgreSQL schema (datascience, ai), after
+-- SET search_path. Running it recreates the tables (existing data is removed).
 
 DROP TABLE IF EXISTS interactions, comments, answers, questions, users CASCADE;
 
 CREATE TABLE users (
     user_id         BIGINT PRIMARY KEY,
+    account_id      BIGINT,          -- the same person's id across all Stack Exchange sites
     user_name       TEXT,
     user_reputation INTEGER
 );
@@ -13,7 +15,7 @@ CREATE TABLE questions (
     post_id            BIGINT PRIMARY KEY,
     title              TEXT,
     body               TEXT,
-    tags               TEXT,          -- pipe-separated, e.g. 'pset1|c|cs50'
+    tags               TEXT,          -- pipe-separated, e.g. 'machine-learning|python'
     score              INTEGER,
     view_count         INTEGER,
     answer_count       INTEGER,

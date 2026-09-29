@@ -1,0 +1,23 @@
+feature,importance_mean,importance_std,model
+text meaning (embedding),0.09159,0.00758,XGBoost
+n_words,0.02935,0.00346,XGBoost
+asker_prior_answered_rate,0.01259,0.00227,XGBoost
+n_question_marks,0.00559,0.00118,XGBoost
+sentiment,0.00171,0.00075,XGBoost
+category,0.00114,0.00075,XGBoost
+asker_prior_questions,0.00086,0.00038,XGBoost
+n_tags,0.00081,0.00229,XGBoost
+has_math,0.00077,0.00045,XGBoost
+helpers_last_30d,0.00061,0.00053,XGBoost
+topic,0.00033,0.00033,XGBoost
+asker_prior_answers,0.00027,0.00033,XGBoost
+hour,0.00018,0.00042,XGBoost
+asker_is_new,8e-05,0.00014,XGBoost
+has_error_msg,0.0,0.0,XGBoost
+confusion_score,-0.0002,0.00025,XGBoost
+has_code,-0.00021,0.00011,XGBoost
+topic_prior_answered_rate,-0.00044,0.00326,XGBoost
+weekday,-0.0007,0.00027,XGBoost
+n_code_lines,-0.00072,0.00059,XGBoost
+title_words,-0.00073,0.00045,XGBoost
+questions_last_30d,-0.0089,0.0011,XGBoost

@@ -24,10 +24,11 @@ from config import OUTPUT_DIR, PROCESSED_DIR, RANDOM_SEED
 from data_loader import help_interactions, load_raw
 
 N_SHUFFLES = 200
-MC_RUNS_SELECT = 200      # Monte Carlo runs while choosing seeds
-MC_RUNS_EVAL = 300        # Monte Carlo runs when reporting spread
-N_CANDIDATES = 150        # seed candidates: most active helpers
+MC_RUNS_SELECT = 100      # Monte Carlo runs while choosing seeds
+MC_RUNS_EVAL = 200        # Monte Carlo runs when reporting spread
+N_CANDIDATES = 100        # seed candidates: the most active helpers
 MAX_SEEDS = 10
+REACH_HORIZON_DAYS = 365  # observed reach is measured within one year of a helper's first help
 IC_BETA = 0.1             # IC: chance that one interaction passes the knowledge on
 
 rng = np.random.default_rng(RANDOM_SEED)
@@ -36,42 +37,53 @@ rng = np.random.default_rng(RANDOM_SEED)
 # =========================================================================== A. observed
 
 def participation_events(raw, qt):
-    """(user, topic, time, kind): asking a question or answering one in a topic."""
+    """(user, topic, time, kind, thread): asking a question or answering one in a topic."""
     q = raw["questions"][["post_id", "user_id", "created_at"]].merge(qt[["post_id", "topic"]], on="post_id")
     a = raw["answers"][["question_id", "user_id", "created_at"]].merge(
         qt[["post_id", "topic"]], left_on="question_id", right_on="post_id")
-    ev = pd.concat([q.assign(kind="ask")[["user_id", "topic", "created_at", "kind"]],
-                    a.assign(kind="help")[["user_id", "topic", "created_at", "kind"]]])
+    ev = pd.concat([q.assign(kind="ask", thread=q["post_id"])[["user_id", "topic", "created_at", "kind", "thread"]],
+                    a.assign(kind="help", thread=a["question_id"])[["user_id", "topic", "created_at", "kind", "thread"]]])
     ev = ev.dropna(subset=["user_id"])
     ev["user_id"] = ev["user_id"].astype("int64")
     return ev
 
 
-def contact_arrays(inter, user_index):
-    """Every interaction in both directions as parallel arrays (u, v, time in days)."""
+def contact_arrays(inter, user_index, post_to_thread):
+    """Every interaction in both directions as parallel arrays (u, v, time in days, thread)."""
     s = inter["source_user"].map(user_index).to_numpy()
     t = inter["target_user"].map(user_index).to_numpy()
     ts = (inter["created_at"].astype("int64") // 10**9 / 86400).to_numpy()
+    th = inter["parent_post_id"].map(post_to_thread).fillna(-1).to_numpy(dtype=np.int64)
     ok = ~(np.isnan(s.astype(float)) | np.isnan(t.astype(float)))
-    s, t, ts = s[ok].astype(int), t[ok].astype(int), ts[ok]
-    return np.concatenate([s, t]), np.concatenate([t, s]), np.concatenate([ts, ts])
+    s, t, ts, th = s[ok].astype(int), t[ok].astype(int), ts[ok], th[ok]
+    return np.concatenate([s, t]), np.concatenate([t, s]), np.concatenate([ts, ts]), np.concatenate([th, th])
 
 
-def exposed_share(adopt_time, adopters, cu, cv, ct):
-    """Share of adopters who, before adopting, had contact with someone who adopted earlier."""
-    hit = (adopt_time[cv] < ct) & (ct < adopt_time[cu])
+def exposed_share(adopt_time, adopt_thread, adopters, cu, cv, ct, cth):
+    """
+    Share of adopters who, before adopting, had contact with someone who had adopted earlier.
+    Contacts inside the adopter's own adoption thread are ignored: those are caused by the
+    adoption (answers to the learner's first question), not a possible cause of it.
+    """
+    hit = (adopt_time[cv] < ct) & (ct < adopt_time[cu]) & (cth != adopt_thread[cu])
     exposed = np.intersect1d(np.unique(cu[hit]), adopters)
     first = adopters[np.argmin(adopt_time[adopters])]
     return len(np.setdiff1d(exposed, [first])) / max(len(adopters) - 1, 1)
 
 
-def exposure_test(events, inter, topics):
+def exposure_test(events, inter, topics, post_to_thread):
+    """
+    Time-shuffle test (Anagnostopoulos et al., 2008). Adoption times are permuted only among
+    adopters from the same quarter, so the null model keeps the community's growth over time.
+    """
     users = np.unique(np.concatenate([events["user_id"].unique(),
                                       inter["source_user"].unique(), inter["target_user"].unique()]))
     user_index = pd.Series(np.arange(len(users)), index=users)
-    cu, cv, ct = contact_arrays(inter, user_index)
-    first = events.groupby(["topic", "user_id"])["created_at"].min().reset_index()
+    cu, cv, ct, cth = contact_arrays(inter, user_index, post_to_thread)
+    ev = events.sort_values("created_at")
+    first = ev.groupby(["topic", "user_id"]).first().reset_index()
     first["day"] = first["created_at"].astype("int64") // 10**9 / 86400
+    first["quarter"] = first["created_at"].dt.to_period("Q").astype(str)
 
     rows = []
     for topic, grp in first.groupby("topic"):
@@ -80,12 +92,19 @@ def exposure_test(events, inter, topics):
         idx = user_index[grp["user_id"]].to_numpy()
         adopt = np.full(len(users), np.inf)
         adopt[idx] = grp["day"].to_numpy()
-        observed = exposed_share(adopt, idx, cu, cv, ct)
+        thread = np.full(len(users), -2, dtype=np.int64)
+        thread[idx] = grp["thread"].to_numpy(dtype=np.int64)
+        observed = exposed_share(adopt, thread, idx, cu, cv, ct, cth)
+        days, blocks = grp["day"].to_numpy(), grp["quarter"].to_numpy()
+        block_pos = [np.flatnonzero(blocks == b) for b in np.unique(blocks)]
         null = []
         for _ in range(N_SHUFFLES):
+            shuffled_days = days.copy()
+            for pos in block_pos:
+                shuffled_days[pos] = rng.permutation(days[pos])
             shuffled = np.full(len(users), np.inf)
-            shuffled[idx] = rng.permutation(grp["day"].to_numpy())
-            null.append(exposed_share(shuffled, idx, cu, cv, ct))
+            shuffled[idx] = shuffled_days
+            null.append(exposed_share(shuffled, thread, idx, cu, cv, ct, cth))
         null = np.array(null)
         rows.append({
             "topic": topic, "n_adopters": len(grp), "observed_exposed_share": observed,
@@ -256,15 +275,26 @@ def celf(net: HelpNetwork, candidates, k, model="ic"):
     return seeds
 
 
-def observed_reach(inter, sources):
-    """Users reachable from each source by time-respecting helper -> learner paths."""
+def observed_reach(inter, sources, horizon_days=REACH_HORIZON_DAYS):
+    """
+    People reachable from each source by time-respecting helper -> learner paths within
+    `horizon_days` of the source's first help. Without a horizon, early members reach almost
+    everyone over the years, and the measure reflects seniority instead of influence.
+    """
     ev = inter.sort_values("created_at")
     s, t = ev["source_user"].to_numpy(), ev["target_user"].to_numpy()
     ts = ev["created_at"].astype("int64").to_numpy()
+    first_help = ev.groupby("source_user")["created_at"].min().astype("int64")
+    horizon = np.int64(horizon_days * 86400 * 10**9)
     reach = {}
     for src in sources:
+        start = first_help.get(src)
+        if start is None:
+            reach[src] = 0
+            continue
+        lo, hi = np.searchsorted(ts, start), np.searchsorted(ts, start + horizon, side="right")
         arrival = {src: -np.inf}
-        for a, b, time in zip(s, t, ts):
+        for a, b, time in zip(s[lo:hi], t[lo:hi], ts[lo:hi]):
             if a in arrival and arrival[a] <= time and b not in arrival:
                 arrival[b] = time
         reach[src] = len(arrival) - 1
@@ -286,7 +316,11 @@ def run():
 
     # ---------------- A. observed
     events = participation_events(raw, qt)
-    exposure = exposure_test(events, contacts, topics)
+    post_to_thread = pd.concat([
+        pd.Series(raw["questions"]["post_id"].to_numpy(), index=raw["questions"]["post_id"]),
+        pd.Series(raw["answers"]["question_id"].to_numpy(), index=raw["answers"]["post_id"])])
+    post_to_thread = post_to_thread[~post_to_thread.index.duplicated()]
+    exposure = exposure_test(events, contacts, topics, post_to_thread)
     exposure.round(4).to_csv(OUTPUT_DIR / "diffusion_exposure_test.csv", index=False)
     summary["exposure_topics_tested"] = int(len(exposure))
     summary["exposure_topics_significant"] = int((exposure["p_value"] < 0.05).sum())

@@ -1,0 +1,5 @@
+measure,test,statistic,p_value,datascience,ai
+Answered rate,chi-square,294.48544,0.0,0.60233,0.70605
+Hours to first answer,Mann-Whitney U,38371527.5,0.0,7.20667,9.52528
+Confusion score,Mann-Whitney U,76488650.5,0.62804,0.0,0.0
+Question length (words),Mann-Whitney U,73212168.5,0.0,116.0,123.0

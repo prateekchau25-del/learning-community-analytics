@@ -1,0 +1,20 @@
+topic,n_adopters,observed_exposed_share,null_mean,null_std,z_score,p_value,label
+0,2333,0.1256,0.1766,0.0039,-13.0651,1.0,action / policy / state
+1,1858,0.2229,0.2319,0.0041,-2.1844,1.0,image / object / cnn
+2,1667,0.2113,0.2195,0.0041,-1.9999,0.9751,word / attention / transformer
+3,1347,0.1991,0.2268,0.0058,-4.7574,1.0,intelligence / human / artificial
+4,975,0.271,0.2698,0.0058,0.212,0.4577,validation / accuracy / epoch
+5,724,0.3001,0.3086,0.0064,-1.3184,0.9254,gradient / loss / weight
+6,620,0.2326,0.2264,0.0064,0.9794,0.1692,data / series / predict
+7,880,0.3311,0.3218,0.0076,1.2057,0.1294,neural / neural network / network
+8,334,0.2192,0.2487,0.0094,-3.1453,1.0,genetic / genetic algorithm / fitness
+9,305,0.2862,0.3024,0.0112,-1.4502,0.9403,gan / generator / discriminator
+10,555,0.3718,0.3587,0.009,1.4651,0.0796,activation / relu / neuron
+11,414,0.3172,0.3108,0.0091,0.707,0.3134,distribution / vae / latent
+12,244,0.2263,0.2304,0.012,-0.3406,0.7065,search / heuristic / admissible
+13,641,0.3,0.2984,0.0083,0.1875,0.4677,input / neural / neural network
+14,319,0.3616,0.3516,0.0106,0.9494,0.2189,clustering / cluster / pca
+15,324,0.3189,0.3163,0.0094,0.277,0.4577,class / label / positive
+16,330,0.3283,0.349,0.0097,-2.1477,0.99,lstm / rnn / recurrent
+17,211,0.1905,0.201,0.01,-1.0597,0.9104,audio / voice / speech
+18,152,0.2781,0.2796,0.0126,-0.1132,0.6368,graph / node / gnn

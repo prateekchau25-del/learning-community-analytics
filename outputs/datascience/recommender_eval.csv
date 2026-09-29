@@ -1,0 +1,6 @@
+method,n_test_questions,hit@1,hit@5,hit@10,mrr
+Content (tfidf),1074,0.0903,0.1527,0.1955,0.1241
+Hybrid (tfidf),1074,0.0847,0.2272,0.3492,0.1618
+Popularity (most answers),1074,0.0047,0.1527,0.1909,0.0704
+Content (embedding),1074,0.0885,0.1704,0.2011,0.1282
+Hybrid (embedding),1074,0.095,0.2365,0.3585,0.1701

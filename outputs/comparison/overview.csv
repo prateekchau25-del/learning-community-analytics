@@ -1,0 +1,36 @@
+measure,datascience,ai
+Questions,12000,12781
+Answers,10913,14003
+Comments,23739,30164
+Users,10151,10079
+First question,2020-12-04,2016-08-02
+Last question,2026-09-24,2026-09-29
+Answered (%),60.23333333333334,70.60480400594633
+Accepted answer (%),27.675,36.875048900711995
+Median hours to first answer,7.206666666666667,9.525277777777777
+Questions with code (%),30.183333333333334,10.515609107268602
+Questions with maths (%),7.575,20.107972772083563
+Mean confusion score,0.24954723033123988,0.2512256289829655
+BERTopic topics,19,19
+BERTopic NPMI,0.2742,0.2742
+BERTopic NMI vs tags,0.2684,0.3867
+LDA NMI vs tags,0.1895,0.2667
+Network users,9219,9265
+Help links,15868,19889
+Users who help (%),28.419568282894026,43.874797625472205
+Help from top 1% (%),67.03254132231406,61.42783604658645
+Help from top 10% (%),91.83023415977961,86.92812560324303
+Gini of help,0.9495670584793592,0.9166192464179062
+Reciprocity,0.03604739097554827,0.08135150082960431
+Modularity,0.6266139194406973,0.5304483732937695
+Communities (10+ users),34,24
+Exposure effect z (Stouffer),-2.60351695662809,-5.872737286300188
+Exposure effect p,0.9953863648465645,0.9999999978567125
+Topics with exposure effect,0/19,0/19
+Learners who became helpers (%),2.8617845538615345,6.962750716332378
+Simulation vs reality (Spearman),0.5536406516002667,0.02580350929398693
+"IC reach, 10 seeds (%)",10.421,14.522
+"LT reach, 10 seeds (%)",45.688,49.737
+Best answer model,Logistic Regression,XGBoost
+Answer prediction ROC-AUC,0.637,0.6489
+Expert finder Hit@10 (%),35.85,49.81

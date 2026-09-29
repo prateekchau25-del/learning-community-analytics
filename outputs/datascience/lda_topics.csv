@@ -1,0 +1,21 @@
+lda_topic,top_words,npmi,n_questions
+0,"categorical, array, encoding, hot, scikit, category, learn, numerical, anomaly, label",0.14150965213775635,331
+1,"class, classification, label, binary, positive, dataset, classifier, score, probability, precision",0.18225789070129395,882
+2,"learning, machine, machine learning, algorithm, deep, deep learning, state, learning model, paper, action",0.22815336287021637,726
+3,"parameter, distribution, weight, log, mean, equation, probability, formula, standard, theta",0.1278475821018219,357
+4,"validation, cross, score, best, performance, cross validation, hyperparameter, parameter, test, fold",0.2829887270927429,496
+5,"missing, science, project, data science, etc, analysis, naive, team, people, real",0.09660835373732779,325
+6,"image, object, cnn, detection, dataset, classification, pixel, video, segmentation, trained",0.1463661789894104,623
+7,"random, tree, sequence, forest, decision, random forest, decision tree, classification, length, svm",0.20042568445205688,352
+8,"python, graph, gpu, tool, library, version, source, entity, memory, large",0.07975771802464604,882
+9,"variable, feature, target, correlation, dataset, outlier, selection, target variable, feature selection, transformation",0.18394732475280762,593
+10,"dataset, test, training, train, split, datasets, sample, testing, training data, train test",0.21539634466171265,634
+11,"loss, training, accuracy, epoch, batch, learning, validation, rate, keras, size",0.2074260115623474,578
+12,"network, layer, neural, neural network, input, gradient, weight, activation, keras, shape",0.2580952048301697,978
+13,"regression, linear, point, sample, plot, linear regression, data point, regression model, mean, coefficient",0.16885751485824585,615
+14,"document, similarity, list, topic, color, word, similar, answer, two, nlp",0.09623920403084614,561
+15,"cluster, user, clustering, algorithm, distance, group, matrix, mean, system, item",0.15603256225585938,620
+16,"series, day, product, customer, predict, year, month, event, prediction, forecast",0.21925067901611328,608
+17,"word, embedding, vector, sentence, transformer, token, bert, attention, input, language",0.26784852147102356,575
+18,"feature, prediction, predict, regression, input, logistic, logistic regression, different, importance, model predict",0.16020555794239044,473
+19,"column, row, dataframe, dataset, name, table, date, pandas, csv, two",0.17574132978916168,784

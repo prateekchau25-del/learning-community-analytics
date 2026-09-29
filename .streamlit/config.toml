@@ -3,3 +3,10 @@ toolbarMode = "viewer"
 
 [browser]
 gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#8B5CF6"
+backgroundColor = "#0B0913"
+secondaryBackgroundColor = "#1E1830"
+textColor = "#F4F1FF"

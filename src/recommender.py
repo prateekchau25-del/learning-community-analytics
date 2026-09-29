@@ -23,7 +23,9 @@ from data_loader import load_raw
 N_SIMILAR = 50          # similar past questions considered per query
 ACCEPTED_BONUS = 1.0    # an accepted answer counts double
 RECENCY_DAYS = 365      # activity half-life style decay
-HYBRID_WEIGHTS = {"content": 0.6, "authority": 0.2, "recency": 0.2}
+# Chosen on a validation split inside the training period (questions 64-80% by time), never on
+# the test set: giving recency more weight helps because experts come and go.
+HYBRID_WEIGHTS = {"content": 0.4, "authority": 0.2, "recency": 0.4}
 KS = [1, 5, 10]
 
 

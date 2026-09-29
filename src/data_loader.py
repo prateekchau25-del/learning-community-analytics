@@ -8,7 +8,7 @@ from functools import lru_cache
 
 import pandas as pd
 
-from config import PROJECT_ROOT, RAW_DIR
+from config import PROJECT_ROOT, SITE, site_dirs
 
 RAW_TABLES = ["users", "questions", "answers", "comments", "interactions"]
 
@@ -37,28 +37,29 @@ def data_source() -> str:
     return "PostgreSQL" if get_db_engine() is not None else "CSV files"
 
 
-def _table_in_db(engine, name):
+def _table_in_db(engine, name, schema):
     from sqlalchemy import inspect
-    return inspect(engine).has_table(name)
+    return inspect(engine).has_table(name, schema=schema)
 
 
-def load_table(name: str) -> pd.DataFrame:
+def load_table(name: str, site: str = SITE) -> pd.DataFrame:
+    """Each community lives in its own PostgreSQL schema named after the site."""
     engine = get_db_engine()
-    if engine is not None and _table_in_db(engine, name):
-        df = pd.read_sql_table(name, engine)
+    if engine is not None and _table_in_db(engine, name, site):
+        df = pd.read_sql_table(name, engine, schema=site)
         df = df.drop(columns=["interaction_id"], errors="ignore")
     else:
-        df = pd.read_csv(RAW_DIR / f"{name}.csv")
+        df = pd.read_csv(site_dirs(site)["raw"] / f"{name}.csv")
         if "created_at" in df:
             df["created_at"] = pd.to_datetime(df["created_at"], unit="s")
-    for col in ("user_id", "source_user", "target_user", "reply_to_user_id", "accepted_answer_id"):
+    for col in ("user_id", "account_id", "source_user", "target_user", "reply_to_user_id", "accepted_answer_id"):
         if col in df:
             df[col] = df[col].astype("Int64")
     return df
 
 
-def load_raw() -> dict[str, pd.DataFrame]:
-    return {name: load_table(name) for name in RAW_TABLES}
+def load_raw(site: str = SITE) -> dict[str, pd.DataFrame]:
+    return {name: load_table(name, site) for name in RAW_TABLES}
 
 
 def help_interactions(raw: dict[str, pd.DataFrame]) -> pd.DataFrame:
@@ -76,6 +77,8 @@ def help_interactions(raw: dict[str, pd.DataFrame]) -> pd.DataFrame:
     asker = q.set_index("post_id")["user_id"]
     thread_asker = inter["parent_post_id"].map(post_to_question).map(asker)
     keep = (inter["type"] == "answer") | (inter["source_user"] != thread_asker)
+    # user_id -1 is Stack Exchange's automated "Community" account, not a person.
+    keep &= (inter["source_user"] > 0) & (inter["target_user"] > 0)
     inter = inter[keep.fillna(True)]
     inter["source_user"] = inter["source_user"].astype("int64")
     inter["target_user"] = inter["target_user"].astype("int64")

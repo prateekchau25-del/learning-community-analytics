@@ -1,0 +1,1012 @@
+account_id,user_name,role_datascience,out_strength_datascience,n_answers_datascience,n_questions_datascience,role_ai,out_strength_ai,n_answers_ai,n_questions_ai
+479311,Erwan,Core expert,1984.0,719.0,4.0,Peripheral learner,1.0,0.0,0.0
+15896855,Dave,Core expert,831.0,129.0,2.0,Core expert,98.0,29.0,1.0
+4021056,Nikos M.,Core expert,740.0,94.0,0.0,Peripheral learner,1.0,0.0,0.0
+4292175,Ben Reiniger,Core expert,638.0,174.0,0.0,Helper,4.0,1.0,0.0
+2256713,Brian Spiering,Core expert,494.0,453.0,1.0,Bridge,5.0,5.0,0.0
+13186506,Peter,Core expert,270.0,111.0,6.0,Peripheral learner,2.0,0.0,0.0
+2516243,10xAI,Core expert,257.0,105.0,0.0,Peripheral learner,1.0,0.0,0.0
+5816559,lpounng,Core expert,255.0,74.0,1.0,Core expert,68.0,15.0,0.0
+11602364,Broele,Core expert,253.0,98.0,0.0,Helper,22.0,7.0,0.0
+19226250,Ashwiniku918,Core expert,202.0,124.0,3.0,Helper,7.0,5.0,0.0
+2247995,Lucas Morin,Core expert,190.0,41.0,15.0,Active participant,4.0,1.0,5.0
+2739652,Valentas,Core expert,174.0,36.0,0.0,Peripheral learner,1.0,1.0,0.0
+2229624,Jon Nordby,Core expert,150.0,34.0,0.0,Helper,4.0,1.0,0.0
+5581780,Valentin Calomme,Core expert,143.0,83.0,1.0,Helper,4.0,3.0,0.0
+19779463,Harshad Patil,Core expert,133.0,80.0,0.0,Peripheral learner,1.0,1.0,0.0
+16961451,Jonathan,Core expert,132.0,47.0,1.0,Helper,20.0,9.0,0.0
+21123997,Ubikuity,Core expert,115.0,33.0,0.0,Bridge,10.0,5.0,0.0
+24742303,Lynn,Core expert,111.0,58.0,0.0,Helper,3.0,3.0,0.0
+8145367,hH1sG0n3,Core expert,99.0,37.0,2.0,Helper,20.0,10.0,1.0
+15498653,Pluviophile,Core expert,96.0,68.0,5.0,Active participant,2.0,0.0,30.0
+24364942,Eduard,Core expert,82.0,43.0,1.0,Active participant,3.0,2.0,1.0
+2158506,desertnaut,Bridge,78.0,3.0,0.0,Core expert,53.0,11.0,0.0
+6132904,Constantinos,Core expert,77.0,19.0,0.0,Peripheral learner,2.0,1.0,0.0
+27661191,Luca Anzalone,Core expert,74.0,37.0,0.0,Core expert,239.0,122.0,2.0
+12936846,Abhishek Verma,Core expert,74.0,56.0,0.0,Core expert,92.0,47.0,0.0
+7075073,serali,Core expert,74.0,34.0,0.0,Core expert,48.0,25.0,0.0
+13681702,Karl,Core expert,72.0,47.0,0.0,Helper,16.0,9.0,1.0
+30704839,pyrochlor,Core expert,67.0,13.0,1.0,Peripheral learner,1.0,1.0,0.0
+28409113,Tomasz Witkowski,Core expert,64.0,45.0,0.0,Helper,3.0,2.0,0.0
+14470543,Mario,Core expert,63.0,19.0,10.0,Helper,3.0,1.0,1.0
+410094,D.W.,Core expert,57.0,12.0,0.0,Bridge,34.0,5.0,0.0
+1033194,Archana David,Core expert,52.0,42.0,0.0,Active participant,7.0,8.0,0.0
+509511,Dikran Marsupial,Core expert,51.0,13.0,3.0,Helper,11.0,7.0,0.0
+2274369,Neil Slater,Core expert,47.0,16.0,0.0,Core expert,2776.0,850.0,0.0
+25066,Sean Owen,Core expert,43.0,12.0,0.0,Peripheral learner,1.0,0.0,0.0
+7431536,Jindřich,Core expert,40.0,35.0,0.0,Helper,13.0,13.0,0.0
+25484433,dx2-66,Core expert,40.0,29.0,0.0,Peripheral learner,1.0,1.0,0.0
+16508803,bogovicj,Core expert,39.0,16.0,0.0,Bridge,11.0,4.0,0.0
+1053202,WestCoastProjects,Core expert,39.0,12.0,0.0,Active participant,2.0,1.0,0.0
+29012504,picky_porpoise,Bridge,38.0,5.0,0.0,Peripheral learner,1.0,0.0,0.0
+3761440,n1k31t4,Core expert,38.0,24.0,0.0,Peripheral learner,1.0,0.0,0.0
+13723094,Ggjj11,Core expert,37.0,11.0,0.0,Helper,15.0,6.0,1.0
+2717380,Michael Higgins,Core expert,36.0,12.0,0.0,Helper,4.0,1.0,0.0
+204092,Stephan Kolassa,Bridge,35.0,7.0,0.0,Peripheral learner,1.0,1.0,0.0
+1706372,Alex,Core expert,34.0,13.0,0.0,Bridge,12.0,4.0,0.0
+11927961,prashant0598,Core expert,34.0,22.0,0.0,Peripheral learner,2.0,2.0,0.0
+4974350,Golden Lion,Bridge,33.0,9.0,0.0,Helper,9.0,3.0,0.0
+159641,Andy,Core expert,32.0,15.0,0.0,Helper,13.0,7.0,0.0
+16553440,SrJ,Core expert,32.0,21.0,1.0,Helper,4.0,2.0,0.0
+18447196,AIFahim,Core expert,31.0,12.0,3.0,Peripheral learner,0.0,0.0,2.0
+6139832,Nuclear Hoagie,Core expert,30.0,10.0,0.0,Core expert,37.0,15.0,0.0
+1081114,Akavall,Bridge,28.0,8.0,0.0,Helper,6.0,3.0,1.0
+10687045,Carl,Core expert,26.0,20.0,0.0,Helper,14.0,9.0,0.0
+23473737,technik,Core expert,26.0,23.0,0.0,Peripheral learner,2.0,2.0,0.0
+19220503,Amirhossein Rezaei,Core expert,26.0,13.0,6.0,Peripheral learner,0.0,0.0,2.0
+1203203,Kirill Fedyanin,Core expert,23.0,10.0,1.0,Core expert,38.0,23.0,1.0
+2171236,Vladislav Gladkikh,Core expert,22.0,15.0,4.0,Bridge,19.0,10.0,4.0
+23297935,Lelouch,Bridge,21.0,7.0,0.0,Helper,19.0,7.0,1.0
+4889488,quarague,Bridge,21.0,6.0,1.0,Helper,18.0,8.0,0.0
+17058026,BanDoP,Core expert,21.0,12.0,1.0,Helper,5.0,3.0,1.0
+6622653,Obie 2.0,Helper,20.0,2.0,1.0,Helper,3.0,0.0,1.0
+9671359,James,Bridge,19.0,9.0,0.0,Helper,5.0,4.0,0.0
+11887562,Robin van Hoorn,Helper,18.0,6.0,1.0,Core expert,163.0,73.0,8.0
+9549675,Michael Grogan,Core expert,18.0,12.0,0.0,Helper,6.0,2.0,0.0
+2538419,EngrStudent,Helper,17.0,2.0,1.0,Core expert,53.0,18.0,5.0
+14263732,RonsenbergVI,Core expert,17.0,11.0,0.0,Peripheral learner,1.0,2.0,0.0
+29144164,Alberto Sinigaglia,Bridge,16.0,7.0,0.0,Core expert,554.0,169.0,1.0
+169656,Franck Dernoncourt,Core expert,16.0,17.0,10.0,Core expert,84.0,81.0,16.0
+5192389,adsp42,Helper,16.0,3.0,0.0,Bridge,28.0,7.0,0.0
+27448180,Jonas Mueller,Core expert,16.0,11.0,0.0,Peripheral learner,2.0,2.0,0.0
+14282822,Antonios Sarikas,Bridge,15.0,0.0,6.0,Bridge,50.0,0.0,9.0
+30006697,Lynchian,Helper,15.0,1.0,0.0,Helper,3.0,0.0,0.0
+30488005,Gabriel Ribeiro C.,Helper,15.0,8.0,0.0,Peripheral learner,2.0,2.0,0.0
+230074,Miguel,Helper,15.0,4.0,0.0,Peripheral learner,1.0,1.0,0.0
+12296841,DarknessPlusPlus,Bridge,15.0,7.0,5.0,Peripheral learner,0.0,0.0,1.0
+8279966,CutePoison,Bridge,15.0,4.0,17.0,,0.0,0.0,0.0
+7455258,Djib2011,Helper,14.0,10.0,0.0,Core expert,75.0,46.0,0.0
+6631713,Green Falcon,Bridge,14.0,4.0,0.0,Helper,12.0,6.0,1.0
+10965391,Pedro Henrique Monforte,Helper,14.0,4.0,0.0,Bridge,10.0,4.0,0.0
+15453248,Javier TG,Helper,14.0,2.0,0.0,Peripheral learner,2.0,1.0,0.0
+18343943,LuckyLuke,Helper,14.0,11.0,0.0,Peripheral learner,1.0,1.0,0.0
+7289889,David Cian,Helper,13.0,6.0,2.0,Helper,3.0,1.0,0.0
+5468284,Galen,Helper,13.0,1.0,1.0,Peripheral learner,1.0,0.0,0.0
+1375047,GeoMatt22,Helper,12.0,2.0,0.0,Peripheral learner,1.0,1.0,0.0
+228380,farhanhubble,Helper,12.0,5.0,0.0,Active participant,1.0,1.0,2.0
+2308802,n1tk,Helper,12.0,6.0,0.0,Peripheral learner,0.0,0.0,1.0
+14122576,Leevo,Helper,12.0,6.0,1.0,Peripheral learner,0.0,1.0,4.0
+19911626,htl,Helper,11.0,8.0,0.0,Core expert,36.0,21.0,0.0
+2916137,Dan,Helper,11.0,6.0,0.0,Helper,4.0,3.0,0.0
+66802,Royi,Bridge,11.0,8.0,0.0,Helper,4.0,4.0,0.0
+12716329,yakhyo,Bridge,11.0,8.0,0.0,Active participant,3.0,2.0,1.0
+1890249,JimmyJames,Helper,10.0,2.0,0.0,Active participant,10.0,1.0,1.0
+7851302,Fnguyen,Bridge,10.0,6.0,2.0,Helper,10.0,7.0,1.0
+24885,Peter Mortensen,Helper,10.0,0.0,0.0,Helper,7.0,0.0,0.0
+6784526,wizzwizz4,Helper,10.0,1.0,0.0,Active participant,4.0,1.0,2.0
+6660949,Nathan Wycoff,Helper,10.0,1.0,0.0,Peripheral learner,1.0,0.0,0.0
+43006519,Mr. AI Cool,Helper,9.0,7.0,1.0,Core expert,93.0,55.0,5.0
+13194305,N. Kuhn,Helper,9.0,4.0,0.0,Bridge,24.0,9.0,0.0
+9564186,Lars,Helper,9.0,6.0,0.0,Helper,12.0,7.0,0.0
+13225395,rubengavidia0x,Helper,9.0,6.0,1.0,Helper,9.0,4.0,1.0
+21558741,JeeyCi,Helper,9.0,3.0,1.0,Helper,7.0,4.0,0.0
+187670,skan,Bridge,9.0,3.0,3.0,Helper,4.0,0.0,0.0
+19978448,Allohvk,Bridge,9.0,6.0,0.0,Helper,3.0,0.0,0.0
+11636706,Vivek Singhal,Helper,9.0,6.0,0.0,Active participant,1.0,1.0,0.0
+14041900,Filippo Portera,Active participant,9.0,1.0,3.0,Active participant,1.0,0.0,1.0
+19516434,cinch,Helper,8.0,4.0,0.0,Core expert,783.0,487.0,0.0
+14673664,Jeremiah,Bridge,8.0,4.0,0.0,Helper,11.0,5.0,1.0
+36612188,Stewie pixel,Helper,8.0,8.0,0.0,Helper,10.0,10.0,1.0
+9328817,jottbe,Helper,8.0,2.0,0.0,Helper,5.0,1.0,1.0
+9338787,Sanjar Adilov,Helper,8.0,4.0,0.0,Helper,4.0,1.0,0.0
+1507417,Georg M. Goerg,Helper,8.0,1.0,0.0,Active participant,2.0,1.0,0.0
+7195484,Sextus Empiricus,Helper,8.0,2.0,0.0,Peripheral learner,2.0,2.0,0.0
+231657,Dynamic Stardust,Helper,8.0,2.0,0.0,Peripheral learner,2.0,2.0,0.0
+6348050,Frank The Tank,Helper,8.0,4.0,0.0,Peripheral learner,1.0,1.0,0.0
+9899824,TwinPenguins,Active participant,8.0,4.0,3.0,Peripheral learner,1.0,0.0,0.0
+37136,Stack Exchange Broke The Law,Helper,7.0,1.0,0.0,Core expert,220.0,35.0,1.0
+29025908,Alexander Wan,Helper,7.0,4.0,0.0,Core expert,93.0,66.0,0.0
+23931790,Ciodar,Helper,7.0,3.0,1.0,Core expert,29.0,10.0,0.0
+2638908,NotThatGuy,Helper,7.0,2.0,0.0,Helper,16.0,2.0,0.0
+17160390,Raul Alvarez,Active participant,7.0,3.0,2.0,Bridge,13.0,11.0,2.0
+6158397,Floris den Hengst,Helper,7.0,5.0,0.0,Helper,3.0,2.0,0.0
+9904238,amjad khatabi,Helper,7.0,5.0,0.0,Active participant,1.0,1.0,1.0
+4268622,Chris,Bridge,7.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+3536340,shadowtalker,Helper,7.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+2507661,jon_simon,Helper,7.0,1.0,0.0,Peripheral learner,0.0,0.0,1.0
+7234232,user5520049,Bridge,7.0,0.0,5.0,Peripheral learner,0.0,0.0,2.0
+2520655,David Hoelzer,Helper,6.0,1.0,0.0,Core expert,150.0,35.0,2.0
+215520,Kostya,Helper,6.0,3.0,0.0,Core expert,122.0,70.0,2.0
+8385126,Arun Aniyan,Helper,6.0,4.0,0.0,Bridge,14.0,11.0,0.0
+13905219,matorbi,Helper,6.0,5.0,0.0,Bridge,10.0,7.0,0.0
+5378285,Karan Dhingra,Helper,6.0,3.0,0.0,Helper,4.0,3.0,0.0
+11480706,David,Helper,6.0,1.0,0.0,Helper,4.0,2.0,0.0
+481873,justhalf,Helper,6.0,0.0,0.0,Helper,4.0,1.0,0.0
+1445301,Joe King,Active participant,6.0,2.0,1.0,Active participant,1.0,1.0,0.0
+15462717,ashutosh singh,Helper,6.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+17443582,Academic,Helper,6.0,2.0,3.0,Peripheral learner,1.0,1.0,0.0
+15257671,Enk9456,Bridge,6.0,4.0,17.0,Peripheral learner,0.0,0.0,2.0
+4589458,Rexcirus,Helper,5.0,3.0,0.0,Core expert,68.0,39.0,6.0
+151321,Mateen Ulhaq,Active participant,5.0,2.0,0.0,Helper,8.0,3.0,0.0
+10257579,spb,Helper,5.0,5.0,3.0,Helper,7.0,4.0,0.0
+36969,G__,Helper,5.0,2.0,0.0,Helper,7.0,7.0,1.0
+69659,knb,Helper,5.0,3.0,0.0,Helper,7.0,3.0,2.0
+4623233,nammerkage,Helper,5.0,4.0,1.0,Bridge,6.0,5.0,4.0
+492960,jpa,Helper,5.0,1.0,0.0,Helper,4.0,3.0,0.0
+15073871,Scriddie,Helper,5.0,3.0,0.0,Bridge,3.0,2.0,0.0
+3217740,fuwiak,Helper,5.0,1.0,0.0,Active participant,2.0,2.0,1.0
+20337081,imaneeh,Helper,5.0,5.0,0.0,Active participant,1.0,1.0,0.0
+10297770,Mariya Takova,Helper,5.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+14617281,Sandeep Bhutani,Bridge,5.0,4.0,17.0,Peripheral learner,1.0,0.0,0.0
+21115241,S. M.,Bridge,5.0,2.0,9.0,Peripheral learner,0.0,0.0,2.0
+25378314,BsAxUbx5KoQDEpCAqSffwGy554PSah,Active participant,5.0,0.0,2.0,Peripheral learner,0.0,0.0,3.0
+19601194,Mandias,Helper,5.0,4.0,0.0,,0.0,0.0,0.0
+4652336,OmG,Helper,4.0,2.0,0.0,Core expert,118.0,78.0,3.0
+287509,deong,Helper,4.0,2.0,0.0,Core expert,25.0,17.0,0.0
+3700957,Stef,Helper,4.0,0.0,0.0,Helper,17.0,0.0,0.0
+2171124,JahKnows,Helper,4.0,4.0,0.0,Bridge,17.0,9.0,1.0
+3995817,chrishmorris,Helper,4.0,4.0,0.0,Helper,11.0,8.0,0.0
+2036405,Isbister,Helper,4.0,1.0,0.0,Helper,10.0,2.0,0.0
+17008308,x89,Bridge,4.0,0.0,5.0,Helper,8.0,0.0,0.0
+3392345,The Guy with The Hat,Helper,4.0,2.0,0.0,Helper,8.0,1.0,0.0
+14024945,Evator,Bridge,4.0,4.0,1.0,Helper,7.0,4.0,2.0
+3926947,Super Kai - Kazuya Ito,Helper,4.0,4.0,0.0,Helper,6.0,6.0,0.0
+3068514,Chrispresso,Helper,4.0,3.0,0.0,Helper,5.0,3.0,0.0
+3571421,David Waterworth,Active participant,4.0,1.0,2.0,Helper,3.0,0.0,0.0
+8354153,mausamsion,Helper,4.0,1.0,0.0,Helper,3.0,2.0,0.0
+6791317,Luke Sawczak,Helper,4.0,1.0,0.0,Peripheral learner,2.0,0.0,0.0
+16593975,ARandomName,Helper,4.0,2.0,0.0,Peripheral learner,1.0,1.0,0.0
+27032795,Banarasi Vaibhav,Helper,4.0,4.0,0.0,Peripheral learner,1.0,1.0,0.0
+8427035,prijatelj,Helper,4.0,2.0,0.0,Peripheral learner,1.0,1.0,0.0
+145718,polm23,Helper,4.0,4.0,0.0,Peripheral learner,1.0,1.0,0.0
+23800781,canP,Bridge,4.0,0.0,16.0,Peripheral learner,0.0,0.0,1.0
+18343915,Rezuana Haque,Active participant,4.0,3.0,6.0,Peripheral learner,0.0,0.0,1.0
+12941972,Encipher,Bridge,4.0,0.0,23.0,Peripheral learner,0.0,0.0,2.0
+141826,Dr. Snoopy,Helper,3.0,1.0,0.0,Core expert,112.0,33.0,0.0
+18387461,spiridon_the_sun_rotator,Active participant,3.0,1.0,9.0,Core expert,100.0,72.0,21.0
+4485506,Rob,Helper,3.0,0.0,0.0,Core expert,55.0,15.0,0.0
+2174677,profPlum,Helper,3.0,0.0,0.0,Core expert,33.0,14.0,23.0
+5998658,Avatrin,Helper,3.0,1.0,1.0,Core expert,28.0,12.0,0.0
+2523286,Sycorax,Helper,3.0,0.0,0.0,Bridge,24.0,5.0,0.0
+14672915,Hadar,Bridge,3.0,3.0,5.0,Core expert,22.0,15.0,7.0
+15332023,Tinu,Helper,3.0,1.0,0.0,Bridge,19.0,19.0,3.0
+14877125,Cameron Chandler,Helper,3.0,0.0,0.0,Helper,12.0,8.0,0.0
+3795627,Peter - Reinstate Monica,Helper,3.0,0.0,0.0,Helper,10.0,1.0,1.0
+236479,Yan King Yin,Helper,3.0,1.0,0.0,Active participant,7.0,2.0,3.0
+6374576,jcm69,Helper,3.0,0.0,0.0,Helper,7.0,3.0,0.0
+30484666,c p,Helper,3.0,2.0,0.0,Helper,6.0,6.0,0.0
+1098746,twink_ml,Helper,3.0,3.0,0.0,Helper,5.0,3.0,0.0
+10984606,redhqs,Helper,3.0,1.0,0.0,Helper,5.0,4.0,0.0
+3072614,Christoph Rackwitz,Helper,3.0,0.0,0.0,Helper,4.0,0.0,0.0
+7597382,reza karbasi,Helper,3.0,2.0,0.0,Helper,3.0,2.0,0.0
+1387645,kutschkem,Helper,3.0,1.0,1.0,Bridge,3.0,1.0,1.0
+58121,42-,Helper,3.0,0.0,0.0,Helper,3.0,1.0,0.0
+23287733,Adrian Evensen,Helper,3.0,3.0,0.0,Active participant,2.0,2.0,0.0
+2270264,bardulia,Helper,3.0,0.0,0.0,Peripheral learner,2.0,0.0,0.0
+30050363,Harmony,Helper,3.0,0.0,0.0,Peripheral learner,2.0,1.0,0.0
+1077515,Igor F.,Helper,3.0,2.0,0.0,Active participant,2.0,2.0,1.0
+12934056,Mew,Active participant,3.0,1.0,3.0,Active participant,2.0,1.0,2.0
+4414299,keiv.fly,Helper,3.0,2.0,0.0,Active participant,2.0,1.0,0.0
+18030522,Ghostpunk,Helper,3.0,3.0,0.0,Peripheral learner,1.0,1.0,0.0
+8336652,J Houseman,Active participant,3.0,2.0,1.0,Peripheral learner,1.0,1.0,0.0
+17260375,Esther,Helper,3.0,0.0,0.0,Active participant,1.0,0.0,0.0
+6615368,Georgii Firsov,Helper,3.0,1.0,1.0,Peripheral learner,1.0,0.0,0.0
+13027903,Jonathan Roy,Helper,3.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+13713708,Micheal Bee,Helper,3.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+16477228,chichi,Helper,3.0,2.0,0.0,Peripheral learner,1.0,0.0,0.0
+5213018,abbassix,Active participant,3.0,1.0,1.0,Active participant,1.0,1.0,1.0
+10857207,saper0,Helper,3.0,3.0,0.0,Peripheral learner,1.0,0.0,0.0
+1419422,Fred Guth,Helper,3.0,2.0,0.0,Peripheral learner,1.0,1.0,1.0
+19094976,Phillip Maire,Helper,3.0,3.0,1.0,Peripheral learner,1.0,1.0,0.0
+6909281,stevec,Helper,3.0,1.0,0.0,Active participant,1.0,0.0,1.0
+4924159,Ismael EL ATIFI,Helper,3.0,2.0,0.0,Peripheral learner,1.0,1.0,0.0
+6423139,Bashar Haddad,Helper,3.0,3.0,0.0,Active participant,1.0,0.0,0.0
+5992755,hh32,Helper,3.0,3.0,0.0,Active participant,1.0,1.0,1.0
+15160314,Rohit Singh,Helper,3.0,2.0,0.0,Peripheral learner,0.0,0.0,2.0
+12298896,Mykola Zotko,Bridge,3.0,2.0,5.0,Peripheral learner,0.0,0.0,1.0
+3085517,1110101001,Helper,3.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+7113828,dosvarog,Helper,3.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+1375431,Jaswin,Helper,3.0,2.0,0.0,Peripheral learner,0.0,0.0,1.0
+120009,Mahdi Amrollahi,Bridge,3.0,1.0,18.0,Peripheral learner,0.0,0.0,6.0
+7638213,foreverska,Peripheral learner,2.0,1.0,0.0,Core expert,149.0,89.0,6.0
+7349207,Cloud Cho,Peripheral learner,2.0,0.0,0.0,Core expert,88.0,10.0,0.0
+124226,SmallChess,Active participant,2.0,1.0,2.0,Core expert,60.0,38.0,0.0
+6743833,Ray,Peripheral learner,2.0,0.0,0.0,Core expert,46.0,11.0,0.0
+13654132,calveeen,Active participant,2.0,1.0,0.0,Core expert,24.0,16.0,45.0
+8519,MSalters,Active participant,2.0,0.0,0.0,Bridge,22.0,6.0,0.0
+3710720,Lutz Lehmann,Peripheral learner,2.0,1.0,0.0,Bridge,21.0,9.0,0.0
+4625794,saiRegrefree,Peripheral learner,2.0,1.0,0.0,Helper,13.0,7.0,0.0
+4082491,user3352632,Active participant,2.0,2.0,3.0,Bridge,12.0,4.0,3.0
+6608852,JobHunter69,Active participant,2.0,0.0,1.0,Bridge,11.0,5.0,8.0
+4353517,Leon Zhang,Active participant,2.0,3.0,5.0,Bridge,8.0,14.0,22.0
+18734397,João Schapke,Peripheral learner,2.0,2.0,0.0,Helper,7.0,4.0,0.0
+1507082,HappyFace,Peripheral learner,2.0,0.0,0.0,Helper,7.0,0.0,1.0
+64038,Changed My Name Again,Active participant,2.0,2.0,3.0,Helper,7.0,5.0,1.0
+9608835,PeterBe,Active participant,2.0,0.0,15.0,Active participant,5.0,0.0,16.0
+4756998,Fijoy Vadakkumpadan,Active participant,2.0,2.0,3.0,Active participant,5.0,3.0,9.0
+4410342,Kari,Peripheral learner,2.0,1.0,0.0,Active participant,4.0,2.0,1.0
+11819190,neel g,Active participant,2.0,0.0,5.0,Active participant,3.0,2.0,4.0
+387513,leftaroundabout,Active participant,2.0,1.0,0.0,Active participant,3.0,0.0,0.0
+2859359,Mentalist,Peripheral learner,2.0,0.0,0.0,Active participant,2.0,0.0,1.0
+11357901,QuestionablePresence,Peripheral learner,2.0,0.0,0.0,Peripheral learner,2.0,0.0,0.0
+9293314,jsotola,Peripheral learner,2.0,0.0,0.0,Peripheral learner,2.0,0.0,0.0
+18288925,jros,Active participant,2.0,2.0,2.0,Active participant,2.0,2.0,0.0
+11739301,Essam,Peripheral learner,2.0,1.0,0.0,Active participant,2.0,0.0,1.0
+5000152,Imago,Peripheral learner,2.0,1.0,0.0,Active participant,2.0,1.0,1.0
+1001725,Infinity77,Peripheral learner,2.0,2.0,0.0,Active participant,2.0,1.0,0.0
+3932738,cgnorthcutt,Peripheral learner,2.0,2.0,0.0,Peripheral learner,2.0,2.0,0.0
+11616736,Acccumulation,Peripheral learner,2.0,1.0,0.0,Peripheral learner,2.0,1.0,0.0
+38681066,Raynard Bond,Active participant,2.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+22240632,y-prudent,Peripheral learner,2.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+5277857,DueSouth,Active participant,2.0,2.0,1.0,Peripheral learner,1.0,1.0,0.0
+44205272,LowpolyOllie,Peripheral learner,2.0,1.0,0.0,Active participant,1.0,1.0,0.0
+19404913,Chiho,Peripheral learner,2.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+6540027,Cyruno,Active participant,2.0,2.0,0.0,Peripheral learner,1.0,1.0,0.0
+6983214,nanoman,Peripheral learner,2.0,0.0,0.0,Peripheral learner,1.0,1.0,0.0
+361030,Navin,Peripheral learner,2.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+18750491,YadneshD,Peripheral learner,2.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+8932929,cronoik,Peripheral learner,2.0,2.0,0.0,Peripheral learner,1.0,1.0,0.0
+1313464,jpmuc,Peripheral learner,2.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+3600205,Vahid Shams,Peripheral learner,2.0,1.0,1.0,Peripheral learner,1.0,0.0,0.0
+49433,John Scott Stensland,Peripheral learner,2.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+26298976,Vladimir Yankovskiy,Peripheral learner,2.0,2.0,0.0,Active participant,1.0,1.0,0.0
+14505802,johannesack,Peripheral learner,2.0,1.0,0.0,Peripheral learner,1.0,0.0,0.0
+2022977,hoang tran,Active participant,2.0,0.0,0.0,Peripheral learner,1.0,1.0,0.0
+5512753,Adam Bittlingmayer,Peripheral learner,2.0,1.0,0.0,Peripheral learner,1.0,0.0,0.0
+2496282,Christopher Klaus,Peripheral learner,2.0,2.0,0.0,Active participant,1.0,1.0,0.0
+10330624,Shayan Shafiq,Peripheral learner,2.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+23888641,schmixi,Active participant,2.0,1.0,2.0,Peripheral learner,0.0,0.0,1.0
+187321,arivero,Peripheral learner,2.0,2.0,0.0,Peripheral learner,0.0,1.0,2.0
+3227363,hirschme,Active participant,2.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+27844516,BigMistake,Active participant,2.0,2.0,2.0,Peripheral learner,0.0,1.0,2.0
+20776962,Muhammad Waqar Anwar,Active participant,2.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+12822365,LearningAlgorithm,Active participant,2.0,0.0,14.0,Peripheral learner,0.0,0.0,3.0
+20847162,Mehdi Charife,Peripheral learner,2.0,1.0,0.0,Peripheral learner,0.0,0.0,1.0
+19326312,Leo,Active participant,2.0,2.0,7.0,Peripheral learner,0.0,0.0,2.0
+5764261,wordsforthewise,Active participant,2.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+10534284,Ahmed Mohamed,Active participant,2.0,0.0,19.0,Peripheral learner,0.0,0.0,3.0
+18043784,David,Peripheral learner,1.0,1.0,0.0,Core expert,422.0,122.0,10.0
+14789024,Edoardo Guerriero,Peripheral learner,1.0,1.0,0.0,Core expert,298.0,171.0,1.0
+372648,Brian O'Donnell,Peripheral learner,1.0,1.0,0.0,Core expert,149.0,77.0,0.0
+4611416,Andre Goulart,Peripheral learner,1.0,1.0,0.0,Core expert,54.0,30.0,0.0
+16791927,hal9000,Peripheral learner,1.0,1.0,0.0,Core expert,54.0,16.0,1.0
+22240288,James,Peripheral learner,1.0,1.0,0.0,Bridge,38.0,9.0,11.0
+4153260,Volker Siegel,Peripheral learner,1.0,0.0,0.0,Bridge,32.0,9.0,6.0
+5412613,KarelPeeters,Active participant,1.0,0.0,0.0,Core expert,31.0,15.0,0.0
+201479,yters,Peripheral learner,1.0,0.0,0.0,Bridge,30.0,7.0,8.0
+22370,kenorb,Peripheral learner,1.0,0.0,0.0,Core expert,26.0,31.0,108.0
+5207667,Nicola Bernini,Peripheral learner,1.0,1.0,0.0,Core expert,26.0,19.0,1.0
+9236381,PeaBrane,Peripheral learner,1.0,0.0,0.0,Core expert,25.0,20.0,0.0
+152198,Peteris,Peripheral learner,1.0,0.0,0.0,Core expert,24.0,20.0,0.0
+8949866,Anshuman Kumar,Peripheral learner,1.0,0.0,0.0,Helper,22.0,1.0,0.0
+269108,penkovsky,Peripheral learner,1.0,1.0,0.0,Helper,19.0,12.0,1.0
+11161550,Borhan Kazimipour,Peripheral learner,1.0,1.0,0.0,Bridge,19.0,12.0,0.0
+9440794,programjames,Peripheral learner,1.0,1.0,0.0,Helper,18.0,10.0,1.0
+10143715,postnubilaphoebus,Active participant,1.0,0.0,9.0,Bridge,17.0,3.0,17.0
+6795719,root,Peripheral learner,1.0,1.0,0.0,Helper,17.0,1.0,0.0
+135130,HelloGoodbye,Active participant,1.0,0.0,1.0,Bridge,16.0,3.0,3.0
+5780751,Molnár István,Peripheral learner,1.0,0.0,0.0,Helper,14.0,7.0,2.0
+24253719,Skobo Do,Peripheral learner,1.0,1.0,0.0,Helper,13.0,7.0,1.0
+9083550,Robbie Goodwin,Active participant,1.0,0.0,0.0,Helper,13.0,2.0,0.0
+503387,Anderson Green,Peripheral learner,1.0,0.0,0.0,Bridge,13.0,2.0,0.0
+1768832,Oren,Peripheral learner,1.0,0.0,0.0,Bridge,9.0,4.0,0.0
+8249834,pcko1,Peripheral learner,1.0,0.0,0.0,Helper,9.0,8.0,0.0
+23535756,ImotVoksim,Peripheral learner,1.0,1.0,0.0,Helper,8.0,6.0,0.0
+1532620,Geremia,Peripheral learner,1.0,1.0,0.0,Bridge,8.0,7.0,24.0
+1050303,BigBrownBear00,Active participant,1.0,1.0,3.0,Active participant,7.0,1.0,1.0
+74321,rkellerm,Peripheral learner,1.0,1.0,0.0,Helper,7.0,6.0,2.0
+1109288,Nathan G,Active participant,1.0,0.0,0.0,Active participant,6.0,0.0,3.0
+28505370,Peblo,Peripheral learner,1.0,1.0,0.0,Helper,5.0,3.0,0.0
+1812724,Tim Kuipers,Peripheral learner,1.0,0.0,0.0,Helper,5.0,1.0,0.0
+18015205,Leo,Peripheral learner,1.0,0.0,0.0,Active participant,5.0,4.0,1.0
+5497141,BlueTurtle,Peripheral learner,1.0,1.0,0.0,Active participant,5.0,2.0,2.0
+999385,Mast,Peripheral learner,1.0,0.0,0.0,Helper,5.0,0.0,0.0
+215207,kjetil b halvorsen,Peripheral learner,1.0,1.0,0.0,Bridge,5.0,1.0,0.0
+26475275,James Ashford,Peripheral learner,1.0,1.0,0.0,Bridge,5.0,4.0,0.0
+12899364,Kanan Suleyman,Peripheral learner,1.0,0.0,0.0,Helper,4.0,4.0,2.0
+483977,Brad Dwyer,Peripheral learner,1.0,1.0,0.0,Helper,4.0,2.0,0.0
+8006731,hrokr,Active participant,1.0,1.0,1.0,Helper,4.0,3.0,0.0
+5870220,Andrea Ianni,Peripheral learner,1.0,0.0,0.0,Helper,4.0,2.0,0.0
+223744,xboard,Peripheral learner,1.0,1.0,0.0,Helper,4.0,4.0,0.0
+421488,sudar,Peripheral learner,1.0,1.0,0.0,Helper,3.0,3.0,0.0
+269996,user559678,Peripheral learner,1.0,1.0,0.0,Active participant,3.0,3.0,3.0
+212375,Ant,Peripheral learner,1.0,0.0,0.0,Active participant,3.0,2.0,1.0
+414546,vsz,Peripheral learner,1.0,0.0,0.0,Helper,3.0,1.0,0.0
+15228919,virolino,Peripheral learner,1.0,0.0,0.0,Helper,3.0,1.0,0.0
+1600131,Idran,Active participant,1.0,0.0,0.0,Helper,3.0,0.0,0.0
+5182392,Amazon Dies In Darkness,Peripheral learner,1.0,0.0,0.0,Helper,3.0,1.0,0.0
+19569295,user0193,Active participant,1.0,0.0,4.0,Active participant,3.0,0.0,3.0
+51201,hobbs,Peripheral learner,1.0,1.0,0.0,Helper,3.0,2.0,0.0
+8344713,Maverick Meerkat,Peripheral learner,1.0,0.0,0.0,Active participant,3.0,3.0,5.0
+4279202,Make42,Active participant,1.0,0.0,1.0,Active participant,3.0,1.0,2.0
+9863298,HARSH NILESH PATHAK,Peripheral learner,1.0,0.0,0.0,Peripheral learner,2.0,1.0,0.0
+11461970,Shaida Muhammad,Peripheral learner,1.0,1.0,0.0,Peripheral learner,2.0,1.0,0.0
+173152,jjmontes,Peripheral learner,1.0,0.0,0.0,Peripheral learner,2.0,0.0,0.0
+14541153,Ford F150 Gaming,Peripheral learner,1.0,0.0,0.0,Active participant,2.0,0.0,1.0
+5248597,Stian,Peripheral learner,1.0,0.0,0.0,Active participant,2.0,0.0,0.0
+17747,Ainsley H.,Active participant,1.0,0.0,0.0,Peripheral learner,2.0,0.0,0.0
+132788,psmears,Peripheral learner,1.0,0.0,0.0,Peripheral learner,2.0,0.0,0.0
+8566752,Eric Duminil,Peripheral learner,1.0,0.0,0.0,Peripheral learner,2.0,0.0,0.0
+1373199,Glenn Willen,Peripheral learner,1.0,1.0,0.0,Peripheral learner,2.0,0.0,0.0
+935589,gerrit,Peripheral learner,1.0,0.0,0.0,Active participant,2.0,0.0,0.0
+14503071,John Omielan,Peripheral learner,1.0,0.0,0.0,Peripheral learner,2.0,2.0,0.0
+331923,orome,Active participant,1.0,0.0,0.0,Peripheral learner,2.0,1.0,0.0
+8407912,carlo,Peripheral learner,1.0,1.0,0.0,Peripheral learner,2.0,0.0,0.0
+13793182,Echo9k,Peripheral learner,1.0,1.0,0.0,Peripheral learner,2.0,2.0,0.0
+20662778,clementzach,Peripheral learner,1.0,1.0,0.0,Peripheral learner,2.0,0.0,0.0
+3813614,qwr,Peripheral learner,1.0,1.0,0.0,Peripheral learner,2.0,1.0,0.0
+3920025,AlexPnt,Peripheral learner,1.0,1.0,0.0,Peripheral learner,2.0,2.0,0.0
+302279,alvas,Active participant,1.0,0.0,5.0,Peripheral learner,2.0,2.0,0.0
+3591601,Sandeep S. Sandhu,Peripheral learner,1.0,1.0,0.0,Peripheral learner,2.0,2.0,0.0
+46664288,jacksonwelsy,Peripheral learner,1.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+11119857,Noa Nabeshima,Peripheral learner,1.0,1.0,0.0,Peripheral learner,1.0,0.0,0.0
+15249593,Iván Mindlin,Active participant,1.0,1.0,1.0,Peripheral learner,1.0,1.0,0.0
+6683865,Loony_D,Peripheral learner,1.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+19562512,Decaying Tails,Peripheral learner,1.0,1.0,1.0,Active participant,1.0,1.0,2.0
+8241316,ditomax,Peripheral learner,1.0,1.0,0.0,Active participant,1.0,1.0,0.0
+25835097,Martina K,Peripheral learner,1.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+935194,Frobot,Peripheral learner,1.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+3392888,Azhar Khan,Peripheral learner,1.0,1.0,0.0,Peripheral learner,1.0,0.0,0.0
+195854,Dave Newton,Peripheral learner,1.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+232345,Federico Poloni,Peripheral learner,1.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+5392262,General Grievance,Peripheral learner,1.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+52206,dhruvbird,Peripheral learner,1.0,0.0,0.0,Peripheral learner,1.0,1.0,0.0
+4541861,RAS,Peripheral learner,1.0,0.0,0.0,Peripheral learner,1.0,1.0,0.0
+1496285,user1402154,Active participant,1.0,1.0,1.0,Active participant,1.0,0.0,1.0
+7715240,Cristóbal Alcázar,Peripheral learner,1.0,0.0,0.0,Active participant,1.0,0.0,1.0
+3359942,Andrew T.,Peripheral learner,1.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+78868,Peter Cordes,Active participant,1.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+42463,Michael Mior,Peripheral learner,1.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+15652327,peter,Active participant,1.0,0.0,4.0,Active participant,1.0,0.0,2.0
+2480840,usct01,Peripheral learner,1.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+42023,russian_spy,Peripheral learner,1.0,1.0,0.0,Peripheral learner,1.0,0.0,0.0
+1131301,AJ AJ,Peripheral learner,1.0,3.0,2.0,Peripheral learner,1.0,1.0,0.0
+14637804,Maciek Woźniak,Peripheral learner,1.0,1.0,0.0,Active participant,1.0,1.0,2.0
+517898,Graipher,Peripheral learner,1.0,1.0,0.0,Peripheral learner,1.0,0.0,0.0
+17647832,Leland Hepworth,Peripheral learner,1.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+11265617,Zwerchhau,Active participant,1.0,1.0,3.0,Peripheral learner,1.0,0.0,0.0
+97751,Corbin,Peripheral learner,1.0,1.0,0.0,Active participant,1.0,0.0,1.0
+7428503,havakok,Peripheral learner,1.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+2244485,Leo,Peripheral learner,1.0,1.0,0.0,Active participant,1.0,1.0,0.0
+266065,rumtscho,Peripheral learner,1.0,1.0,0.0,Active participant,1.0,1.0,0.0
+7728292,Nikos H.,Peripheral learner,1.0,1.0,0.0,Peripheral learner,1.0,1.0,0.0
+6100926,David,Peripheral learner,1.0,1.0,0.0,Active participant,1.0,0.0,0.0
+176422,Justas,Peripheral learner,1.0,0.0,0.0,Peripheral learner,1.0,1.0,0.0
+7424649,Innat,Peripheral learner,1.0,1.0,0.0,Peripheral learner,1.0,0.0,0.0
+9353984,Eric Wiener,Active participant,1.0,1.0,0.0,Peripheral learner,1.0,0.0,0.0
+9829603,keramat,Peripheral learner,1.0,1.0,0.0,Peripheral learner,1.0,0.0,0.0
+6770666,Arpit Sisodia,Active participant,1.0,0.0,1.0,Peripheral learner,1.0,1.0,0.0
+15202713,haneulkim,Active participant,1.0,0.0,21.0,Active participant,1.0,0.0,1.0
+9258481,Sid,Active participant,1.0,1.0,3.0,Active participant,1.0,0.0,0.0
+6845823,HEITZ,Active participant,1.0,0.0,1.0,Peripheral learner,1.0,1.0,0.0
+20580,Florin Andrei,Peripheral learner,1.0,0.0,0.0,Active participant,1.0,0.0,1.0
+3071771,Ricardo Cruz,Peripheral learner,1.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+10843886,ahxmeds,Peripheral learner,1.0,0.0,0.0,Peripheral learner,0.0,0.0,2.0
+26264597,cmauck10,Active participant,1.0,1.0,1.0,Peripheral learner,0.0,0.0,1.0
+11545044,program1232123,Peripheral learner,1.0,1.0,0.0,Peripheral learner,0.0,0.0,1.0
+33424489,Awwab Azam,Peripheral learner,1.0,1.0,0.0,Peripheral learner,0.0,0.0,1.0
+21661870,Tiffany L,Peripheral learner,1.0,1.0,0.0,Peripheral learner,0.0,0.0,1.0
+19465879,Artin Kim,Peripheral learner,1.0,1.0,0.0,Peripheral learner,0.0,0.0,1.0
+29032667,wodank,Peripheral learner,1.0,1.0,0.0,Peripheral learner,0.0,0.0,1.0
+13929901,Kunj Mehta,Peripheral learner,1.0,0.0,0.0,Peripheral learner,0.0,0.0,4.0
+4627362,treeoid,Peripheral learner,1.0,1.0,0.0,Peripheral learner,0.0,1.0,2.0
+22356794,HarshDarji,Peripheral learner,1.0,0.0,0.0,Peripheral learner,0.0,0.0,3.0
+6689339,Prabhjot Singh Rai,Active participant,1.0,1.0,1.0,Peripheral learner,0.0,0.0,1.0
+3745843,xLeitix,Peripheral learner,1.0,0.0,0.0,,0.0,0.0,0.0
+162021,Marco,Peripheral learner,1.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+20971984,Deffo,Peripheral learner,1.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+6898784,Krusty the Clown,Peripheral learner,1.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+18046011,Dylan Dijk,Active participant,1.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+17468176,User,Peripheral learner,1.0,0.0,0.0,Peripheral learner,0.0,0.0,5.0
+1355012,abhinavkulkarni,Peripheral learner,1.0,1.0,0.0,Peripheral learner,0.0,0.0,1.0
+9806242,Lohith Arcot,Active participant,1.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+5434669,ZKS,Active participant,1.0,1.0,1.0,Peripheral learner,0.0,0.0,1.0
+2251768,SiXUlm,Peripheral learner,1.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+3276816,John Smith,Peripheral learner,1.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+189878,Alex Punnen,Peripheral learner,1.0,1.0,0.0,Peripheral learner,0.0,1.0,1.0
+12805837,dawen,Peripheral learner,1.0,1.0,0.0,Peripheral learner,0.0,0.0,1.0
+14216981,sogu,Active participant,1.0,1.0,4.0,Peripheral learner,0.0,0.0,1.0
+14705004,Sadcow,Peripheral learner,1.0,2.0,1.0,Peripheral learner,0.0,0.0,1.0
+1021083,0x90,Active participant,1.0,0.0,1.0,Peripheral learner,0.0,0.0,4.0
+22951393,tail,Active participant,1.0,0.0,4.0,Peripheral learner,0.0,0.0,6.0
+9955518,bbasaran,Active participant,1.0,1.0,3.0,Peripheral learner,0.0,0.0,3.0
+3948330,SantoshGupta7,Peripheral learner,1.0,0.0,0.0,Peripheral learner,0.0,0.0,4.0
+14263813,imtiaz ul Hassan,Active participant,1.0,0.0,4.0,Peripheral learner,0.0,0.0,2.0
+12528967,Tommaso Bendinelli,Peripheral learner,1.0,1.0,0.0,Peripheral learner,0.0,0.0,1.0
+16230354,Deshwal,Active participant,1.0,0.0,11.0,Peripheral learner,0.0,0.0,9.0
+7752919,quant,Active participant,1.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+1695359,pseudomonas,Peripheral learner,1.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+3197090,hanugm,Peripheral learner,0.0,0.0,2.0,Bridge,39.0,7.0,268.0
+16270019,Muhammad Ikhwan Perwira,Peripheral learner,0.0,2.0,5.0,Core expert,21.0,10.0,44.0
+8548844,Michał Jaworski,Peripheral learner,0.0,1.0,1.0,Helper,15.0,10.0,0.0
+7553133,Cohensius,Peripheral learner,0.0,0.0,6.0,Active participant,14.0,8.0,8.0
+28714432,Zollikofen4,Peripheral learner,0.0,0.0,1.0,Helper,12.0,0.0,0.0
+150314,Hans-Peter Stricker,Peripheral learner,0.0,0.0,3.0,Bridge,10.0,7.0,23.0
+13918664,Hermes Morales,Peripheral learner,0.0,0.0,1.0,Active participant,10.0,4.0,6.0
+11709250,HenDoNR,Peripheral learner,0.0,0.0,1.0,Helper,9.0,4.0,5.0
+20818676,user7834,Peripheral learner,0.0,0.0,2.0,Helper,9.0,5.0,1.0
+17869219,Avv,Peripheral learner,0.0,0.0,10.0,Helper,9.0,0.0,0.0
+20834162,Damir Tenishev,Peripheral learner,0.0,1.0,1.0,Helper,8.0,5.0,3.0
+431507,Jack M,Peripheral learner,0.0,0.0,1.0,Active participant,8.0,3.0,6.0
+29950924,Root Groves,,0.0,0.0,0.0,Bridge,7.0,1.0,10.0
+3036674,Nicholas Pipitone,,0.0,0.0,0.0,Helper,7.0,1.0,0.0
+13350318,Sam,Peripheral learner,0.0,0.0,1.0,Active participant,7.0,0.0,6.0
+38620,Julian H,Peripheral learner,0.0,0.0,1.0,Helper,7.0,4.0,0.0
+18678324,Vladimir Belik,Peripheral learner,0.0,0.0,1.0,Active participant,7.0,2.0,13.0
+361432,tmaric,Peripheral learner,0.0,0.0,2.0,Active participant,7.0,2.0,11.0
+6092666,Revolucion for Monica,Peripheral learner,0.0,0.0,6.0,Active participant,7.0,5.0,5.0
+22804192,Langtec,,0.0,0.0,0.0,Helper,6.0,5.0,0.0
+3445698,Him,,0.0,0.0,0.0,Active participant,6.0,1.0,2.0
+974718,Eka,Peripheral learner,0.0,0.0,2.0,Bridge,6.0,1.0,18.0
+1988549,peterh,Peripheral learner,0.0,0.0,1.0,Active participant,5.0,3.0,3.0
+2512060,Luke,Peripheral learner,0.0,0.0,1.0,Helper,5.0,3.0,0.0
+11954952,Kais Hasan,Peripheral learner,0.0,0.0,1.0,Active participant,5.0,5.0,10.0
+7442399,Ketil Malde,Peripheral learner,0.0,0.0,1.0,Helper,5.0,4.0,1.0
+13705874,thesofakillers,Peripheral learner,0.0,0.0,1.0,Active participant,5.0,6.0,7.0
+35005647,Nikolai Vorobiev,Peripheral learner,0.0,0.0,2.0,Active participant,5.0,0.0,11.0
+2743330,Mastiff,Peripheral learner,0.0,0.0,1.0,Active participant,4.0,0.0,3.0
+24980580,userrandrand,Peripheral learner,0.0,0.0,1.0,Active participant,4.0,0.0,1.0
+1422915,Joshua Terrill,Peripheral learner,0.0,0.0,1.0,Helper,4.0,3.0,1.0
+999566,bonl,Peripheral learner,0.0,0.0,1.0,Helper,4.0,0.0,1.0
+2756875,Ritwik,,0.0,0.0,0.0,Active participant,4.0,1.0,1.0
+26368290,piero,Peripheral learner,0.0,0.0,1.0,Active participant,3.0,0.0,4.0
+1994630,kosmos,Peripheral learner,0.0,0.0,1.0,Active participant,3.0,1.0,1.0
+16701969,Schach21,Peripheral learner,0.0,0.0,1.0,Active participant,3.0,1.0,3.0
+4096670,ubadub,Peripheral learner,0.0,0.0,1.0,Helper,3.0,1.0,0.0
+20940249,StandardIO,,0.0,0.0,0.0,Helper,3.0,3.0,0.0
+30352,Joseph Turian,,0.0,0.0,0.0,Helper,3.0,2.0,0.0
+472347,bers,,0.0,0.0,0.0,Helper,3.0,0.0,1.0
+3768988,SJa,Peripheral learner,0.0,0.0,3.0,Active participant,3.0,3.0,14.0
+10026431,Alan Buxton,Peripheral learner,0.0,0.0,1.0,Helper,3.0,2.0,1.0
+10015780,Farhood ET,Peripheral learner,0.0,1.0,3.0,Helper,3.0,1.0,1.0
+17074769,Daniel Wiczew,Peripheral learner,0.0,0.0,1.0,Active participant,3.0,0.0,10.0
+978946,comodoro,Peripheral learner,0.0,0.0,1.0,Helper,3.0,0.0,0.0
+6329754,Tran Khanh,Peripheral learner,0.0,0.0,4.0,Active participant,3.0,3.0,4.0
+497450,gatorback,Peripheral learner,0.0,0.0,1.0,Active participant,3.0,3.0,4.0
+6789440,AnoE,Peripheral learner,0.0,0.0,1.0,Helper,3.0,2.0,0.0
+5615269,Borun Chowdhury,Peripheral learner,0.0,0.0,1.0,Helper,3.0,2.0,4.0
+1246986,Roel Van de Paar,Peripheral learner,0.0,0.0,1.0,Helper,3.0,1.0,0.0
+7975314,Mariah,Peripheral learner,0.0,0.0,1.0,Helper,3.0,2.0,0.0
+9914032,Peyman,Peripheral learner,0.0,1.0,3.0,Bridge,3.0,2.0,9.0
+23043583,lev1248,Peripheral learner,0.0,0.0,1.0,Peripheral learner,2.0,2.0,1.0
+21081364,Mohammed Abed,,0.0,0.0,0.0,Peripheral learner,2.0,2.0,0.0
+8583919,Aamod Thakur,Peripheral learner,0.0,0.0,1.0,Active participant,2.0,2.0,2.0
+10168738,Rambo_john,Peripheral learner,0.0,0.0,3.0,Active participant,2.0,3.0,3.0
+15339894,Angelo,Peripheral learner,0.0,0.0,1.0,Active participant,2.0,1.0,6.0
+14857177,Sadaf Shafi,Peripheral learner,0.0,0.0,1.0,Active participant,2.0,2.0,5.0
+2192332,johnny 5,Peripheral learner,0.0,0.0,1.0,Active participant,2.0,0.0,2.0
+27538928,Formal_this,Peripheral learner,0.0,0.0,2.0,Active participant,2.0,2.0,3.0
+1301874,dexterdev,Peripheral learner,0.0,0.0,1.0,Active participant,2.0,1.0,0.0
+16194052,Farhang Amaji,,0.0,0.0,0.0,Active participant,2.0,1.0,1.0
+3129405,Quora Feans,Peripheral learner,0.0,0.0,1.0,Peripheral learner,2.0,0.0,0.0
+16897251,sai_varshittha,,0.0,0.0,0.0,Active participant,2.0,2.0,1.0
+3581211,Just_a_fool,,0.0,0.0,0.0,Peripheral learner,2.0,0.0,0.0
+11808882,user529295,Peripheral learner,0.0,0.0,1.0,Active participant,2.0,1.0,12.0
+4389301,Minuano,Peripheral learner,0.0,0.0,1.0,Peripheral learner,2.0,0.0,0.0
+140870,Boppity Bop,Peripheral learner,0.0,0.0,1.0,Active participant,2.0,0.0,2.0
+9546969,wrek,Peripheral learner,0.0,0.0,2.0,Active participant,2.0,0.0,3.0
+30652967,Julius Hamilton,Peripheral learner,0.0,0.0,3.0,Active participant,2.0,0.0,8.0
+300083,inf3rno,Peripheral learner,0.0,0.0,1.0,Active participant,2.0,0.0,1.0
+15117650,Slim Shady,Peripheral learner,0.0,0.0,2.0,Active participant,2.0,0.0,1.0
+1162208,kiriloff,Peripheral learner,0.0,0.0,2.0,Active participant,2.0,0.0,1.0
+20132476,Rocky the Owl,Peripheral learner,0.0,0.0,2.0,Active participant,2.0,0.0,7.0
+15314834,Joachim Rives,Peripheral learner,0.0,1.0,4.0,Active participant,2.0,0.0,0.0
+5905531,Deb,Peripheral learner,0.0,0.0,1.0,Peripheral learner,2.0,2.0,0.0
+2351204,SapereAude,Peripheral learner,0.0,1.0,1.0,Peripheral learner,2.0,0.0,0.0
+77933,cjm2671,Peripheral learner,0.0,0.0,2.0,Active participant,2.0,1.0,1.0
+5170471,PyRsquared,Peripheral learner,0.0,0.0,2.0,Active participant,2.0,0.0,4.0
+21468043,APasagic,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,0.0,1.0
+20037169,rkuang25,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,2.0,3.0
+3890830,adityagabbar,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,1.0,1.0
+21676204,knowledge_seeker,,0.0,0.0,0.0,Active participant,1.0,1.0,7.0
+21851781,Ammar,Peripheral learner,0.0,0.0,2.0,Peripheral learner,1.0,1.0,0.0
+15068784,Jonathan Cauchi,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,1.0,0.0
+8367458,Jack Ding,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,1.0,1.0
+10618540,Dima,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,1.0,0.0
+4674442,Cowboy_Patrick,,0.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+14227403,Cheleeger Ken,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,1.0,3.0
+13737519,app_idea54,Peripheral learner,0.0,1.0,2.0,Active participant,1.0,1.0,1.0
+6017973,Tirtha,Peripheral learner,0.0,0.0,2.0,Active participant,1.0,1.0,2.0
+15675146,InvestingScientist,Peripheral learner,0.0,0.0,2.0,Active participant,1.0,0.0,3.0
+2222125,Linear Algebra fans,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,1.0,0.0
+5550056,mohammad ali Humayun,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,0.0,1.0
+19667361,ArshakParsa,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,1.0,0.0
+8995234,Wenuka,Peripheral learner,0.0,0.0,3.0,Active participant,1.0,0.0,1.0
+17003616,Daviiid,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,1.0,22.0
+243197,martinkunev,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,0.0,6.0
+12231952,Druudik,Peripheral learner,0.0,0.0,2.0,Active participant,1.0,0.0,5.0
+12039084,Julien,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,0.0,1.0
+25419863,insipidintegrator,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,0.0,4.0
+997598,Putnik,Peripheral learner,0.0,0.0,2.0,Peripheral learner,1.0,1.0,0.0
+17837757,Dylan Kerler,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,1.0,3.0
+2245093,Sidharth Ghoshal,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,0.0,0.0
+2114690,Elliott de Launay,,0.0,0.0,0.0,Peripheral learner,1.0,1.0,0.0
+1706854,jjepsuomi,,0.0,0.0,0.0,Active participant,1.0,1.0,1.0
+8397928,Minh Khôi,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,1.0,1.0
+208637,dingx,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,0.0,0.0
+538874,Bengt,,0.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+9881912,AvidJoe,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,1.0,0.0
+2562097,brianlmerritt,,0.0,0.0,0.0,Peripheral learner,1.0,1.0,0.0
+13352402,JimSi,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,0.0,1.0
+16446632,Aman Savaria,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,1.0,1.0
+1599365,Steven Morad,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,1.0,1.0
+15410136,MathematicsBeginner,Peripheral learner,0.0,0.0,2.0,Peripheral learner,1.0,0.0,0.0
+8541224,Funzo,Peripheral learner,0.0,0.0,2.0,Active participant,1.0,1.0,0.0
+10662640,coderina,Peripheral learner,0.0,0.0,3.0,Active participant,1.0,1.0,0.0
+25900272,me9hanics,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,1.0,0.0
+6432279,IntegrateThis,Peripheral learner,0.0,0.0,2.0,Active participant,1.0,1.0,2.0
+90776,Yoric,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,1.0,0.0
+1802391,AMT,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,1.0,0.0
+14059381,James Arten,Peripheral learner,0.0,0.0,2.0,Active participant,1.0,0.0,12.0
+4385245,Whitehot,Peripheral learner,0.0,1.0,2.0,Peripheral learner,1.0,1.0,0.0
+7216040,NG.,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,2.0,1.0
+4266083,data_science_learner,Peripheral learner,0.0,0.0,4.0,Active participant,1.0,0.0,12.0
+2730863,Malik A. Rumi,Peripheral learner,0.0,0.0,2.0,Peripheral learner,1.0,0.0,0.0
+16381877,Michael,,0.0,0.0,0.0,Active participant,1.0,1.0,4.0
+4443341,Gokul NC,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,0.0,3.0
+5792710,David,Peripheral learner,0.0,0.0,2.0,Active participant,1.0,0.0,2.0
+15454715,user,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,0.0,6.0
+8699505,Rafael Toledo,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,0.0,0.0
+12268979,Siddhant Tandon,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,0.0,1.0
+2526078,Exploring,Peripheral learner,0.0,0.0,4.0,Active participant,1.0,0.0,16.0
+1521971,Mohit,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,0.0,0.0
+12661169,itisyeetimetoday,,0.0,0.0,0.0,Active participant,1.0,0.0,0.0
+9483395,TheExorcist,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,1.0,1.0
+1461741,TomR,Peripheral learner,0.0,0.0,2.0,Active participant,1.0,0.0,31.0
+4636435,ginjaemocoes,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,0.0,4.0
+4825531,jskattt797,Peripheral learner,0.0,0.0,4.0,Peripheral learner,1.0,0.0,0.0
+3802724,pentanol,Peripheral learner,0.0,0.0,3.0,Active participant,1.0,0.0,0.0
+1762936,Bill,,0.0,0.0,0.0,Peripheral learner,1.0,2.0,1.0
+9548097,heretoinfinity,Peripheral learner,0.0,0.0,5.0,Peripheral learner,1.0,0.0,0.0
+21123053,Hermi,Peripheral learner,0.0,0.0,2.0,Active participant,1.0,0.0,2.0
+2252003,gurvinder372,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,1.0,0.0
+9316159,user6916458,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,0.0,1.0
+11271363,black sheep 369,Peripheral learner,0.0,0.0,3.0,Peripheral learner,1.0,1.0,0.0
+3849700,Saurabh Jain,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,0.0,0.0
+2273997,Michael D,Peripheral learner,0.0,0.0,2.0,Active participant,1.0,0.0,1.0
+3325335,ivan866,Peripheral learner,0.0,0.0,2.0,Active participant,1.0,0.0,1.0
+2602735,Plop,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,0.0,0.0
+52110,Vlad,Peripheral learner,0.0,0.0,1.0,Peripheral learner,1.0,1.0,0.0
+19010298,SS Varshini,Peripheral learner,0.0,0.0,18.0,Peripheral learner,1.0,0.0,0.0
+3184737,Sledge,,0.0,0.0,0.0,Active participant,1.0,0.0,1.0
+15375909,FluidMechanics Potential Flows,Peripheral learner,0.0,0.0,3.0,Active participant,1.0,0.0,11.0
+6094781,Akshay Sehgal,,0.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+6085540,Glorfindel,,0.0,0.0,0.0,Peripheral learner,1.0,0.0,0.0
+10822055,m2rik,Peripheral learner,0.0,0.0,1.0,Active participant,1.0,1.0,4.0
+6909810,Ícaro Lorran,Peripheral learner,0.0,1.0,3.0,Peripheral learner,1.0,1.0,0.0
+387495,Guillermo Mosse,Peripheral learner,0.0,1.0,2.0,Active participant,1.0,0.0,3.0
+13774587,Naveen Reddy Marthala,Peripheral learner,0.0,0.0,7.0,Active participant,1.0,0.0,6.0
+6787088,Monica Heddneck,Peripheral learner,0.0,0.0,2.0,Active participant,1.0,0.0,1.0
+9081714,Ben,Peripheral learner,0.0,0.0,9.0,Active participant,1.0,1.0,3.0
+371767,George Pligoropoulos,Peripheral learner,0.0,1.0,1.0,Active participant,1.0,0.0,0.0
+48063,dzieciou,Peripheral learner,0.0,0.0,5.0,Active participant,1.0,1.0,1.0
+2811843,user,Peripheral learner,0.0,0.0,4.0,Peripheral learner,1.0,1.0,0.0
+43008104,Ujas Diyora,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+21912544,ravan,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+16700595,1stTimeStackOverflow,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+123167,Jack G,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+19680667,gurke,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+37531517,Burger,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+17554056,Eliza Romanski,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+22713030,learner,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,3.0
+5837602,learner,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,4.0
+15213558,Sparsh Garg,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+24319465,MttRch,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+23346118,user17420392,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+21815434,Bipbupbop,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+16698510,Ryan,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+7877629,Carol,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+26589211,theodre7,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+9889643,Hirek Kubica,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+19974394,Rasai Stewart,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+25074173,Escanor6,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,1.0
+19000020,Chris Oosthuizen,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+9620435,curl-up,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+26041293,Juan Ignacio Rojo,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+213183,dato datuashvili,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,1.0,1.0
+20424695,Ben Lahav,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,2.0
+25959742,vivian.ai,Peripheral learner,0.0,1.0,2.0,Peripheral learner,0.0,0.0,4.0
+24143875,Renat Abdrakhmanov,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,3.0
+22650371,mainak mukherjee,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+14162477,PhysicsMan,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+19927956,ColinGuolin,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+22664570,Mike Like,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+23479158,Puchatek Kubuś,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+18472104,Akshay Ghosh,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,3.0
+14495742,Kareit,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+10983332,LostAtlas,Peripheral learner,0.0,0.0,2.0,,0.0,0.0,0.0
+20766649,Hans Mustermann,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+46864305,Abdoul Razack Ouedraogo,,0.0,0.0,0.0,,0.0,0.0,0.0
+13779363,reza,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+19245835,Vivek Hotti,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+7954887,user27771,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+17198385,Rodrigo Franco,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,3.0
+21586230,scho,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+9926487,steinum,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+22362940,FateMintTrio,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+21269862,Shataneek Banerjee,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+16112037,elbarto,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+18946030,Leibniz,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,5.0
+2888929,user2478159,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+17885471,Souhaielrmx,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,5.0
+17140831,nous,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+13867680,Alex Breeze,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+7984911,jarvis,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+3332662,Nitin,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+15277482,Mylisteofanime nexv,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+25042559,learningowl,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+26683538,Oculu ,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+21223774,moooo112,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+4923612,kot,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+14161435,Aarush Aggarwal,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+18028832,No_Name,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+13626697,Aushilfsgott,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+30635973,ATJ,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+20967668,alexand88r,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+21451053,Zander,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+26293500,SuperFluo,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+13610228,zstr,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+14761255,c0mraide,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+13421436,Mich55,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+21198604,Value_Investor,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+13402542,penguin_smasher,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+8196356,dcr,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,3.0
+16181540,debrises,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+16520942,Nitram,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+24387299,charactercapital,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,1.0
+30289825,JJbow,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+14950853,Mustafa Tufan,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+7557321,xyztg,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+28664390,yuki,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+6763419,M. Fire,,0.0,0.0,0.0,,0.0,0.0,0.0
+19100231,Shonix3373,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+11749977,Souradip Roy,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+2736057,user2358715,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+13811353,skumaravel,,0.0,0.0,0.0,Peripheral learner,0.0,1.0,1.0
+18339779,Gunners ,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+15131965,Arham,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+28519262,Badboyhalo1801,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+12859743,francesco,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+5004920,Melly Donald,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+19259596,Lorenzo Tinfena,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+11531869,Jackilion,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+28759986,Wissem Boujlida,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+22052641,Kiran Manicka,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,9.0
+22539739,Sharjeel M. Rajput,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,2.0
+25773447,dmasny,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+9912262,JavaApprentice,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,2.0
+16452658,TheReal__Mike,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,4.0
+11496834,LearnerAL,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+19775076,ddd,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+19257261,randomuser228,Peripheral learner,0.0,0.0,2.0,,0.0,0.0,0.0
+23517351,node_env,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+17474739,Zelreedy,Peripheral learner,0.0,0.0,2.0,,0.0,0.0,0.0
+35495432,Leandro,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,1.0
+7601125,Abc1729,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,3.0
+22545853,poglhar,Peripheral learner,0.0,0.0,4.0,Peripheral learner,0.0,0.0,4.0
+18720515,Alpha,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+18656494,CakeMaster,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,3.0
+23868893,MrIzzat,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+28982270,tensor,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,3.0
+17100910,Gilad Felsen,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+27001499,stack offer,Peripheral learner,0.0,0.0,10.0,Peripheral learner,0.0,0.0,2.0
+20394646,raulfilipe127,Peripheral learner,0.0,1.0,2.0,,0.0,0.0,0.0
+3641436,user7080,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+29290791,Prithvi,Peripheral learner,0.0,0.0,2.0,,0.0,0.0,0.0
+16604777,Chukwudi Ogbonna,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,6.0
+473566,user882763,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+12882649,user9317212,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,8.0
+41880439,NoumenalNetwork,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+30547178,user18959,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+20454066,Ryan Keathley,Peripheral learner,0.0,0.0,2.0,,0.0,0.0,0.0
+36325182,AAA_11,Peripheral learner,0.0,0.0,4.0,Peripheral learner,0.0,0.0,3.0
+23180887,ndycuong,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+27422155,Nathaldien,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,1.0
+3183903,Karl 17302,Peripheral learner,0.0,0.0,6.0,Peripheral learner,0.0,0.0,4.0
+15386129,Hasan Shaukat,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+6394667,lamyvista,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+16891064,kali_xyyali,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,1.0
+14295396,StudentV,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+18014736,Dae-Young Park,Peripheral learner,0.0,0.0,5.0,Peripheral learner,0.0,0.0,4.0
+3503935,Luke,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+10436252,mdslt,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+6361362,Nitish Agarwal,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+15667478,Gello,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+25296176,the_tomato,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,3.0
+8639122,CechMS,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+11963460,Penelope Benenati,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+25625179,Mashu,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+24678816,IKNv99,Peripheral learner,0.0,0.0,7.0,Peripheral learner,0.0,0.0,2.0
+14901661,ANKIT CHAKRABORTY,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,3.0
+20251935,J. M. Arnold,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+7028033,caaax,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+23621239,cookiecutter,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,2.0
+14000097,Jason,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+13904652,Тима ,Peripheral learner,0.0,1.0,7.0,Peripheral learner,0.0,0.0,7.0
+11221682,Aeryan,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+3538580,Dmitry,,0.0,0.0,0.0,,0.0,0.0,0.0
+56742,Lance Pollard,Peripheral learner,0.0,0.0,6.0,Peripheral learner,0.0,0.0,8.0
+1068883,user1068636,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+20080927,ASH,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,3.0
+7737741,David,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+14699110,J. Doe,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+29562118,Sillyasker,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+14569669,Acad,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+18302097,a6623,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,2.0
+17644896,govindah,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+16314073,Jesse,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+22154643,Justin T,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+1497794,Abhimanyu Pallavi Sudhir,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+16690601,Philipp123,Peripheral learner,0.0,1.0,1.0,Peripheral learner,0.0,0.0,1.0
+48200,jdm,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+17308612,The Limit Does Not Exist,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+3849027,Smerdjakov,Peripheral learner,0.0,1.0,1.0,Peripheral learner,0.0,0.0,2.0
+1698515,Anna Christine,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,1.0,1.0
+6640373,Sathish Kumar D,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+4847069,Sid,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+20200445,Konstantinos,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+364905,Evgeniy Berezovsky,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+1328642,stevew,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+5452123,santobedi,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+14732502,imantha,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+18637040,Dawid,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+11014737,Ellio,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+5386774,ABB,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+15584948,Mondo Duke,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+6657659,Nikita Belooussov,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+15135259,Mauro Giliberti,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+4942315,karlosos,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+7698503,Salty Gold Fish,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+19652815,monopoly,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+21634284,harsha,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+11120331,Ness,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,10.0
+430887,sak,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+10589206,sm29,Peripheral learner,0.0,0.0,5.0,Peripheral learner,0.0,0.0,3.0
+10908553,exteral,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+3368067,albusdemens,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+7433481,JohnDizzle,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+5050731,Julen,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,3.0
+6765857,czypsu,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+1470635,danny,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+13193,Morgan Cheng,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+3251786,user2741831,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,1.0,3.0
+2358376,DanielTheRocketMan,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,3.0
+4808762,Alucard,,0.0,0.0,0.0,,0.0,0.0,0.0
+17268325,jr123456jr987654321,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,11.0
+7830246,sksoumik,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+9519692,anthino12,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+2345937,Mich,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+14817186,SmoothKen,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,2.0
+4234182,N00b101,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+14592167,SUNITA GUPTA,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,2.0
+14021601,satya,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,6.0
+16947551,Karol,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,3.0
+25840493,Janikas,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+2090333,JoyfulPanda,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+5461701,Soheil Paper,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,3.0
+15613239,Swastik,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+8722352,wander95,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+3598704,OfirD,Peripheral learner,0.0,1.0,2.0,Peripheral learner,0.0,0.0,1.0
+14709774,NikSp,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+26447832,HMPtwo,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,4.0
+13498006,Panicum,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,2.0,2.0
+1042951,Ilya Karna,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+229131,user491880,Peripheral learner,0.0,1.0,1.0,,0.0,0.0,0.0
+13435290,Metrician,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,3.0
+18024013,Ravish Jha,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,3.0
+14223026,Noha,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+5478988,ycenycute,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,6.0
+6499091,Manveru,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,6.0
+3622773,simplename,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+2201773,Nathan BeDell,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+18705,xyzzyrz,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+16267449,BRUCE,Peripheral learner,0.0,0.0,2.0,,0.0,0.0,0.0
+6757584,Andrew,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+6083264,nalzok,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,6.0
+9045442,Wong,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+3085331,Oliver Mohr Bonometti,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,2.0
+10648085,Subhajit Saha,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,1.0
+1426624,Imran Q,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+17184015,ElonMuskofBadIdeas,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+23470760,Cara Duf,Peripheral learner,0.0,0.0,2.0,,0.0,0.0,0.0
+30023250,samsamradas,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+14154022,FoundABetterName,Peripheral learner,0.0,0.0,5.0,Peripheral learner,0.0,1.0,2.0
+1825358,Atena,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,3.0
+53211,user366312,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,25.0
+14713952,Arunabh,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+12729483,Valery Noname,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+107102,celsowm,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+18759625,tangolin,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,2.0
+1127301,chausies,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,2.0
+972620,Araib karim,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+14256329,DSP_CS,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,5.0
+7398111,Gilad Deutsch,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,13.0
+1891886,2080,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+2690916,Clock Slave,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,2.0
+282375,James,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+19193254,oliver.c,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,4.0
+4745335,JacoSolari,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+293508,pookie,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,2.0
+19916038,prostak,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+9880152,A_C,,0.0,0.0,0.0,Peripheral learner,0.0,1.0,1.0
+3781345,user43280,,0.0,0.0,0.0,,0.0,0.0,0.0
+2504705,There,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+18558009,XYZ,Peripheral learner,0.0,0.0,4.0,Peripheral learner,0.0,0.0,3.0
+4441934,Arun,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,1.0,8.0
+12170967,giotto,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+22039911,Hamzah Al-Qadasi,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,2.0
+1377597,KDecker,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+13876072,Oliver,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,2.0
+11680597,puradrogasincortar,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,5.0
+167610,user572575,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+2389695,madprogramer,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+20327881,SPARSE,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+16636999,Arun Jose,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+1038747,Th3Nic3Guy,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,3.0
+7291892,Dmitry  Sokolov,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,2.0
+25224785,maldini1990,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,1.0
+7019422,Jed,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+13270715,Daniel,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,3.0
+9073934,Mahmoud,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,6.0
+19248701,Eitan Rosati,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+1337160,danielsvane,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+17348044,Rim Sleimi,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,3.0
+19717881,seermer,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+8144911,Soham Bhaumik,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+18372864,AyamGorengPedes,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+2437631,Lukas,,0.0,0.0,0.0,,0.0,0.0,0.0
+28337133,QMath,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+5234668,BanikPyco,Peripheral learner,0.0,1.0,1.0,Peripheral learner,0.0,0.0,2.0
+354947,Luis Valencia,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,1.0
+296730,Franva,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,1.0,4.0
+10054912,orde.r,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+4390635,Vranvs,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+19378778,Lockhart ,Peripheral learner,0.0,1.0,2.0,Peripheral learner,0.0,0.0,1.0
+18656235,Amartya,Peripheral learner,0.0,0.0,4.0,,0.0,0.0,0.0
+4759281,Foobar,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,1.0,4.0
+13788350,CapJS,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+13609776,Valentin Macé,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+4681645,pramesh,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+12223415,emilaz,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+15329876,sneeze_shiny,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,13.0
+4663163,Gregwar,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+4316999,apt45,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+1891950,Josh,Peripheral learner,0.0,1.0,2.0,Peripheral learner,0.0,2.0,7.0
+18916314,Christian01,Peripheral learner,0.0,0.0,6.0,Peripheral learner,0.0,0.0,2.0
+10054171,vftw,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+16346288,Rubem Pacelli,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+5269451,Celi Manu,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+940021,hhaamm,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+8991000,Ramiro Hum-Sah,Peripheral learner,0.0,0.0,4.0,Peripheral learner,0.0,0.0,3.0
+2720701,Pedram,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+8531722,Hamza,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+7711330,zzzgoo,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,4.0
+10109622,Silvio sjsj,Peripheral learner,0.0,1.0,5.0,Peripheral learner,0.0,0.0,2.0
+9408722,Gabriele,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,1.0,6.0
+210042,Nilani Algiriyage,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,4.0
+10469378,root,Peripheral learner,0.0,0.0,4.0,Peripheral learner,0.0,0.0,3.0
+23601844,AAA,Peripheral learner,0.0,0.0,6.0,Peripheral learner,0.0,0.0,2.0
+16301591,VJ123,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,1.0
+5219054,Beginner,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+389590,moonman239,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+1346284,Zaratruta,Peripheral learner,0.0,0.0,6.0,Peripheral learner,0.0,0.0,2.0
+19744825,PwNzDust,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,1.0
+6618921,farid,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,1.0,9.0
+13482973,Moritz Groß,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,3.0
+2084406,chinmay,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+1229829,barnhillec,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+6790184,bkaankuguoglu,Peripheral learner,0.0,2.0,3.0,Peripheral learner,0.0,0.0,1.0
+7376166,quanity,Peripheral learner,0.0,0.0,4.0,Peripheral learner,0.0,0.0,1.0
+18268031,PerplexedDimension,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+12762969,Abhisek Dash,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,3.0
+8850536,Ralff,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,1.0
+19405141,Sid,Peripheral learner,0.0,0.0,3.0,,0.0,0.0,0.0
+14987637,Valentin,Peripheral learner,0.0,0.0,4.0,Peripheral learner,0.0,1.0,2.0
+6454290,Ilya.K.,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+3569897,alib1,Peripheral learner,0.0,1.0,1.0,Peripheral learner,0.0,1.0,1.0
+3796291,cristid9,Peripheral learner,0.0,0.0,4.0,Peripheral learner,0.0,0.0,1.0
+3728998,kosa,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+5251115,Stan Shunpike,Peripheral learner,0.0,0.0,2.0,,0.0,0.0,0.0
+7302951,MilTom,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+10631594,sangstar,Peripheral learner,0.0,0.0,9.0,Peripheral learner,0.0,0.0,3.0
+13335342,Mari,Peripheral learner,0.0,0.0,1.0,,0.0,0.0,0.0
+2105842,Brendan Hill,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,3.0
+18661,Eric O. Lebigot,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+15487866,user900476,Peripheral learner,0.0,0.0,16.0,Peripheral learner,0.0,0.0,4.0
+19150564,Prashant Akerkar,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,2.0
+15836043,The White Cloud,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,3.0
+7307466,Mr Prof,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+1007307,toom,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,1.0,1.0
+10876010,user12,Peripheral learner,0.0,0.0,12.0,,0.0,0.0,0.0
+12753482,Kevin,Peripheral learner,0.0,1.0,5.0,Peripheral learner,0.0,0.0,1.0
+1462613,iso_9001_,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+1170706,user1147964,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+1703749,user1563247,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,1.0
+12109563,Eiffelbear,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+1522906,Basj,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+165296,banderlog013,,0.0,0.0,0.0,,0.0,0.0,0.0
+9424127,Steve Ahlswede,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+4496446,user3656142,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,5.0
+1764146,krishnab,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,1.0,7.0
+2815104,Carol.Kar,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+3449844,user9343456,Peripheral learner,0.0,0.0,6.0,Peripheral learner,0.0,0.0,5.0
+7261167,Kenenbek Arzymatov,Peripheral learner,0.0,0.0,5.0,Peripheral learner,0.0,0.0,1.0
+8217038,SuperCodeBrah,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,7.0
+7413537,Tfovid,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,4.0
+13437153,SRJ577,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,1.0,3.0
+3332966,Pablo Messina,Peripheral learner,0.0,0.0,5.0,Peripheral learner,0.0,0.0,5.0
+12098984,anonuser01,Peripheral learner,0.0,0.0,3.0,Peripheral learner,0.0,0.0,6.0
+17591783,tdMJN6B2JtUe,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+8786644,sophros,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,1.0,1.0
+10729611,Johncowk,Peripheral learner,0.0,1.0,2.0,Peripheral learner,0.0,1.0,1.0
+6527533,Pro Q,Peripheral learner,0.0,1.0,1.0,Peripheral learner,0.0,0.0,1.0
+11363896,An Ignorant Wanderer,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,3.0
+4616293,David293836,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+3730364,joesan,Peripheral learner,0.0,0.0,4.0,Peripheral learner,0.0,0.0,1.0
+4032106,overexchange,Peripheral learner,0.0,0.0,4.0,Peripheral learner,0.0,0.0,1.0
+4399448,ihavenoidea,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,4.0
+1547375,DeLorean88,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+14913861,ИванКарамазов,Peripheral learner,0.0,1.0,1.0,Peripheral learner,0.0,1.0,2.0
+6229308,Aaron,Peripheral learner,0.0,0.0,10.0,Peripheral learner,0.0,0.0,11.0
+16784194,Alireza Amani,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+7429271,NeStack,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+12041589,vojtak,Peripheral learner,0.0,1.0,2.0,Peripheral learner,0.0,0.0,1.0
+13670674,ava_punksmash,Peripheral learner,0.0,1.0,1.0,Peripheral learner,0.0,0.0,2.0
+4070200,Jack Armstrong,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+1859164,machinery,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,3.0
+939983,Ethan,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,3.0
+112999,user297850,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+28642,Ram Rachum,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,1.0,4.0
+3950799,Minions,Peripheral learner,0.0,1.0,5.0,Peripheral learner,0.0,0.0,6.0
+13360669,Ach113,Peripheral learner,0.0,1.0,2.0,Peripheral learner,0.0,0.0,2.0
+1144773,Lakshay Dulani,Peripheral learner,0.0,0.0,5.0,Peripheral learner,0.0,0.0,1.0
+1225708,Mary,Peripheral learner,0.0,0.0,6.0,Peripheral learner,0.0,0.0,34.0
+64707,vgoklani,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+1913159,Kevin,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,2.0
+10716056,I. A,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+17392617,Rnj,Peripheral learner,0.0,1.0,10.0,Peripheral learner,0.0,0.0,6.0
+1384758,Mahesha999,Peripheral learner,0.0,1.0,15.0,Peripheral learner,0.0,0.0,3.0
+7828322,kevin,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+2814496,Moradnejad,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+10879266,Shirish,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,10.0
+15813772,Reut,Peripheral learner,0.0,0.0,8.0,,0.0,0.0,0.0
+14123664,Layman,Peripheral learner,0.0,1.0,3.0,,0.0,0.0,0.0
+7921415,mathnoob,,0.0,0.0,0.0,Peripheral learner,0.0,0.0,1.0
+3643217,Emil,Peripheral learner,0.0,0.0,3.0,,0.0,0.0,0.0
+4551020,rocksNwaves,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,1.0,3.0
+11681313,Bloodstone Programmer,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,3.0
+16377627,codeananda,Peripheral learner,0.0,1.0,7.0,Peripheral learner,0.0,0.0,1.0
+4120352,kms,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+38419407,Antonio Rossi,Peripheral learner,0.0,0.0,4.0,Peripheral learner,0.0,0.0,1.0
+6473719,fragant,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+4518980,Tlaloc-ES,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+16360167,user_12,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,2.0
+1798893,Mithril,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+8729294,heresthebuzz,Peripheral learner,0.0,0.0,6.0,Peripheral learner,0.0,0.0,1.0
+10765177,ou2105,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+7483933,Hitesh Somani,Peripheral learner,0.0,0.0,6.0,Peripheral learner,0.0,0.0,1.0
+3272232,mavavilj,Peripheral learner,0.0,0.0,10.0,Peripheral learner,0.0,0.0,1.0
+5315302,Davide Fiocco,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+14931398,NaveganTeX,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,1.0,5.0
+12132812,J.Smith,Peripheral learner,0.0,0.0,4.0,Peripheral learner,0.0,0.0,2.0
+11752789,JunjieChen,Peripheral learner,0.0,0.0,3.0,,0.0,0.0,0.0
+1695045,Della,Peripheral learner,0.0,0.0,8.0,Peripheral learner,0.0,0.0,3.0
+13125518,mLstudent33,Peripheral learner,0.0,1.0,2.0,Peripheral learner,0.0,0.0,2.0
+21138,vy32,Peripheral learner,0.0,0.0,1.0,Peripheral learner,0.0,0.0,1.0
+86224,xiaodai,Peripheral learner,0.0,2.0,3.0,Peripheral learner,0.0,0.0,1.0
+20670222,Connor,Peripheral learner,0.0,11.0,23.0,Peripheral learner,0.0,0.0,1.0
+1801314,Cybernetic,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,1.0
+4195672,figs_and_nuts,Peripheral learner,0.0,0.0,12.0,Peripheral learner,0.0,0.0,1.0
+2859532,Coder,Peripheral learner,0.0,1.0,6.0,Peripheral learner,0.0,1.0,1.0
+6205671,ebrahimi,Peripheral learner,0.0,0.0,5.0,Peripheral learner,0.0,0.0,2.0
+1891013,user781486,Peripheral learner,0.0,0.0,2.0,Peripheral learner,0.0,0.0,4.0

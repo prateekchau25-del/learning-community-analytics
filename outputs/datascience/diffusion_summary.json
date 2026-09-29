@@ -1,0 +1,40 @@
+{
+  "exposure_topics_tested": 19,
+  "exposure_topics_significant": 0,
+  "exposure_mean_observed": 0.19925184604557183,
+  "exposure_mean_null": 0.20324133976024436,
+  "exposure_stouffer_z": -2.60351695662809,
+  "exposure_stouffer_p": 0.9953863648465645,
+  "exposure_significant_topics": [],
+  "learner_to_helper": {
+    "n_learners": 8002,
+    "n_became_helpers": 229,
+    "pct_became_helpers": 0.028617845538615346,
+    "pct_helper_if_first_question_answered": 0.02844950213371266,
+    "pct_helper_if_first_question_unanswered": 0.029015979814970564,
+    "chi2": 0.004296049996809284,
+    "p_value": 0.9477406678249566,
+    "median_days_to_become_helper": 16.0
+  },
+  "validation": {
+    "simulated_ic_spread": 0.5536406516002667,
+    "out_strength": 0.3172563369258939,
+    "expertise_rank": 0.45582252212403657,
+    "betweenness": 0.2824550245043957
+  },
+  "spread_at_k10": {
+    "IC|Top out-degree": 937.685,
+    "IC|Top ExpertiseRank": 944.545,
+    "IC|Top betweenness": 929.26,
+    "IC|Top PageRank": 839.575,
+    "IC|CELF greedy": 960.695,
+    "IC|Random": 39.64999999999999,
+    "LT|Top out-degree": 4118.435,
+    "LT|Top ExpertiseRank": 4334.975,
+    "LT|Top betweenness": 4115.03,
+    "LT|Top PageRank": 2930.025,
+    "LT|CELF greedy": 4211.975,
+    "LT|Random": 47.3575
+  },
+  "network_users": 9219
+}

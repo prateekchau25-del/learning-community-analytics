@@ -1,0 +1,11 @@
+metric,compared_with,n_helpers,spearman_rho,p_value,top20_overlap
+expertise_rank,user_reputation,2317,0.3891,0.0,0.3
+expertise_rank,n_accepted,2317,0.3703,0.0,0.75
+pagerank,user_reputation,2317,0.3227,0.0,0.4
+pagerank,n_accepted,2317,0.2818,0.0,0.55
+out_strength,user_reputation,2317,0.4763,0.0,0.4
+out_strength,n_accepted,2317,0.4313,0.0,0.8
+betweenness,user_reputation,2317,0.5485,0.0,0.4
+betweenness,n_accepted,2317,0.481,0.0,0.75
+core_number,user_reputation,2317,0.5256,0.0,0.35
+core_number,n_accepted,2317,0.4406,0.0,0.65

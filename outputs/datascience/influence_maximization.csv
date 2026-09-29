@@ -1,0 +1,121 @@
+model,strategy,k,spread,spread_pct_of_users
+IC,Top out-degree,1,721.295,7.824
+IC,Top out-degree,2,784.69,8.512
+IC,Top out-degree,3,819.275,8.887
+IC,Top out-degree,4,814.175,8.831
+IC,Top out-degree,5,867.67,9.412
+IC,Top out-degree,6,902.015,9.784
+IC,Top out-degree,7,910.06,9.872
+IC,Top out-degree,8,922.8,10.01
+IC,Top out-degree,9,927.015,10.055
+IC,Top out-degree,10,937.685,10.171
+IC,Top ExpertiseRank,1,785.92,8.525
+IC,Top ExpertiseRank,2,787.605,8.543
+IC,Top ExpertiseRank,3,802.62,8.706
+IC,Top ExpertiseRank,4,833.32,9.039
+IC,Top ExpertiseRank,5,863.35,9.365
+IC,Top ExpertiseRank,6,879.075,9.535
+IC,Top ExpertiseRank,7,893.115,9.688
+IC,Top ExpertiseRank,8,909.985,9.871
+IC,Top ExpertiseRank,9,941.33,10.211
+IC,Top ExpertiseRank,10,944.545,10.246
+IC,Top betweenness,1,713.3,7.737
+IC,Top betweenness,2,778.65,8.446
+IC,Top betweenness,3,814.88,8.839
+IC,Top betweenness,4,847.2,9.19
+IC,Top betweenness,5,858.445,9.312
+IC,Top betweenness,6,876.495,9.507
+IC,Top betweenness,7,885.005,9.6
+IC,Top betweenness,8,919.405,9.973
+IC,Top betweenness,9,921.55,9.996
+IC,Top betweenness,10,929.26,10.08
+IC,Top PageRank,1,694.405,7.532
+IC,Top PageRank,2,789.53,8.564
+IC,Top PageRank,3,766.825,8.318
+IC,Top PageRank,4,786.175,8.528
+IC,Top PageRank,5,774.95,8.406
+IC,Top PageRank,6,809.075,8.776
+IC,Top PageRank,7,817.82,8.871
+IC,Top PageRank,8,846.215,9.179
+IC,Top PageRank,9,849.935,9.219
+IC,Top PageRank,10,839.575,9.107
+IC,CELF greedy,1,789.62,8.565
+IC,CELF greedy,2,825.28,8.952
+IC,CELF greedy,3,849.38,9.213
+IC,CELF greedy,4,855.705,9.282
+IC,CELF greedy,5,876.73,9.51
+IC,CELF greedy,6,922.415,10.006
+IC,CELF greedy,7,935.72,10.15
+IC,CELF greedy,8,940.625,10.203
+IC,CELF greedy,9,953.79,10.346
+IC,CELF greedy,10,960.695,10.421
+IC,Random,1,1.035,0.011
+IC,Random,2,2.05,0.022
+IC,Random,3,13.31,0.144
+IC,Random,4,16.2,0.176
+IC,Random,5,26.68,0.289
+IC,Random,6,33.692,0.365
+IC,Random,7,28.382,0.308
+IC,Random,8,35.378,0.384
+IC,Random,9,33.828,0.367
+IC,Random,10,39.65,0.43
+LT,Top out-degree,1,1237.65,13.425
+LT,Top out-degree,2,1958.94,21.249
+LT,Top out-degree,3,2334.965,25.328
+LT,Top out-degree,4,3015.995,32.715
+LT,Top out-degree,5,3352.625,36.366
+LT,Top out-degree,6,3546.345,38.468
+LT,Top out-degree,7,3909.765,42.41
+LT,Top out-degree,8,3998.65,43.374
+LT,Top out-degree,9,4089.58,44.36
+LT,Top out-degree,10,4118.435,44.673
+LT,Top ExpertiseRank,1,1242.73,13.48
+LT,Top ExpertiseRank,2,2102.5,22.806
+LT,Top ExpertiseRank,3,2799.48,30.366
+LT,Top ExpertiseRank,4,3339.975,36.229
+LT,Top ExpertiseRank,5,3524.79,38.234
+LT,Top ExpertiseRank,6,3807.35,41.299
+LT,Top ExpertiseRank,7,3997.6,43.363
+LT,Top ExpertiseRank,8,4119.295,44.683
+LT,Top ExpertiseRank,9,4218.705,45.761
+LT,Top ExpertiseRank,10,4334.975,47.022
+LT,Top betweenness,1,1126.06,12.215
+LT,Top betweenness,2,1993.89,21.628
+LT,Top betweenness,3,2480.805,26.91
+LT,Top betweenness,4,2970.11,32.217
+LT,Top betweenness,5,3518.095,38.161
+LT,Top betweenness,6,3644.965,39.538
+LT,Top betweenness,7,3874.2,42.024
+LT,Top betweenness,8,4057.835,44.016
+LT,Top betweenness,9,4104.285,44.52
+LT,Top betweenness,10,4115.03,44.636
+LT,Top PageRank,1,1215.555,13.185
+LT,Top PageRank,2,1906.7,20.682
+LT,Top PageRank,3,2205.205,23.92
+LT,Top PageRank,4,2052.14,22.26
+LT,Top PageRank,5,2158.285,23.411
+LT,Top PageRank,6,2496.41,27.079
+LT,Top PageRank,7,2481.37,26.916
+LT,Top PageRank,8,2894.325,31.395
+LT,Top PageRank,9,2745.585,29.782
+LT,Top PageRank,10,2930.025,31.782
+LT,CELF greedy,1,1232.91,13.374
+LT,CELF greedy,2,2162.675,23.459
+LT,CELF greedy,3,2745.495,29.781
+LT,CELF greedy,4,3224.63,34.978
+LT,CELF greedy,5,3499.495,37.96
+LT,CELF greedy,6,3575.43,38.783
+LT,CELF greedy,7,3836.325,41.613
+LT,CELF greedy,8,3918.095,42.5
+LT,CELF greedy,9,4239.9,45.991
+LT,CELF greedy,10,4211.975,45.688
+LT,Random,1,3.698,0.04
+LT,Random,2,3.935,0.043
+LT,Random,3,4.743,0.051
+LT,Random,4,6.428,0.07
+LT,Random,5,11.35,0.123
+LT,Random,6,17.732,0.192
+LT,Random,7,13.985,0.152
+LT,Random,8,18.175,0.197
+LT,Random,9,22.22,0.241
+LT,Random,10,47.358,0.514

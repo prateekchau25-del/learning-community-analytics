@@ -16,7 +16,7 @@ import networkx as nx  # noqa: E402
 import numpy as np  # noqa: E402
 import pandas as pd  # noqa: E402
 
-from config import FIGURE_DIR, OUTPUT_DIR, PROCESSED_DIR  # noqa: E402
+from config import COMMUNITY_NAME, FIGURE_DIR, OUTPUT_DIR, PROCESSED_DIR  # noqa: E402
 
 warnings.filterwarnings("ignore")
 
@@ -38,6 +38,20 @@ plt.rcParams.update({
 })
 
 
+# Short names for the tag categories, used where labels must stay compact.
+CATEGORY_SHORT = {
+    "Generative AI & LLMs": "GenAI", "Natural Language Processing": "NLP", "Computer Vision": "Vision",
+    "Reinforcement Learning": "RL", "Time Series & Sequences": "Time series", "Deep Learning": "DL",
+    "Classical ML & Modelling": "ML", "Data Wrangling & Tools": "Data/tools", "Statistics & Theory": "Stats",
+    "AI Philosophy & Ethics": "Ethics/AGI",
+}
+
+
+def style_axes(ax, grid="y"):
+    """Keep only the value-axis grid."""
+    ax.grid(axis="x" if grid == "y" else "y", visible=False)
+
+
 def save(fig, name):
     fig.tight_layout()
     fig.savefig(FIGURE_DIR / f"{name}.png", dpi=200)
@@ -57,9 +71,9 @@ def fig_activity():
     fig, ax = plt.subplots(figsize=(9, 3.6))
     ax.bar(per.index.astype(str), per.values, color=SERIES[0], width=0.8)
     peak = per.idxmax()
-    ax.annotate(f"{per.max()} questions in {peak}\n(COVID-19 lockdown)", xy=(list(per.index).index(peak), per.max()),
+    ax.annotate(f"peak: {per.max()} questions in {peak}", xy=(list(per.index).index(peak), per.max()),
                 xytext=(10, -5), textcoords="offset points", color=TEXT_2, fontsize=9, va="top")
-    ax.set_title("Questions asked per quarter, CS50 Stack Exchange")
+    ax.set_title(f"Questions asked per quarter, {COMMUNITY_NAME} Stack Exchange")
     ax.set_ylabel("Questions")
     ax.set_xticks(range(0, len(per), 4))
     ax.set_xticklabels([str(p) for p in per.index[::4]])
@@ -81,7 +95,7 @@ def fig_lda_selection():
 
 def fig_model_comparison():
     c = pd.read_csv(OUTPUT_DIR / "topic_model_comparison.csv")
-    metrics = [("npmi", "NPMI coherence"), ("diversity", "Topic diversity"), ("nmi_vs_course_tags", "Agreement with\ncourse tags (NMI)")]
+    metrics = [("npmi", "NPMI coherence"), ("diversity", "Topic diversity"), ("nmi_vs_tags", "Agreement with\ntag categories (NMI)")]
     x = np.arange(len(metrics))
     fig, ax = plt.subplots(figsize=(8, 3.8))
     w = 0.36
@@ -93,7 +107,9 @@ def fig_model_comparison():
     ax.set_xticks(x)
     ax.set_xticklabels([m[1] for m in metrics])
     ax.set_ylim(0, 1.05)
-    ax.set_title("BERTopic beats LDA on every topic-quality metric")
+    lda, bt = c.iloc[0], c.iloc[1]
+    wins = sum(bt[m] > lda[m] for m, _ in metrics)
+    ax.set_title(f"{COMMUNITY_NAME}: BERTopic beats LDA on {wins} of {len(metrics)} topic-quality metrics")
     ax.legend(loc="upper left")
     ax.grid(axis="x", visible=False)
     save(fig, "03_topic_model_comparison")
@@ -103,9 +119,9 @@ def fig_topic_difficulty():
     t = pd.read_csv(OUTPUT_DIR / "topics.csv").sort_values("difficulty_index")
     fig, ax = plt.subplots(figsize=(9, 6.5))
     colors = [POS if v > 0 else NEG for v in t["difficulty_index"]]
-    # Name the course unit only when most of the topic's questions come from it.
-    names = [f"{u.split(' (')[0] if isinstance(u, str) and pur >= 0.5 else 'Mixed'}: {lbl}  ({n} q)"
-             for u, pur, lbl, n in zip(t["course_unit"], t["unit_purity"], t["label"], t["n_questions"])]
+    # Name the category only when most of the topic's tagged questions come from it.
+    names = [f"{CATEGORY_SHORT.get(u, u) if isinstance(u, str) and pur >= 0.5 else 'Mixed'}: {lbl}  ({n} q)"
+             for u, pur, lbl, n in zip(t["category"], t["category_purity"], t["label"], t["n_questions"])]
     ax.barh(names, t["difficulty_index"], color=colors, height=0.7)
     ax.axvline(0, color=TEXT_2, linewidth=1)
     fig.suptitle("Topic difficulty index\n(unanswered rate + time to answer + learner confusion)", x=0.02, ha="left", fontweight="bold", fontsize=12)
@@ -227,7 +243,8 @@ def fig_network_over_time():
         ax.set_xticks(t["year"])
         if "share" in col:
             ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0))
-    fig.suptitle("The community peaked in 2020 and shrank afterwards", x=0.02, ha="left",
+    peak = int(t.loc[t["active_users"].idxmax(), "year"]) if len(t) else None
+    fig.suptitle(f"{COMMUNITY_NAME}: the network over time (most active year: {peak})", x=0.02, ha="left",
                  fontweight="bold", fontsize=12)
     save(fig, "09_network_over_time")
 
@@ -302,7 +319,7 @@ def fig_diffusion_validation():
     ax.set_xscale("symlog")
     ax.set_yscale("symlog")
     ax.set_xlabel("Simulated IC spread from this user (users reached)")
-    ax.set_ylabel("Observed time-respecting reach")
+    ax.set_ylabel("Observed reach within one year")
     ax.set_title(f"Simulated vs observed diffusion\n(Spearman ρ = {rho:.2f}, {len(v)} most active helpers)")
     save(fig, "13_diffusion_validation")
 

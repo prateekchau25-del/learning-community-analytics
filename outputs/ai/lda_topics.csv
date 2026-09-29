@@ -1,0 +1,7 @@
+lda_topic,top_words,npmi,n_questions
+0,"image, feature, object, cnn, vector, matrix, input, size, dimension, map",0.1554465889930725,1754
+1,"state, action, policy, agent, reward, learning, reinforcement, reinforcement learning, environment, algorithm",0.33154645562171936,2040
+2,"learning, algorithm, game, machine, system, human, machine learning, search, intelligence, based",0.11597657948732376,3376
+3,"loss, gradient, theta, distribution, left, batch, equation, log, probability, mean",0.1830204576253891,1129
+4,"model, data, training, dataset, learning, train, word, accuracy, input, trained",0.1283484697341919,2822
+5,"network, neural, neural network, layer, input, weight, neuron, activation, hidden, deep",0.27552419900894165,1660

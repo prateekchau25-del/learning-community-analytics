@@ -1,0 +1,5 @@
+model,roc_auc,pr_auc,accuracy,balanced_accuracy,f1
+Baseline (majority class),0.5,0.5702,0.5702,0.5,0.7263
+Logistic Regression,0.637,0.6846,0.6028,0.6019,0.6358
+Random Forest,0.5959,0.6628,0.579,0.5182,0.7204
+XGBoost,0.5914,0.651,0.5786,0.5134,0.7256

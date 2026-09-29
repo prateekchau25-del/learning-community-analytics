@@ -4,12 +4,12 @@ Step 2: discover discussion topics with LDA (baseline) and BERTopic (transformer
 Both models are scored with the same metrics so they can be compared fairly:
     NPMI coherence   do a topic's top words really occur together? (-1..1, higher is better)
     Topic diversity  share of unique words across all topics' top-25 words (0..1)
-    NMI vs tags      agreement with the course's own problem-set tags (0..1)
+    NMI vs tags      agreement with the subject categories of the community's own tags (0..1)
 
 Outputs:
-    data/processed/question_topics.parquet   topic of every question (both models)
-    data/processed/embeddings.npy            sentence embeddings, reused by the recommender
-    outputs/topics.csv                       BERTopic topics + difficulty metrics
+    data/processed/<site>/question_topics.parquet   topic of every question (both models)
+    data/processed/<site>/embeddings.npy           sentence embeddings, reused by the recommender
+    outputs/<site>/topics.csv                      BERTopic topics + difficulty metrics
     outputs/lda_topics.csv, outputs/lda_model_selection.csv
     outputs/topic_model_comparison.csv, outputs/topic_trends.csv, outputs/topic_map.csv
 """
@@ -34,34 +34,59 @@ TOP_N_DIVERSITY = 25
 # 20 requested; one of them is the outlier topic (-1), so 19 real topics remain.
 BERTOPIC_N_TOPICS = 20
 
-# Course-structure tags used to validate topics against the CS50 syllabus.
-COURSE_TAGS = {
-    "pset1": "Week 1 (C basics)", "mario": "Week 1 (C basics)", "cash": "Week 1 (C basics)",
-    "credit": "Week 1 (C basics)", "pset2": "Week 2 (Arrays)", "caesar": "Week 2 (Arrays)",
-    "readability": "Week 2 (Arrays)", "substitution": "Week 2 (Arrays)", "vigenere": "Week 2 (Arrays)",
-    "scrabble": "Week 2 (Arrays)", "pset3": "Week 3 (Algorithms)", "plurality": "Week 3 (Algorithms)",
-    "runoff": "Week 3 (Algorithms)", "tideman": "Week 3 (Algorithms)", "sort": "Week 3 (Algorithms)",
-    "pset4": "Week 4 (Memory)", "recover": "Week 4 (Memory)", "filter": "Week 4 (Memory)",
-    "volume": "Week 4 (Memory)", "blur": "Week 4 (Memory)", "pset4recover": "Week 4 (Memory)",
-    "pset4filter": "Week 4 (Memory)", "pset5": "Week 5 (Data structures)",
-    "speller": "Week 5 (Data structures)", "inheritance": "Week 5 (Data structures)",
-    "pset6": "Week 6 (Python)", "dna": "Week 6 (Python)", "python": "Week 6 (Python)",
-    "pset7": "Week 7 (SQL)", "sql": "Week 7 (SQL)", "movies": "Week 7 (SQL)", "fiftyville": "Week 7 (SQL)",
-    "songs": "Week 7 (SQL)", "pset8": "Week 8-9 (Web / Flask)", "pset9": "Week 8-9 (Web / Flask)",
-    "finance": "Week 8-9 (Web / Flask)", "flask": "Week 8-9 (Web / Flask)", "html": "Week 8-9 (Web / Flask)",
-    "homepage": "Week 8-9 (Web / Flask)", "birthdays": "Week 8-9 (Web / Flask)",
-    "javascript": "Week 8-9 (Web / Flask)", "cs50p": "CS50P (Python course)",
-    "cs50w": "CS50W (Web course)", "cs50ai": "CS50AI (AI course)", "final-project": "Final project",
-    "check50": "Tools (check50 / IDE)", "cs50-ide": "Tools (check50 / IDE)",
-    "codespaces": "Tools (check50 / IDE)", "submit50": "Tools (check50 / IDE)",
+# Tag -> subject category, used to validate topics against the communities' own tags.
+# Categories are listed from most to least specific; a question with several tags
+# gets the most specific category among them.
+TAG_CATEGORIES = {
+    "Generative AI & LLMs": ["large-language-models", "llm", "chatgpt", "gpt", "gpt-3", "gpt-4", "open-ai", "rag",
+                             "generative-models", "generative-model", "image-generation", "prompt-engineering", "gan",
+                             "generative-adversarial-networks", "diffusion-models", "stable-diffusion", "chat-bots",
+                             "langchain", "llama", "fine-tuning", "text-generation", "variational-autoencoder"],
+    "Natural Language Processing": ["nlp", "natural-language-processing", "text-classification", "word-embeddings",
+                                    "embeddings", "bert", "word2vec", "machine-translation", "sentiment-analysis",
+                                    "text-mining", "tokenization", "named-entity-recognition", "transformer",
+                                    "attention", "information-retrieval", "topic-model", "language-model",
+                                    "natural-language-understanding", "seq2seq"],
+    "Computer Vision": ["computer-vision", "image-classification", "image-processing", "image-recognition",
+                        "object-detection", "yolo", "image-preprocessing", "image-segmentation", "cnn",
+                        "convolutional-neural-network", "convolutional-neural-networks", "opencv", "faster-rcnn",
+                        "semantic-segmentation", "face-recognition"],
+    "Reinforcement Learning": ["reinforcement-learning", "dqn", "deep-rl", "proximal-policy-optimization",
+                               "q-learning", "policy-gradients", "stable-baselines", "markov-decision-process",
+                               "reward-functions", "actor-critic-methods", "openai-gym", "gym",
+                               "monte-carlo-methods", "multi-armed-bandits", "policies", "value-functions"],
+    "Time Series & Sequences": ["time-series", "forecasting", "lstm", "long-short-term-memory", "arima", "sequence",
+                                "rnn", "recurrent-neural-networks", "anomaly-detection", "sequence-modeling"],
+    "Deep Learning": ["deep-learning", "neural-network", "neural-networks", "pytorch", "keras", "tensorflow",
+                      "backpropagation", "activation-functions", "gradient-descent", "optimization", "loss-function",
+                      "objective-functions", "gpu", "training", "batch-normalization", "dropout", "autoencoder",
+                      "weights-initialization", "learning-rate", "architecture"],
+    "Classical ML & Modelling": ["machine-learning", "machine-learning-model", "classification", "regression",
+                                 "clustering", "decision-trees", "random-forest", "xgboost", "svm",
+                                 "logistic-regression", "linear-regression", "feature-selection",
+                                 "feature-engineering", "hyperparameter-tuning", "hyperparameter-optimization",
+                                 "cross-validation", "class-imbalance", "overfitting", "model-evaluations", "metric",
+                                 "predictive-modeling", "ensemble-modeling", "k-means", "scikit-learn", "data-leakage",
+                                 "data-science-model", "supervised-learning", "unsupervised-learning", "boosting"],
+    "Data Wrangling & Tools": ["python", "pandas", "r", "numpy", "dataset", "data", "data-cleaning", "preprocessing",
+                               "visualization", "data-analysis", "sql", "matplotlib", "scipy", "excel", "dataframe",
+                               "feature-scaling", "normalization", "jupyter", "logi-symphony", "data-mining",
+                               "training-datasets", "datasets", "tools", "software-development", "bigdata"],
+    "Statistics & Theory": ["statistics", "probability", "correlation", "sampling", "math", "mathematics",
+                            "computational-learning-theory", "terminology", "definitions", "hypothesis-testing",
+                            "distribution", "bayesian", "linear-algebra", "proofs", "theory"],
+    "AI Philosophy & Ethics": ["agi", "artificial-consciousness", "ethics", "ai-safety", "philosophy", "social",
+                               "reasoning", "history", "turing-test", "ai-design", "explainable-ai", "risk-management",
+                               "legal", "neuroscience", "human-like"],
 }
+CATEGORY_OF_TAG = {tag: cat for cat, tags in TAG_CATEGORIES.items() for tag in tags}
+CATEGORY_ORDER = list(TAG_CATEGORIES)
 
 
-def course_unit(tags: str) -> str | None:
-    """Map a question's tags to its course unit (specific tags win over generic ones)."""
-    units = [COURSE_TAGS[t] for t in str(tags).split("|") if t in COURSE_TAGS]
-    specific = [u for u in units if not u.startswith("Tools")]
-    return (specific or units or [None])[0]
+def tag_category(tags: str) -> str | None:
+    """Map a question's tags to its most specific subject category."""
+    cats = {CATEGORY_OF_TAG[t] for t in str(tags).split("|") if t in CATEGORY_OF_TAG}
+    return min(cats, key=CATEGORY_ORDER.index) if cats else None
 
 
 # --------------------------------------------------------------------------- metrics
@@ -167,7 +192,9 @@ def fit_bertopic(tokens: list[str], embeddings: np.ndarray):
 
     umap_model = UMAP(n_neighbors=15, n_components=5, min_dist=0.0, metric="cosine",
                       random_state=RANDOM_SEED)
-    hdbscan_model = HDBSCAN(min_cluster_size=30, min_samples=10, metric="euclidean",
+    # Scale the smallest topic with the corpus: about 30 questions per 4,000.
+    min_size = int(np.clip(len(tokens) / 130, 10, 60))
+    hdbscan_model = HDBSCAN(min_cluster_size=min_size, min_samples=10, metric="euclidean",
                             cluster_selection_method="eom", prediction_data=True)
     model = BERTopic(
         embedding_model=None,  # embeddings are precomputed
@@ -182,7 +209,8 @@ def fit_bertopic(tokens: list[str], embeddings: np.ndarray):
     topics, _ = model.fit_transform(tokens, embeddings)
     outlier_share = float(np.mean(np.array(topics) == -1))
     # Merge near-duplicate clusters (e.g. several 'recover' clusters) to a size comparable with LDA.
-    model.reduce_topics(tokens, nr_topics=BERTOPIC_N_TOPICS)
+    if len(set(topics)) > BERTOPIC_N_TOPICS:
+        model.reduce_topics(tokens, nr_topics=BERTOPIC_N_TOPICS)
     # Give outlier questions the topic whose centre is closest in embedding space.
     topics = model.reduce_outliers(tokens, model.topics_, strategy="embeddings", embeddings=embeddings)
     model.update_topics(tokens, topics=topics, vectorizer_model=ctfidf_vectorizer(),
@@ -214,11 +242,11 @@ def topic_difficulty(q: pd.DataFrame) -> pd.DataFrame:
 def run():
     q = pd.read_parquet(PROCESSED_DIR / "questions_clean.parquet")
     q = q[q["tokens"].str.split().str.len() >= 3].reset_index(drop=True)
-    q["course_unit"] = q["tags"].map(course_unit)
-    print(f"[topics] {len(q)} questions, {q.course_unit.notna().mean():.0%} mapped to a course unit")
+    q["category"] = q["tags"].map(tag_category)
+    print(f"[topics] {len(q)} questions, {q.category.notna().mean():.0%} mapped to a tag category")
 
     # ---- LDA baseline
-    selection, lda_topics, doc_topic, doc_term, vocab = fit_lda(q["tokens"], q["course_unit"])
+    selection, lda_topics, doc_topic, doc_term, vocab = fit_lda(q["tokens"], q["category"])
     q["lda_topic"] = doc_topic.argmax(1)
     q["lda_prob"] = doc_topic.max(1)
     selection.to_csv(OUTPUT_DIR / "lda_model_selection.csv", index=False)
@@ -232,15 +260,15 @@ def run():
     # Keep words from the shared reference vocabulary (>= 5 questions) so both models are scored alike.
     top_words = {t: [w for w, _ in model.get_topic(t) if w in vocab][:TOP_N_DIVERSITY] for t in topic_ids}
 
-    # ---- labels: dominant course unit + top words
+    # ---- labels: dominant tag category + top words
     info = pd.DataFrame({"topic": topic_ids})
     info["top_words"] = info["topic"].map(lambda t: ", ".join(top_words[t][:10]))
-    dominant = (q.dropna(subset=["course_unit"]).groupby("topic")["course_unit"]
+    dominant = (q.dropna(subset=["category"]).groupby("topic")["category"]
                 .agg(lambda s: s.value_counts().index[0]))
-    purity = (q.dropna(subset=["course_unit"]).groupby("topic")["course_unit"]
+    purity = (q.dropna(subset=["category"]).groupby("topic")["category"]
               .agg(lambda s: s.value_counts(normalize=True).iloc[0]))
-    info["course_unit"] = info["topic"].map(dominant)
-    info["unit_purity"] = info["topic"].map(purity).round(3)
+    info["category"] = info["topic"].map(dominant)
+    info["category_purity"] = info["topic"].map(purity).round(3)
     info["label"] = info["topic"].map(lambda t: " / ".join(top_words[t][:3]))
     info["npmi"] = npmi_coherence([top_words[t][:TOP_N_COHERENCE] for t in topic_ids], doc_term, vocab)
     info = info.merge(topic_difficulty(q), left_on="topic", right_index=True)
@@ -252,11 +280,11 @@ def run():
     best_lda = selection.loc[selection["k"] == len(lda_topics)].iloc[0]
     comparison = pd.DataFrame([
         {"model": f"LDA (k={len(lda_topics)})", "n_topics": len(lda_topics), "npmi": best_lda["npmi"],
-         "diversity": best_lda["diversity"], "nmi_vs_course_tags": best_lda["nmi_vs_tags"],
+         "diversity": best_lda["diversity"], "nmi_vs_tags": best_lda["nmi_vs_tags"],
          "outlier_share_before_reduction": 0.0},
         {"model": "BERTopic (MiniLM + UMAP + HDBSCAN)", "n_topics": len(topic_ids),
          "npmi": float(info["npmi"].mean()), "diversity": topic_diversity(list(top_words.values())),
-         "nmi_vs_course_tags": tag_nmi(q["topic"], q["course_unit"]),
+         "nmi_vs_tags": tag_nmi(q["topic"], q["category"]),
          "outlier_share_before_reduction": outlier_share},
     ]).round(4)
     comparison.to_csv(OUTPUT_DIR / "topic_model_comparison.csv", index=False)
@@ -274,7 +302,7 @@ def run():
     pd.DataFrame({"post_id": q["post_id"], "x": xy[:, 0], "y": xy[:, 1], "topic": q["topic"],
                   "title": q["title"]}).to_csv(OUTPUT_DIR / "topic_map.csv", index=False)
 
-    q[["post_id", "topic", "topic_label", "lda_topic", "lda_prob", "course_unit"]].to_parquet(
+    q[["post_id", "topic", "topic_label", "lda_topic", "lda_prob", "category"]].to_parquet(
         PROCESSED_DIR / "question_topics.parquet", index=False)
 
     print(comparison.to_string(index=False))

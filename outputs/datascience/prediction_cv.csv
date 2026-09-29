@@ -1,0 +1,5 @@
+model,cv_roc_auc_mean,cv_roc_auc_std
+Baseline (majority class),0.5,0.0
+Logistic Regression,0.6303,0.0154
+Random Forest,0.6349,0.0148
+XGBoost,0.6279,0.0178

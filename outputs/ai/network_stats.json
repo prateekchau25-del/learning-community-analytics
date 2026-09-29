@@ -1,0 +1,27 @@
+{
+  "n_users": 9265,
+  "n_edges": 19889,
+  "n_interactions": 31082,
+  "density": 0.0002317229121053755,
+  "reciprocity": 0.08135150082960431,
+  "avg_clustering": 0.1479998726227966,
+  "transitivity": 0.008746030435289055,
+  "degree_assortativity": -0.12440906518192618,
+  "giant_component_share": 0.9618996222342148,
+  "n_communities": 201,
+  "n_communities_10plus": 24,
+  "modularity": 0.5304483732937695,
+  "n_helpers": 4065,
+  "pct_users_who_help": 0.43874797625472206,
+  "help_share_top1pct": 0.6142783604658645,
+  "help_share_top10pct": 0.8692812560324303,
+  "gini_help_given": 0.9166192464179062,
+  "out_degree_ccdf_slope": -1.1204858747555864,
+  "role_counts": {
+    "Peripheral learner": 7247,
+    "Active participant": 1088,
+    "Helper": 652,
+    "Core expert": 151,
+    "Bridge": 127
+  }
+}
