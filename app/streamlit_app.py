@@ -154,7 +154,8 @@ def page_overview():
                      f"(NMI {b.nmi_vs_course_tags:.2f} vs {comp.iloc[0].nmi_vs_course_tags:.2f} for LDA).")
     if topics is not None:
         hard = topics.sort_values("difficulty_index", ascending=False).iloc[0]
-        lines.append(f"**Hardest topic:** *{hard.label}* ({hard.course_unit}): "
+        unit = str(hard.course_unit).replace(" (", ", ").rstrip(")")
+        lines.append(f"**Hardest topic:** *{hard.label}* ({unit}): "
                      f"{hard.pct_unanswered:.0f}% of its questions stay unanswered.")
     if stats is not None:
         lines.append(f"**Network:** the top 1% of users give {stats['help_share_top1pct']:.0%} of all help; "
@@ -210,7 +211,8 @@ def page_topics():
     c[0].metric("Questions", int(row.n_questions))
     c[1].metric("Unanswered", f"{row.pct_unanswered:.0f}%")
     c[2].metric("Median wait for answer", f"{row.median_hours_to_answer:.1f} h")
-    c[3].metric("Course unit", str(row.course_unit))
+    # Name a course unit only when most of the topic's tagged questions come from it.
+    c[3].metric("Course unit", str(row.course_unit) if row.unit_purity >= 0.5 else "Mixed")
     st.markdown(f"**Top words:** {row.top_words}")
     q = processed("questions_clean.parquet")
     qt = processed("question_topics.parquet")
@@ -232,12 +234,15 @@ def page_topics():
     st.subheader("How topics changed over time")
     trends["year"] = trends["period"].str[:4]
     y = trends.groupby(["topic", "year"])["n_questions"].sum().reset_index()
+    per_year = y.groupby("year")["n_questions"].transform("sum")
+    y = y[per_year >= 100]  # years with very few questions give misleading shares
     y["share"] = 100 * y["n_questions"] / y.groupby("year")["n_questions"].transform("sum")
     y["label"] = y["topic"].map(names)
     heat = y.pivot(index="label", columns="year", values="share").fillna(0)
     fig = px.imshow(heat, color_continuous_scale=["#ffffff"] + BLUES, aspect="auto",
                     labels=dict(color="% of year's questions"))
     fig.update_traces(hovertemplate="%{y}<br>%{x}: %{z:.1f}% of questions<extra></extra>")
+    st.caption("Only years with at least 100 questions are shown.")
     plot(fig, 560)
 
 
@@ -542,7 +547,11 @@ PAGES = {
 
 with st.sidebar:
     st.header("Learning Community Analytics")
-    page = st.radio("Page", list(PAGES), label_visibility="collapsed")
+    # ?page=<name> in the URL opens that page directly (handy for links and screenshots).
+    requested = st.query_params.get("page", "")
+    names = list(PAGES)
+    start = next((i for i, p in enumerate(names) if p.lower().startswith(requested.lower())), 0) if requested else 0
+    page = st.radio("Page", names, index=start, label_visibility="collapsed")
     st.divider()
     st.caption(f"Data source: **{data_source()}**")
     st.caption("CS50 Stack Exchange · 2019–2026")
