@@ -59,3 +59,24 @@ def load_table(name: str) -> pd.DataFrame:
 
 def load_raw() -> dict[str, pd.DataFrame]:
     return {name: load_table(name) for name in RAW_TABLES}
+
+
+def help_interactions(raw: dict[str, pd.DataFrame]) -> pd.DataFrame:
+    """
+    Interactions that pass knowledge from a helper to a learner: every answer, plus
+    comments written by someone other than the person who asked the thread's question.
+    (An asker replying "thanks, still broken" to a helper is not the asker helping.)
+    """
+    q, a = raw["questions"], raw["answers"]
+    inter = raw["interactions"].dropna(subset=["source_user", "target_user"]).copy()
+    post_to_question = pd.concat([
+        pd.Series(q["post_id"].to_numpy(), index=q["post_id"]),
+        pd.Series(a["question_id"].to_numpy(), index=a["post_id"]),
+    ])
+    asker = q.set_index("post_id")["user_id"]
+    thread_asker = inter["parent_post_id"].map(post_to_question).map(asker)
+    keep = (inter["type"] == "answer") | (inter["source_user"] != thread_asker)
+    inter = inter[keep.fillna(True)]
+    inter["source_user"] = inter["source_user"].astype("int64")
+    inter["target_user"] = inter["target_user"].astype("int64")
+    return inter

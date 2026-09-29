@@ -31,6 +31,8 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 LDA_K_GRID = [6, 8, 10, 12, 14, 16, 18, 20]
 TOP_N_COHERENCE = 10
 TOP_N_DIVERSITY = 25
+# 20 requested; one of them is the outlier topic (-1), so 19 real topics remain.
+BERTOPIC_N_TOPICS = 20
 
 # Course-structure tags used to validate topics against the CS50 syllabus.
 COURSE_TAGS = {
@@ -151,11 +153,16 @@ def compute_embeddings(texts: list[str], post_ids: np.ndarray) -> np.ndarray:
     return emb
 
 
-def fit_bertopic(docs: list[str], tokens: list[str], embeddings: np.ndarray):
+def ctfidf_vectorizer():
+    # BERTopic fits this on one merged document per topic, so min_df counts topics, not
+    # questions: keep it at 1 and filter to the shared reference vocabulary afterwards.
+    return CountVectorizer(token_pattern=r"\S+", ngram_range=(1, 2), min_df=1)
+
+
+def fit_bertopic(tokens: list[str], embeddings: np.ndarray):
     from bertopic import BERTopic
-    from bertopic.representation import MaximalMarginalRelevance
+    from bertopic.vectorizers import ClassTfidfTransformer
     from hdbscan import HDBSCAN
-    from sentence_transformers import SentenceTransformer
     from umap import UMAP
 
     umap_model = UMAP(n_neighbors=15, n_components=5, min_dist=0.0, metric="cosine",
@@ -163,22 +170,23 @@ def fit_bertopic(docs: list[str], tokens: list[str], embeddings: np.ndarray):
     hdbscan_model = HDBSCAN(min_cluster_size=30, min_samples=10, metric="euclidean",
                             cluster_selection_method="eom", prediction_data=True)
     model = BERTopic(
-        embedding_model=SentenceTransformer(EMBEDDING_MODEL),
+        embedding_model=None,  # embeddings are precomputed
         umap_model=umap_model,
         hdbscan_model=hdbscan_model,
-        vectorizer_model=make_vectorizer(min_df=3),
-        representation_model=MaximalMarginalRelevance(diversity=0.3),
-        top_n_words=TOP_N_DIVERSITY,
+        vectorizer_model=ctfidf_vectorizer(),
+        ctfidf_model=ClassTfidfTransformer(reduce_frequent_words=True),
+        top_n_words=100,
         calculate_probabilities=False,
     )
     # Topic words come from the cleaned tokens; clustering uses the full-sentence embeddings.
     topics, _ = model.fit_transform(tokens, embeddings)
     outlier_share = float(np.mean(np.array(topics) == -1))
+    # Merge near-duplicate clusters (e.g. several 'recover' clusters) to a size comparable with LDA.
+    model.reduce_topics(tokens, nr_topics=BERTOPIC_N_TOPICS)
     # Give outlier questions the topic whose centre is closest in embedding space.
-    topics = model.reduce_outliers(tokens, topics, strategy="embeddings", embeddings=embeddings)
-    model.update_topics(tokens, topics=topics, vectorizer_model=make_vectorizer(min_df=3),
-                        representation_model=MaximalMarginalRelevance(diversity=0.3),
-                        top_n_words=TOP_N_DIVERSITY)
+    topics = model.reduce_outliers(tokens, model.topics_, strategy="embeddings", embeddings=embeddings)
+    model.update_topics(tokens, topics=topics, vectorizer_model=ctfidf_vectorizer(),
+                        ctfidf_model=ClassTfidfTransformer(reduce_frequent_words=True), top_n_words=100)
     return model, np.array(topics), outlier_share
 
 
@@ -218,10 +226,11 @@ def run():
 
     # ---- BERTopic
     embeddings = compute_embeddings(q["text_clean"].tolist(), q["post_id"].to_numpy())
-    model, topics, outlier_share = fit_bertopic(q["text_clean"].tolist(), q["tokens"].tolist(), embeddings)
+    model, topics, outlier_share = fit_bertopic(q["tokens"].tolist(), embeddings)
     q["topic"] = topics
     topic_ids = sorted(t for t in set(topics) if t != -1)
-    top_words = {t: [w for w, _ in model.get_topic(t)][:TOP_N_DIVERSITY] for t in topic_ids}
+    # Keep words from the shared reference vocabulary (>= 5 questions) so both models are scored alike.
+    top_words = {t: [w for w, _ in model.get_topic(t) if w in vocab][:TOP_N_DIVERSITY] for t in topic_ids}
 
     # ---- labels: dominant course unit + top words
     info = pd.DataFrame({"topic": topic_ids})
