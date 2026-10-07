@@ -29,6 +29,10 @@ def render(site: str):
     from sqlalchemy import inspect, text
     insp = inspect(engine)
     schemas = [s for s in list(COMMUNITIES) + ["comparison"] if s in insp.get_schema_names()]
+    if not schemas:
+        ui.callout("PostgreSQL is connected, but the Data Science and AI data has not been loaded into it yet. "
+                   "Run  python src/load_to_postgres.py  in the project folder, then restart the dashboard.")
+        return
     schema = st.segmented_control("Schema", schemas, default=site if site in schemas else schemas[0],
                                   format_func=lambda s: COMMUNITIES.get(s, s.title())) or schemas[0]
     tables = sorted(insp.get_table_names(schema=schema))
